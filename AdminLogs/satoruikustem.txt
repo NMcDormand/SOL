@@ -1,0 +1,26 @@
+Sun May 24 21:21:55 2020: Fry had Police Teleport happen; Action by Shinsei; Reason: none
+Sun May 24 21:38:08 2020: Shinsei had Stat Check happen; Action by Shinsei; Reason: None
+Sun May 24 21:38:08 2020: Shinsei had Stat Check happen; Action by Shinsei; Reason: None
+Sun May 24 21:39:50 2020: Shinsei had Stat Check happen; Action by Shinsei; Reason: None
+Mon May 25 18:42:08 2020: Fry had Police Teleport happen; Action by Shinsei; Reason: none
+Mon May 25 18:42:08 2020: Itachi Uchiha had Teleported happen; Action by Shinsei; Reason: None
+Mon May 25 18:42:08 2020: Fry had Police Teleport happen; Action by Shinsei; Reason: none
+Tue May 26 17:34:56 2020: Shinsei had Restored happen; Action by Shinsei; Reason: None
+Tue May 26 17:49:52 2020: Cactus had Teleported happen; Action by Shinsei; Reason: None
+Sun May 31 13:29:36 2020: Shinsei had Restored happen; Action by Shinsei; Reason: None
+Sun May 31 14:15:28 2020: Fry had Police Teleport happen; Action by Shinsei; Reason: none
+Sun May 31 14:16:32 2020: Sand-nin had Teleported happen; Action by Shinsei; Reason: None
+Sun May 31 14:26:08 2020: Fry had Police Teleport happen; Action by Shinsei; Reason: none
+Sun May 31 14:28:16 2020: Fry had Police Teleport happen; Action by Shinsei; Reason: none
+Tue Jun 02 22:38:56 2020: Sound-nin had Teleported happen; Action by Shinsei; Reason: None
+Tue Jun 02 22:38:56 2020: Fry had Teleported happen; Action by Shinsei; Reason: None
+Tue Jun 02 22:50:40 2020: Fry had Stat Check happen; Action by Shinsei; Reason: None
+Tue Jun 02 22:50:40 2020: Fry had Restored happen; Action by Shinsei; Reason: None
+Sat Jun 06 13:40:16 2020: Shinsei had Restored happen; Action by Shinsei; Reason: None
+Sat Jun 06 13:40:16 2020: Shinsei had Restored happen; Action by Shinsei; Reason: None
+Sat Jun 06 13:40:16 2020: Minato had Teleported happen; Action by Shinsei; Reason: None
+Sat Jun 06 13:44:32 2020: Shinsei had Restored happen; Action by Shinsei; Reason: None
+Sun Jun 07 13:14:40 2020: Fry had Police Teleport happen; Action by Shinsei; Reason: none
+Sun Jun 07 13:15:44 2020: Fry had Poke happen; Action by Shinsei; Reason: None
+Sun Jun 07 13:31:44 2020: Sand Ninja had Summon happen; Action by Shinsei; Reason: Loc: 219, 178, 1
+Sun Jun 07 13:31:44 2020: Sand Ninja had Un-Summon happen; Action by Shinsei; Reason: Loc: 17, 2, 2

@@ -1,0 +1,21 @@
+runtime error: cannot append to list
+proc name: Read (/atom/Read)
+  source file: Load and Save.dm,77
+  usr: (src)
+  src: Aton (/mob/player)
+  src.loc: null
+  call stack:
+Aton (/mob/player): Read(Saves/s/screwyparasite/SlotOne... (/savefile))
+Aton (/mob/logging): Load("SlotOne")
+Aton (/mob/logging): LoadSlotOne()
+runtime error: Cannot read null.overlays
+proc name: New (/obj/SharEye/New)
+  source file: Uchiha.dm,14
+  usr: null
+  src: SharEye (/obj/SharEye)
+  src.loc: null
+  call stack:
+SharEye (/obj/SharEye): New(null, null, 20)
+Aton (/mob/player): Read(Saves/s/screwyparasite/SlotOne... (/savefile))
+Aton (/mob/logging): Load("SlotOne")
+Aton (/mob/logging): LoadSlotOne()

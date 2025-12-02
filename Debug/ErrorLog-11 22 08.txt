@@ -1,0 +1,8 @@
+runtime error: Safety violation: tried to access 'C:\Users\Susan\Desktop\New folder\SoM May 5th 2022\SoM May 5th 2022\Data\Wipe\GlobalReset.sav' outside of current directory.
+proc name: SaveGameSettings (/proc/SaveGameSettings)
+  source file: Code/Core/Game_Settings.dm,220
+  usr: (src)
+  src: null
+  call stack:
+SaveGameSettings()
+world: Del()

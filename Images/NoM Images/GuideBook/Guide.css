@@ -1,0 +1,119 @@
+body 
+	{
+		background: #540d0d;
+			margin: 0px auto;
+		color: #ooo;
+		font-size: 8pt;
+		font-family: 'Arial';
+	}
+	
+div 
+	{
+		position: relative;
+		text-align: left;
+	}
+	
+#title
+	{
+			margin: 4px auto 8px;
+		text-align: center;
+		text-decoration: underline;
+		font-weight: bold;
+	}
+	
+p
+	{
+		width: 360px;
+			margin: 5px auto;
+	}
+	
+li
+	{
+		margin: 6px 0px 2px;
+		font-weight: bold;
+	}
+
+dt
+	{
+		margin: 10px auto 2px;
+		font-weight: bold;
+		width: 340px;
+	}
+	
+dl dd
+	{
+		position: relative;
+		margin: 0px 0px;
+		left: 50px;
+		width: 300px;
+	}
+	
+#Book
+	{
+		width: 804px;
+		height: 500px;
+			margin: 0px auto;
+		top: 4px;
+		box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+	}
+
+#lPage
+	{
+		background: #d3ccae;
+		width: 400px;
+		height: 500px;
+			padding: 0px 0px;
+			margin: 0px 0px;
+		float: left;
+	}
+	
+	
+#rPage
+	{
+		background: #d3ccae;
+		width: 400px;
+		height: 500px;
+			padding: 0px 0px;
+			margin: 0px 0px;
+		float: right;
+	}
+	
+#pPage
+	{
+		background: #999;
+		width: 30px;
+		height: 500px;
+			padding: 0px 0px;
+			margin: 0px 0px;
+		zoom: 1;
+		filter: alpha(opacity=0);
+		opacity: 0;
+		border: 0px;
+		position: fixed;
+		z-index:2;
+		top: 4px;
+	}
+	
+#nPage
+	{
+		background: #999;
+		width: 30px;
+		height: 500px;
+			padding: 0px 0px;
+			margin: 0px 0px;
+		zoom: 1;
+		filter: alpha(opacity=00);
+		opacity: 0;
+		border: 0px;
+		position: fixed;
+		right:0px;
+		z-index:2;
+		top: 4px;
+	}
+	
+#pPage:hover,#nPage:hover
+	{
+		zoom: 1;
+		filter: alpha(opacity=80);
+		opacity: 0.8;
+	}

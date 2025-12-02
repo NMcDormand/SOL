@@ -1,0 +1,74 @@
+. = object("//.8")
+REData = object(".0")
+	.0
+		type = /Rebirth
+		JL = list()
+		StatsTotal = list("Stamina" = 0,"Chakra" = 0,"Taijutsu" = 0,"Ninjutsu" = 0,"Genjutsu" = 0)
+		StatsBar = list("Stamina" = 0,"Chakra" = 0,"Taijutsu" = 0,"Ninjutsu" = 0,"Genjutsu" = 0)
+		SkillTotal = list("ScytheSkill" = 0,
+				"AxeSkill" = 0,
+				"FanSkill" = 0,
+				"StaffSkill" = 0,
+				"SwordSkill" = 0,
+				"KnifeSkill" = 0,
+				"ThrowingSkill" = 0,
+				"H2HSkill" = 0,
+				"FishingSkill" = 0,
+				"FirstAidSkill" = 0,
+				"MiningSkill" = 0,
+				"CraftingSkill" = 0,
+				"SS" = 0,
+				"ChakraControl" = 0)
+		SkillBar = list("ScytheSkill" = 0,
+				"AxeSkill" = 0,
+				"FanSkill" = 0,
+				"StaffSkill" = 0,
+				"SwordSkill" = 0,
+				"KnifeSkill" = 0,
+				"ThrowingSkill" = 0,
+				"H2HSkill" = 0,
+				"FishingSkill" = 0,
+				"FirstAidSkill" = 0,
+				"MiningSkill" = 0,
+				"CraftingSkill" = 0,
+				"SS" = 0,
+				"ChakraControl" = 0)
+		Multis = list("Stamina" = 0,"Chakra" = 0,"Taijutsu" = 0,"Ninjutsu" = 0,"Genjutsu" = 0)
+		SeedList = list()
+		SecretList = list()
+.8
+	type = /Rebirth
+	JL = list()
+	StatsTotal = list("Stamina" = 0,"Chakra" = 0,"Taijutsu" = 0,"Ninjutsu" = 0,"Genjutsu" = 0)
+	StatsBar = list("Stamina" = 0,"Chakra" = 0,"Taijutsu" = 0,"Ninjutsu" = 0,"Genjutsu" = 0)
+	SkillTotal = list("ScytheSkill" = 0,
+			"AxeSkill" = 0,
+			"FanSkill" = 0,
+			"StaffSkill" = 0,
+			"SwordSkill" = 0,
+			"KnifeSkill" = 0,
+			"ThrowingSkill" = 0,
+			"H2HSkill" = 0,
+			"FishingSkill" = 0,
+			"FirstAidSkill" = 0,
+			"MiningSkill" = 0,
+			"CraftingSkill" = 0,
+			"SS" = 0,
+			"ChakraControl" = 0)
+	SkillBar = list("ScytheSkill" = null,
+			"AxeSkill" = null,
+			"FanSkill" = null,
+			"StaffSkill" = null,
+			"SwordSkill" = null,
+			"KnifeSkill" = 1,
+			"ThrowingSkill" = 1,
+			"H2HSkill" = 53,
+			"FishingSkill" = 1,
+			"FirstAidSkill" = 1,
+			"MiningSkill" = 20,
+			"CraftingSkill" = 1,
+			"SS" = 18,
+			"ChakraControl" = 84)
+	Multis = list("Stamina" = 0,"Chakra" = 0,"Taijutsu" = 0,"Ninjutsu" = 0,"Genjutsu" = 0)
+	SeedList = list()
+	SecretList = list()

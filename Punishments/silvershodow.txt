@@ -1,0 +1,4 @@
+Thu Aug 06 15:55:05 2020: Shirou Emiya had Teleported happen; Action by Fry; Reason: None
+Thu Aug 06 15:55:05 2020: Shirou Emiya had Spying happen; Action by Wizzy; Reason: none
+Thu Aug 06 15:58:30 2020: Shirou Emiya had Poke happen; Action by Fry; Reason: None
+Thu Aug 06 16:01:55 2020: Shirou Emiya had Spying happen; Action by Fry; Reason: none

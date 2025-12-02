@@ -1,0 +1,2493 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blah</title>
+		<meta http-equiv="x-ua-compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="Creator" content="JMV">
+		<style type="text/css">
+			body {
+				background:#707070;
+				color:#FF8C00;
+				margin:0px;
+				padding:0px;
+				font-family:calibri;
+				width:100%;
+				max-width:640px;
+				overflow-y:scroll;
+				overflow-x:hidden;
+				/* direction:[ScDir];*/
+
+				  scrollbar-base-color: #000;
+				  scrollbar-face-color: #555;
+				  scrollbar-highlight-color: #000;
+				  scrollbar-track-color: #2A2A2A;
+				  scrollbar-arrow-color: #444;
+				  scrollbar-shadow-color: #2A2A2A;
+			}
+			/* div, span, button {direction:ltr;} */
+			button {cursor:pointer;}
+			span:hover,button:hover{color:#FF6D00;}
+
+			#PageInd, #ChatInd, #PrivInd, SettInd {display:none;}
+			#Cont1 {position:relative;width:100%;max-width:640px;top:26px;}
+
+			#Tabs {width:100%;max-width:640px;margin:0px;word-wrap:break-word;z-index:6;position:fixed;height:26px;cursor:pointer;}
+			#Tabs > div {background:#303030;}
+			#Tabs > div > div {background:transparent;}
+			#Tabs > div > div  div{font-size:10px;}
+			#Tabs div {font-size:0px}
+			#Tabs div span{font-size:9px;}
+
+			#HITab, #SHTab {font-size:11px;position:absolute;right:0px;width:12px;height:13px;padding:0px;line-height:normal;background:transparent;}
+			#ShTab {position:fixed;display:none;}
+
+			#TabSel {font-size:11px;position:absolute;right:0px;Top:13px;width:12px;height:13px;padding:0px;line-height:normal;background:transparent;}
+
+			#TabSelB {z-index:8;position:absolute;right:0px;top:26px;width:70px;text-align:right;background:transparent;}
+			#TabSelB button {color:inherit;width:70px;outline:0px;padding:5px;margin-top:1px;border-radius:20px;background:rgba(31,31,31,0.8);border:1px dashed;}
+			#TabSelB #TPop{border:0px;}
+			#TabSelB button:hover {color:#FF6D00;}
+
+			#ChatTab {position:relative;}
+			#ChatSet {z-index:7;position:absolute;right:0px;width:72px;text-align:right;font-size:0px;}
+
+			.CTogs {width:60px;outline:0px;background:rgba(31,31,31,0.8);border-radius:20px;padding:2px;margin-top:1px;border:1px dashed;color:inherit;font-size:10px;}
+			.CTogsO {width:60px;outline:0px;background:rgba(31,31,31,0.8);border-radius:20px;padding:2px;margin-top:1px;border:1px dashed;color:#FF0000;font-size:10px;}
+			.CTogs:hover,.CTogsO:hover {color:#FF6D00;}
+
+			#PrivSet {z-index:7;position:absolute;right:50px;top:8;width:78px;text-align:right;}
+
+			.PTogs {position:relative;width:80px;height:16px;outline:0px;border-radius:20px;background:rgba(31,31,31,0.8);font-size:12px;padding:0px;margin-top:1px;border:1px dashed;text-align:center;}
+			.PTogs:hover,.CTogsO:hover {color:#FF6D00;}
+			.PNote	{position:absolute;left:3px;top:0px;}
+			.PNote1	{position:absolute;left:3px;top:-8px;}
+			.PClose	{position:absolute;right:0px;top:-2px;border:0px;border-radius:20px;background:transparent;color:inherit;outline:none;}
+
+			.TButs {position:relative;color:inherit;height:26px;line-height:26px;width:38px;border:0px;outline:none;background:transparent;border-right: 1px solid #444;font-size:10px;text-align: center;font-weight:bold;display:inline-block;}
+			.TButs:hover{color:#FF6D00;}
+
+		/* Chat */
+			.PlayerName {
+				position:relative;
+				color:#3c3c3c;
+				font-weight:bold;
+				display:inline;
+				cursor:pointer;
+			}
+			.PlayerBox {
+				position:absolute;
+				z-index:6;
+				left:5px;
+				display:none;
+			}
+			.PlayerBox button{
+				color:#FF8C00;
+				font-weight:bold;
+				display:block;
+				width:70px;
+				border-radius:20px;
+				background:rgba(31,31,31,0.8);
+				margin-bottom:1px;
+				border:1px dashed;
+			}
+			.PlayerBox button:hover{
+				color:#FF6D00;
+			}
+			.Header {
+				display:inline;
+			}
+			#ChatBox{
+				font-size:12px;
+				font-weight:bold;
+				color:#000000;
+				background:#D0D0D0;
+			}
+			.GuildName {
+				color:#FF0000;
+				font-weight:bold;
+			}
+			.MSG {
+				display:inline;
+			}
+			.OOC .PlayerName{
+				color:#503C3C;
+			}
+			.OOC .MSG {
+				color:#202020;
+			}
+			.Say,.Say .PlayerName {
+				color:#000099;
+			}
+			.Say .MSG {
+				color:#000030;
+			}
+			.vil,.Vil .PlayerName,.Vil .MSG{
+				color:#004400;
+			}
+			.Pri,.Pri .PlayerName {
+				color:#FF00FF;
+				font-style:italic;
+			}
+			.Pri .MSG {
+				color:#CC33CC
+			}
+			.Gui,.Gui .PlayerName {
+				color:#FF0000;
+			}
+			.Gui .MSG {
+				color:#902010
+			}
+			.Adm,.Adm .PlayerName {
+				color:#2020AA;
+			}
+			.Adm .MSG {
+				color:#2088FF
+			}
+			.Dam {
+				color:#AA0000;
+			}
+			.Gai {
+				color:#2088FF;
+			}
+			.Ann {
+				background:#444;
+				color:#FF8C00;
+			}
+			.Mac {
+				color:#BB5500;
+			}
+			.Mac .Login{
+				color:#00BB70;
+			}
+			.Mac .Login .PlayerName{
+				color:#00BB70;
+			}
+			.Mac .Logout{
+				color:#FF5050;
+			}
+			.Mac .PlayerName{
+				color:#503C3C;
+			}
+
+		/* Game Tab */
+			.StCont	{
+				background:#D0D0D0;
+				color:#FF8C00;
+				overflow:hidden;
+				position:relative;
+				width:100%;
+				max-width:640px;
+				text-align:center;
+				font-size:10px;
+				font-weight:bold;
+				margin: 0px auto;
+				margin-bottom:4px;
+			}
+			.StatBut {
+				width:100%;
+				background:#303030;
+				outline:none;
+				font-weight:bold;
+				border:0px;
+				color:#FEFEFE;
+				padding:4px;
+				height:20px;
+				font-size:10px;
+				text-align:left;
+				text-indent:10px;
+				margin-top:0px;
+			}
+			.GamePage > .StCont {
+				font-size:0px;
+			}
+			.GamePage > .StCont > div > span{
+				font-size:10px;
+			}
+			.PPStat	{
+				display:block;
+				position:relative;
+				width:100%;
+				margin:0px auto;
+				padding:4px;
+			}
+			.PEStat	{
+				display:block;
+				position:relative;
+				width:100%;
+				margin:0px auto;
+				padding:4px;
+			}
+			.StName	{
+				position:absolute;
+				left:0px;
+				width:100px;
+				text-align:right;
+			}
+			#Name1, #Alias, #Clan, #Rank, #Village {
+				position:relative;
+			}
+			#BasicInfo .StEntr {
+				position:relative;l
+				eft:20px;
+			}
+			.StEntr {
+				position:relative;
+				left:30px;
+				color:#313131;
+			}
+			.StDesc	{
+				background:rgba(30,30,30,0.8);
+				position:absolute;
+				top:-16px;left:0px;
+				height: 20px;
+				padding: 0px 7px;
+				display:none;
+			}
+			#Health {
+				Color:#DD4040;
+			}
+			#Stamina {
+				Color:#40AA40;
+			}
+			#Chakra	{
+				Color:#4040EE;
+			}
+		/* Item Tab */
+			#ItemPage {
+				position:relative;
+				width:100%;
+			}
+			.OBJ {
+				position:relative;
+				display:inline-block;
+				zoom:1;
+				background:#303030;
+				width:55px;/*13.5%;*/
+				min-width:54px;
+				height:55px;
+				margin:1px;
+				padding:0px;
+				text-align:center;
+				border-radius:4px;
+				cursor:pointer;
+			}
+			.OBJ > div:first-of-type {
+				position:relative;
+				margin:0px;
+				top:-3px;
+			}
+			.OInfo {
+				display:none;
+			}
+			.OBJ div .Image {
+				position:absolute;
+				left:11px;
+				border-radius:4px;
+				background:rgba(31,31,31,0.9);
+			}
+			.OName {
+				position:relative;
+				top:4px;
+				font-size:7pt;
+				width:93%;
+				font-weight:Bold;
+				overflow:hidden;
+				white-space:nowrap;
+				display:block;
+				margin:0px auto;
+				margin-bottom:2px;
+			}
+			.OVerbs {display:none;}
+			
+		/* Info Pane; */
+			#InfoPanel	{
+				position:absolute;
+				top:10px;
+				left:50%;
+				width:80%;
+				z-index:5;
+				text-align:center;
+			}
+			#InfoPanel > div:first-of-type {
+				background:rgba(31,31,31,0.9);
+				border-radius:10px;
+				padding:6px 0px;
+				position:relative;
+				left:-50%;
+				margin:0px;
+			}
+			#InfoPanel > div  div{font-size:0px;}
+			#InfoPanel > div:first-of-type, #InfoPanel > div:first-of-type span, .Verb1, .Verb2 {
+				font-size:10px;
+			}
+			#ObName{
+				display:inline-block;
+				position:relative;
+				top:-2px;
+				border-bottom-right-radius:8px;
+				border-bottom-left-radius:8px;
+				padding:0px 8px;
+				text-align:center;
+				border-bottom:1px dashed;
+				max-width:90px;
+			}
+			#InfoClose {
+				position:absolute;
+				top:0px;
+				right:0px;
+				height:18px;
+				width: 15px;
+				padding:0px;
+				border:0px;
+				border-bottom:1px dashed;
+				background:transparent;
+				color:inherit;
+				border-top-right-radius:10px;
+				border-bottom-left-radius:10px;
+				outline:none;
+				font-size:11px;
+			}
+			.Image {
+				position:relative;
+				display:block;
+				width: 58%;
+				min-width:32px;
+				min-height:32px;
+				background:rgba(60,60,60,0.5);
+				margin: 4px auto;
+				border-radius:10px;
+			}
+			#Info{
+				text-align:center;
+				margin:4px;
+			}
+			#ObInfo span{display:block;}
+			#ObjVerbs{
+				width:90%;
+				text-align:right;
+				padding:4px 0px;
+				margin:0px auto;
+			}
+	/* Verbs */
+			#VerbTab, #AdminTab{
+				background:#292929;
+			}
+			.Verb1 {
+				outline:none;
+				display:inline-block;
+				position:relative;
+				color:inherit;
+				padding:2px 0px;
+				border:0px;
+				width:50%;
+				max-width:160px;
+				background:transparent;
+				border-top-right-radius:10px;
+				border-bottom-right-radius:10px;
+				border-bottom:1px dashed;
+				margin-top:1px;
+			}
+			.Verb2 {
+				outline:none;
+				display:inline-block;
+				position:relative;
+				color:inherit;
+				padding:2px 0px;
+				border:0px;
+				width:50%;
+				max-width:160px;
+				background:transparent;
+				border-top-left-radius:10px;
+				border-bottom-left-radius:10px;
+				border-top:1px dashed;
+				margin-top:1px;
+			}
+			#VerbPage .Verb1{width:25%;border-bottom-left-radius:10px;}
+			#VerbPage .Verb2{width:25%;border-top-right-radius:10px;}
+			#AdminPage .Verb1 {border-bottom-left-radius:10px;}
+			#AdminPage .Verb2 {border-top-right-radius:10px;}			
+			
+			.Verb1:hover, .Verb1:hover{background: linear-gradient(rgba(80,80,80,0) 30%, rgba(80,80,80,1) 100%);}
+			.Verb2:hover, .Verb2:hover{background: linear-gradient(-360deg, rgba(80,80,80,0) 30%, rgba(80,80,80,1) 100%);}
+	/* Guild */
+			#GuildPage{
+				position:relative;
+				text-align:center;
+				width:100%;
+				background:#2A2A2A;
+				max-width:
+			}
+			#GuName{
+				display:inline-block;
+				position:relative;
+				top:-2px;
+				border-bottom-right-radius:8px;
+				border-bottom-left-radius:8px;
+				padding:0px 8px;
+				border-bottom:1px dashed;
+				max-width:320px;
+			}
+			#GuImg{max-width:260px;}
+			#GuInfo{
+				text-align:center;
+				margin:4px;
+			}
+			#GuInfo span{display:block;}
+			#GuVerbs{
+				text-align:center;
+				padding:4px 0px;
+				font-size:0px;
+			}
+			#GuildPage .Verb1 {max-width:140px; border-bottom-left-radius:10px;}
+			#GuildPage .Verb2 {max-width:140px; border-top-right-radius:10px;}
+	/* Settings */
+			.SettPage{
+				width:100%;
+				background:#111111;
+				font-size:0px;
+				padding:0px;
+			}
+			.SettPage span{
+				font-size:11px;
+				width: 35%;
+				display:inline-block;
+				text-align:right;
+				margin:0px;
+				padding:0px;
+			}
+			.SettPage label{
+				font-size:11px;
+				display:inline-block;
+				text-align:center;
+				margin:0px;
+				padding:0px;
+				width: 60px;
+			}
+			.SettPage input[type=text]{
+				width:65%;
+				margin:2px 0px;
+				padding:4px 0px;
+				border:0px;
+				text-indent:10px;
+				color:inherit;
+				font-size:11px;
+			}
+			.SaveSetButton{
+				background:#111111;
+				color:inherit;
+				border:0px;
+				border-top:1px dashed;
+				border-top-left-radius:10px;
+				border-top-right-radius:10px;
+			}
+			#HowToButton{
+				background:#111111;
+				color:inherit;
+				border:0px;
+				border-top:1px dashed;
+				border-top-left-radius:10px;
+				border-top-right-radius:10px;
+				position:absolute;
+				right:0px;
+			}
+			p {
+				margin-bottom:0px;
+			}
+		</style>
+		<script type="text/javascript">
+			var TOOC = true;
+			var TSay = true;
+			var TVil = true;
+			var TGui = true;
+			var TPri = true;
+			var TAdm = true;
+			var TDam = true;
+			var TGai = true;
+			var TMac = true;
+			var TAnn = true;
+			var PCHC = 0;
+			function AddChat(Type,MSG,Ref){ //Ref would be \[src]
+				var Box = document.getElementById('ChatBox');
+				var B = true
+				switch(Type){
+					case "OOC":
+						B = TOOC;
+						break;
+					case "Say":
+						B = TSay;
+						break;
+					case "Vil":
+						B = TVil;
+						break;
+					case "Gui":
+						B = TGui;
+						break;
+					case "Pri":
+						B = TPri;
+						break;
+					case "Adm":
+						B = TAdm;
+						break;
+					case "Dam":
+						B = TDam;
+						break;
+					case "Gai":
+						B = TGai;
+						break;
+					case "Mac":
+						B = TMac;
+						break;
+					case "TAnn":
+						B = TAnn;
+						break;
+				}
+				var DISP = B ? "block":"none";
+				if(Type != "Pri"){
+					Box.innerHTML += "<div class='"+Type+"' style='display:"+DISP+";'>"+MSG+"</div>";
+				}else{
+					var Privs = document.getElementsByClassName("PTogs");
+					var A = 0;
+					var i = Privs.length;
+					while(i--){
+						if(Privs[i].getAttribute('data-Player') == Ref || Privs[i].getAttribute('data-Player') == "All"){
+							if(document.getElementById('PrivSet').getAttribute('data-Player') != Ref && document.getElementById('PrivSet').getAttribute('data-Player') != "All"||document.getElementById('ChatInd').innerHTML != "Priv" && !TPri){
+								var C = parseInt(Privs[i].firstElementChild.innerHTML,10)||0;
+								C++
+								Privs[i].firstElementChild.innerHTML = C;
+								document.getElementById('PrivO').firstElementChild.removeAttribute('style');
+								document.getElementById('POpts').firstElementChild.removeAttribute('style');
+							}
+							if(Privs[i].getAttribute('data-Player') == Ref){
+								A++
+							}
+						}
+					}
+					document.getElementById('PrivO').firstElementChild.innerHTML = document.getElementById('PrivSet').firstElementChild.firstElementChildinnerHTML;
+					document.getElementById('POpts').firstElementChild.innerHTML = document.getElementById('PrivSet').firstElementChild.firstElementChildinnerHTML;
+
+					if(document.getElementById('PrivSet').getAttribute('data-Player') != "All"){
+						if(Ref != document.getElementById('PrivSet').getAttribute('data-Player')){
+							DISP = "none";
+						}
+					}
+					Box.innerHTML += "<div class='"+Type+"' style='display:"+DISP+";' ><div class='PlayerName' onclick='' oncontextmenu='ContextME(this)' data-Player='"+Ref+"'> "+Ref+"<div class='PlayerBox'><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class='MSG'>"+MSG+"</span></div>";
+					//window.location.href=?src=\ref[src];action=PM
+					if(!A){
+						if(document.getElementById('PrivSet').getAttribute('data-Player') != Ref && document.getElementById('PrivSet').getAttribute('data-Player') != "All" || document.getElementById('ChatInd').innerHTML != "Priv" && !TPri){
+							document.getElementById("PrivSet").innerHTML+="<div class='PTogs' data-Player='"+Ref+"' onclick='SwitchPriv(this)'><span class='PNote'>1</span>"+Ref+"<button class='PClose' onclick='CloseChat(this)'>x</button></div>";
+						}else{
+							document.getElementById("PrivSet").innerHTML+="<div class='PTogs' data-Player='"+Ref+"' onclick='SwitchPriv(this)'><span class='PNote'>0</span>"+Ref+"<button class='PClose' onclick='CloseChat(this)'>x</button></div>";
+						}
+
+					}
+				}
+				BottomBoy();
+			}
+			function BottomBoy(){
+				window.scrollTo(0, document.body.scrollHeight);
+			}
+			function CloseChat(el){
+				PCHC++;
+				var A = el.parentNode.getAttribute('data-Player');
+				var txt;
+				if(!confirm("This will delete all messages")) {
+					return;
+				}
+				var Whisps = document.getElementsByClassName("Pri");
+				var i = Whisps.length;
+				while(i--){
+					if(Whisps[i].firstElementChild.getAttribute('data-Player') == A || A == "All"){
+						Whisps[i].parentNode.removeChild(Whisps[i]);
+					}
+				}
+				if(A == "All"){
+					var PIChats = document.getElementsByClassName("PTogs");
+					var t = PIChats.length;
+					while(t--){
+						if(PIChats[t].getAttribute('data-Player') !="All"){
+							PIChats[t].parentNode.removeChild(PIChats[t]);
+						}
+					}
+				}else{
+					el.parentNode.parentNode.removeChild(el.parentNode);
+				}
+			}
+			function ContextME(el){
+				if(el.className == "PlayerName"){
+					HideContext();
+					el.firstElementChild.style.display="inline";
+				}else if(el.className == "OBJ" && document.getElementById('InfoPanel').style.display=="none"){ //OVerbs
+					var IPan = document.getElementById('InfoPanel').firstElementChild;
+					var ITin = el.firstElementChild
+					IPan.lastElementChild.innerHTML = ITin.lastElementChild.innerHTML;
+					IPan.childNodes[3].innerHTML = ITin.childNodes[1].innerHTML;
+					IPan.childNodes[5].src = ITin.childNodes[3].src;
+					IPan.childNodes[7].innerHTML = ITin.childNodes[5].innerHTML;
+					IPan.parentNode.removeAttribute('style');
+				}
+			}
+			function HideClass(Boo,A){
+				var B = document.getElementsByClassName(""+Boo)
+				C = A == 1 ? "none" : "block";
+				var i = B.length;
+				while(i--){
+					B[i].style.display = C;
+				}
+			}
+			function HideContext(){
+				var A = document.getElementsByClassName("PlayerBox");
+				//document.getElementById("ChatSet").style.display = "none";
+				//document.getElementById("TabSelB").style.display = "none";
+				var i = A.length;
+				while(i--){
+					A[i].style.display = "none";
+				}
+			}
+			function HideThis(el,el2){
+				if(el.style.display != "none"){
+					el.style.display="none";
+					if(el2){
+						if(el2.getAttribute('class') == "StatButO"){
+							el2.setAttribute('class',"StatBut");
+							//el.parentNode.setAttribute('class',"StCont");
+						}
+					}
+				}else{
+					el.style.display="";
+					if(el2){
+						if(el2.getAttribute('class') == "StatBut"){
+							el2.setAttribute('class',"StatButO");
+							//el.parentNode.setAttribute('class',"StContO");
+						}
+					}
+				}
+			}
+			function InfoClose(){
+				document.getElementById('InfoPanel').style.display = "none";
+			}
+			function LoadPage(A,B){
+				switch(A){
+					case "Chat":
+						SwitchPage("ChatBox");
+						SetThis(B);
+						break;
+					case "Game":
+						SwitchPage("GameBox");
+						SwitchGameTab(B);
+						break;
+					case "Sett":
+						SwitchPage("SetBox");
+						SwitchSetTab(B);
+						break;
+				}
+			}
+			function ReFocus(el){
+				window.focus();
+				window.location='byond://?src=\ref[src]&action=ReFocus';
+			}
+			function SettColor(el){
+				el.style.background = "linear-gradient(-90deg, "+el.value+" 30%, #111111 90%)";
+				//el.style.backgroundColor = "linear-gradient("+el.value+",#111)";
+				el.style.border = "0px";
+			}
+			function SaveColors(){
+				var Cols = document.getElementById("ColoSetts").getElementsByTagName("input")
+				alert(Cols.length+" Colors Saved, but not really because clearly");
+			}
+			function SetCust(){
+				var Togs = document.getElementsByClassName("CTogs");
+				var t = Togs.length;
+				while(t--){
+					if(Togs[t].getAttribute('data-Toggled')=="true"){
+						HideClass(Togs[t].innerHTML.substring(0, 3),0)
+					}else{
+						HideClass(Togs[t].innerHTML.substring(0, 3),1)
+					}
+				}
+				document.getElementById("COpts").removeAttribute("style");
+				document.getElementById("CustO").style.display = "none";
+				TOOC = (document.getElementById("TOOC").getAttribute('data-Toggled') == "true");
+				TSay = (document.getElementById("TSay").getAttribute('data-Toggled') == "true");
+				TVil = (document.getElementById("TVil").getAttribute('data-Toggled') == "true");
+				TGui = (document.getElementById("TGui").getAttribute('data-Toggled') == "true");
+				TPri = (document.getElementById("TPri").getAttribute('data-Toggled') == "true");
+				TAdm = (document.getElementById("TAdm").getAttribute('data-Toggled') == "true");
+				TDam = (document.getElementById("TDam").getAttribute('data-Toggled') == "true");
+				TGai = (document.getElementById("TGai").getAttribute('data-Toggled') == "true");
+				TMac = (document.getElementById("TMac").getAttribute('data-Toggled') == "true");
+				TAnn = (document.getElementById("TAnn").getAttribute('data-Toggled') == "true");
+				if(TPri){
+					document.getElementById('PrivO').firstElementChild.innerHTML = 0;
+					document.getElementById('POpts').firstElementChild.innerHTML = 0;
+					document.getElementById('PrivO').firstElementChild.style.display = "none";
+					document.getElementById('POpts').firstElementChild.style.display = "none";
+				}else{
+					HideClass("Pri",1);
+				}
+				document.getElementById("PrivO").removeAttribute("style");
+				document.getElementById("POpts").style.display = "none";
+				document.getElementById("PrivSet").style.display = "none";
+				document.getElementById("ChatInd").innerHTML = "Cus";
+			}
+			function SetThis(A){
+				if(A=="Cust"){
+					SetCust();
+					return
+				}
+				if(A != document.getElementById("ChatInd").innerHTML){
+					var Chats = ["OOC","Say","Vil","Gui","Pri","Adm","Dam","Gai","Mac","Tim","Ann"];
+					//var Chats = [Chats]; //\["OOC","Say","Vil","Gui","Pri","Adm","Dam","Gai","Mac","Tim","Ann"];
+					document.getElementById("COpts").style.display = "none";
+					document.getElementById("CustO").removeAttribute("style");
+					var t = Chats.length;
+					while(t--){
+						if(Chats[t] == A ){
+							HideClass(A,0);
+						}else if(Chats[t] == "Say" && A=="OOC"){
+							HideClass(Chats[t],0);
+						}else{
+							HideClass(Chats[t],1);
+						}
+					}
+					if(A=="Pri"){
+						var PChats = document.getElementsByClassName("PTogs")
+						var CurPChat = document.getElementById('PrivSet').getAttribute('data-Player');
+						var g = PChats.length;
+						while(g--){
+							if(PChats[g].getAttribute('data-Player') == CurPChat){
+								CurPChat = PChats[g];
+							}
+						}
+						SwitchPriv(CurPChat,1);
+						document.getElementById("PrivO").style.display = "none";
+						document.getElementById("POpts").removeAttribute("style");
+					}else if(A!="Pri" && document.getElementById("PrivO").style.display == "none"){
+						document.getElementById("PrivO").removeAttribute("style");
+						document.getElementById("POpts").style.display = "none";
+					}
+					document.getElementById("ChatSet").style.display = "none";
+					document.getElementById("PrivSet").style.display = "none";
+
+					document.getElementById("ChatInd").innerHTML = A;
+
+					TOOC = false;
+					TSay = false;
+					TVil = false;
+					TGui = false;
+					TPri = false;
+					TAdm = false;
+					TDam = false;
+					TGai = false;
+					TMac = false;
+					TAnn = false;
+					switch(A){
+						case "OOC":
+							TOOC = true;
+							TSay = true;
+							break;
+						case "Say":
+							TOOC = true;
+							TSay = true;
+							break;
+						case "Vil":
+							TVil = true;
+							break;
+						case "Gui":
+							TGui = true;
+							break;
+						case "Pri":
+							TPri = true;
+							break;
+						case "Adm":
+							TAdm = true;
+							break;
+						case "Dam":
+							TDam = true;
+							break;
+						case "Gai":
+							TGai = true;
+							break;
+						case "Mac":
+							TMac = true;
+							break;
+						case "TAnn":
+							TAnn = true;
+							break;
+					}
+				}
+			}
+			function SwitchGameTab(A){
+				var Tabs = document.getElementsByClassName("GamePage");
+				document.getElementById(A).removeAttribute('style');
+				var t = Tabs.length;
+				while(t--){
+					if(Tabs[t].id == A){
+						continue
+					}else{
+						Tabs[t].style.display="none";
+					}
+				}
+			}
+			function SwitchPriv(el,Skip){
+				if(PCHC){
+					PCHC=0;
+					return;
+				}
+				var B = el.getAttribute('data-Player');
+				if(B != el.parentNode.getAttribute('data-Player')||Skip){
+					el.parentNode.setAttribute('data-Player',B);
+					var Whisps = document.getElementsByClassName("Pri");
+					var C = parseInt(el.parentNode.firstElementChild.firstElementChild.innerHTML,10)||0;
+					var D = parseInt(el.firstElementChild.innerHTML,10)||0;
+					var E = (C-D)
+					if(B == "All"){
+						var i = Whisps.length;
+						while(i--){
+							Whisps[i].removeAttribute('style');
+						}
+						document.getElementById('PrivO').firstElementChild.innerHTML = 0;
+						document.getElementById('POpts').firstElementChild.innerHTML = 0;
+						var Privs = document.getElementsByClassName("PTogs");
+						var t = Privs.length;
+						while(t--){
+							Privs[t].firstElementChild.innerHTML = 0;
+						}
+					}else{
+						el.parentNode.firstElementChild.firstElementChild.innerHTML = E;
+						document.getElementById('PrivO').firstElementChild.innerHTML = E;
+						document.getElementById('POpts').firstElementChild.innerHTML = E;
+						el.firstElementChild.innerHTML=0;
+						var i = Whisps.length;
+						while(i--){
+							if(Whisps[i].firstElementChild.getAttribute('data-Player') != B){
+								Whisps[i].style.display="none";
+							}else{
+								Whisps[i].removeAttribute('style');
+							}
+						}
+					}
+					if(!E){
+						document.getElementById('PrivO').firstElementChild.style.display = "none";
+						document.getElementById('POpts').firstElementChild.style.display = "none";
+					}
+					el.parentNode.style.display = "none";
+				}
+			}
+			function SwitchPage(A){
+				var Pages = document.getElementsByClassName("Page");
+				if(A != document.getElementById('PageInd').innerHTML){
+					var i = Pages.length;
+					while(i--){
+						if(Pages[i].id == A){
+							Pages[i].removeAttribute('style');
+							SwitchTab(i);
+						}else{
+							Pages[i].style.display = "none";
+						}
+					}
+				}
+			}
+			function SwitchSetTab(A){
+				var Tabs = document.getElementsByClassName("SettPage");
+				document.getElementById(A).removeAttribute('style');
+				var t = Tabs.length;
+				while(t--){
+					if(Tabs[t].id == A){
+						continue
+					}else{
+						Tabs[t].style.display="none";
+					}
+				}
+			}
+			function SwitchTab(A){
+				var Tabs = document.getElementsByClassName("Header");
+				Tabs[A].removeAttribute('style');
+				var t = Tabs.length;
+				while(t--){
+					if(A==t){
+						continue
+					}else{
+						Tabs[t].style.display="none";
+					}
+				}
+				document.getElementById('PrivSet').style.display = "none";
+			}
+			function ToggleMe(el,A){
+				if(el.getAttribute('data-Toggled')=="true"){
+					HideClass(A,1);
+					el.setAttribute('data-Toggled','false');
+					el.setAttribute('class','CTogsO');
+				}else{
+					HideClass(A,0);
+					el.setAttribute('data-Toggled','true');
+					el.setAttribute('class','CTogs');
+					if(A=="Pri"){
+						document.getElementById('PrivO').firstElementChild.innerHTML = 0;
+						document.getElementById('POpts').firstElementChild.innerHTML = 0;
+						document.getElementById('PrivO').firstElementChild.style.display = "none";
+						document.getElementById('POpts').firstElementChild.style.display = "none";
+
+						var Privs = document.getElementsByClassName("PTogs");
+						var t = Privs.length;
+						while(t--){
+							Privs[t].firstElementChild.innerHTML = 0;
+						}
+					}
+				}
+				switch(el.id){
+					case "TOOC":
+						TOOC = !TOOC;
+						break;
+					case "TSay":
+						TSay = !TSay;
+						break;
+					case "TVil":
+						TVil = !TVil;
+						break;
+					case "TGui":
+						TGui = !TGui;
+						break;
+					case "TPri":
+						TPri = !TPri;
+						break;
+					case "TAdm":
+						TAdm = !TAdm;
+						break;
+					case "TDam":
+						TDam = !TDam;
+						break;
+					case "TGai":
+						TGai = !TGai;
+						break;
+					case "TMac":
+						TMac = !TMac;
+						break;
+					case "TAnn":
+						TAnn = !TAnn;
+						break;
+				}
+			}
+			function Unhide(Clan){
+				var AProf = "[Profession]";
+				if(!Clan){
+					Clan = "[GClan]";
+				}
+				if(Clan == "Aburame" || Clan == "All"){
+					document.getElementById("PBugCount").style.display = "";
+				}
+				if(Clan == "Uchiha" || Clan == "All"){
+					document.getElementById("PInSharingan").style.display = "";
+				}
+				if(Clan == "Inuzuka" || Clan == "All"){
+					document.getElementById("PetStats").style.display = "";
+				}
+				if(Clan == "Sand" || AProf == "Sand" || Clan == "All"){
+					document.getElementById("PSandCollected").style.display="";
+				}
+
+				var ContEL = document.getElementsByClassName("PEStat");
+				var EleNum = 0;
+				var i = ContEL.length;
+				while(i--){
+					var Tra = parseInt(ContEL[i].lastElementChild,10);
+					if(Tra){
+						ContEL[i].style.display = "";
+						EleNum++
+					}
+				}
+				if(EleNum){document.getElementById("ElementStats").style.display = "";}
+			}
+			function UpdateStat(A,B,C,D){
+				if (D == null){D  = "";}
+				if (A == "Mining Skill"){A = "Mining Skill";}
+				if (A == "Crafting Skill"){A = "Crafting Skill";}
+				if (A == "Fishing Skill"){A = "Fishing Skill";}
+				if (A == "Sword Skill"){A = "Sword";}
+				if (A == "Knife Skill"){A = "Knife";}
+				if (A == "Chakra Control"){A = "Chakra Control";}
+				if (A == "Seal Speed"){A = "Seal Speed";}
+				if (A == "First Aid"){A = "First Aid Skill";}
+				if (A == "Unarmed Skill"){A = "Unarmed"  }
+				if (A == "Shuriken Skill"){A = "Shuriken";}
+				if (A == "Senbon Skill"){A = "Senbon";}
+
+				var StatE = document.getElementById(A);
+				if (A == "Health" || A == "Stamina" || A == "Chakra" || A=="SandCollected" || A=="InGate" || A=="DgHealth" || A=="DgStamina"){
+					StatE.innerHTML = B + " / " + C
+				}
+				//else if (A=="ZWord" || A=="Name" || A=="Rank" || A=="Yen" || A=="Alias" || A=="Village" || A=="Clan" || A=="Smissions" || A=="Amissions" || A=="Bmissions" || A=="Cmissions" || A=="Dmissions"){StatE.innerHTML = (B)}
+				else{
+					StatE.innerHTML = (B);
+				}
+			}
+			function hexToRgb(hex) {
+				var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+				return result ? {
+					r: parseInt(result[1], 16),
+					g: parseInt(result[2], 16),
+					b: parseInt(result[3], 16)
+				} : null;
+			}
+
+			function ClickObject(el){
+				window.location='byond://?src=\ref[src]&action=ClickObject&OClicked='+el.ObjRef;
+			}	
+			function ClearVerbs(){
+				var ContEL = document.getElementsByClassName("OVerbs");
+				var i = ContEL.length;
+				while(i--){
+					ContEL[i].style.display = "none";
+				}
+			}
+			function UseVerb(el){
+				var elem = el.parentNode.parentNode;
+				if(el.innerHTML== "Drop"){
+					if(elem.ObjEquipped>0){
+						var DropMsg = "You need to unequip it first!";
+						return;
+					}
+				}
+				//window.location='byond://?src=\ref[src]&action=UseVerb&VUsed='+el.innerHTML+'&OClicked='+elem.ObjRef;
+			}
+			function UpdateItems(ObjType,Obj){
+				var Blah = document.getElementById(ObjType);
+				if(Obj){
+					Blah.innerHTML=null;
+					Blah.innerHTML=Obj;
+				}
+			}
+			function UpdatePanel(){
+				window.location='byond://?action=UpdateItems';
+			}
+		</script>
+	</head>
+	<body onclick="HideContext()">
+		<div id="PageInd"></div>
+		<div id="Tabs">
+			<button class="TButs" id="SHTab" style="display:none;" onclick="this.nextElementSibling.removeAttribute('style'),this.style.display='none',document.getElementById('Cont1').style.top='26px'">+</button>
+			<div>
+				<button class="TButs" id="HITab" onclick="HideThis(this.parentNode),document.getElementById('SHTab').style.display='inline',document.getElementById('Cont1').style.top='0px'">-</button>
+				<button class="TButs" id="TabSel" onclick="HideThis(this.nextElementSibling)">&#9881;</button>
+				<div id="TabSelB" style="display:none;">
+					<button class="TapTOG" id="TPop" onclick="PopThis()">Pop Out</button>
+					<button class="TabTOG" id="" onclick="SwitchPage('ChatBox')">Chat</button>
+					<button class="TabTOG" id="" onclick="SwitchPage('GameBox')">Game</button>
+					<button class="TabTOG" id="" onclick="SwitchPage('SetBox')">Setting</button>
+				</div>
+				<div id="ChatTab" class="Header" style="display:none;" >
+					<div id="ChatInd"></div>
+					<div class="TButs" onclick="SetThis('OOC')"><span>OOC</span></div>
+					<div class="TButs" onclick="SetThis('Dam')"><span>Game</span></div>
+					<div class="TButs" onclick="SetThis('Gui')"><span>Guild</span></div>
+					<div class="TButs" onclick="SetThis('Vil')"><span>Village</span></div>
+					<div class="TButs" id="PrivO" onclick="SetThis('Pri')"><span class="PNote1" style="display:none;">0</span><span>Private</span></div>
+					<div class="TButs" id="POpts" style="display:none;" onclick="HideThis(this.nextElementSibling)"><span class="PNote1" style="display:none;">0</span><span>Player</span></div>
+					<div id="PrivSet" data-Player="All" style="display:none;">
+						<div class="PTogs" data-Player="All" onclick="SwitchPriv(this)"><span class="PNote">0</span>All<button class="PClose" onclick="CloseChat(this)">x</button></div>
+						<div class="PTogs" data-Player="Fry" onclick="SwitchPriv(this)"><span class="PNote">0</span>Fry<button class="PClose" onclick="CloseChat(this)">x</button></div>
+						<div class="PTogs" data-Player="Frank" onclick="SwitchPriv(this)"><span class="PNote">0</span>Frank<button class="PClose" onclick="CloseChat(this)">x</button></div>
+						<div class="PTogs" data-Player="Hairy" onclick="SwitchPriv(this)"><span class="PNote">0</span>Hairy<button class="PClose" onclick="CloseChat(this)">x</button></div>
+						<div class="PTogs" data-Player="Peter" onclick="SwitchPriv(this)"><span class="PNote">0</span>Peter<button class="PClose" onclick="CloseChat(this)">x</button></div>
+					</div>
+					<div class="TButs" onclick="SetThis('Adm')"><span>Admin</span></div>
+					<div class="TButs" id="CustO" onclick="SetCust()"><span>Custom</span></div>
+					<div class="TButs" id="COpts" style="display:none;" onclick="HideThis(this.nextElementSibling)"><span>Option</span></div>
+					<div id="ChatSet" style="display:none;">
+						<button class="CTogs" id="TOOC" data-Toggled="true" onclick="ToggleMe(this,'OOC')">OOC</button>
+						<button class="CTogs" id="TSay" data-Toggled="true" onclick="ToggleMe(this,'Say')">Say</button>
+						<button class="CTogs" id="TVil" data-Toggled="true" onclick="ToggleMe(this,'Vil')">Village</button>
+						<button class="CTogs" id="TGui" data-Toggled="true" onclick="ToggleMe(this,'Gui')">Guild</button>
+						<button class="CTogs" id="TPri" data-Toggled="true" onclick="ToggleMe(this,'Pri')">Private</button>
+						<button class="CTogs" id="TAdm" data-Toggled="true" onclick="ToggleMe(this,'Adm')">Admin</button>
+						<button class="CTogs" id="TDam" data-Toggled="true" onclick="ToggleMe(this,'Dam')">Damage</button>
+						<button class="CTogs" id="TGai" data-Toggled="true" onclick="ToggleMe(this,'Gai')">Gains</button>
+						<button class="CTogs" id="TMac" data-Toggled="true" onclick="ToggleMe(this,'Mac')">Machine</button>
+						<button class="CTogs" id="TAnn" data-Toggled="true" onclick="ToggleMe(this,'Ann')">Announce</button>
+					</div>
+				</div>
+				<div id="GameTab" class="Header" style="display:none;">
+					<div class="TButs" onclick="SwitchGameTab('StatsPage')">Stats</div>
+					<div class="TButs" onclick="SwitchGameTab('ItemPage')">Items</div>
+					<div class="TButs" onclick="SwitchGameTab('TechPage')">Techs</div>
+					<div class="TButs" onclick="SwitchGameTab('VerbPage')">Verb</div>
+					<div class="TButs" onclick="SwitchGameTab('GuildPage')">Guild</div>
+					<div class="TButs" onclick="SwitchGameTab('AdminPage')">Admin</div>
+				</div>
+				<div id="SetTab" class="Header" style="display:none;">
+					<div class="TButs" onclick="SwitchSetTab('ChatSetts')">Chat</div>
+					<div class="TButs" onclick="SwitchSetTab('ColoSetts')">Colour</div>
+					<div class="TButs" onclick="SwitchSetTab('PlaySetts')">Player</div>
+					<div class="TButs" onclick="SwitchSetTab('GameSetts')">Game</div>
+					<div class="TButs" onclick="SwitchSetTab('ServSetts')">Server</div>
+				</div>
+			</div>
+		</div>
+		<div id="Cont1">
+			<div id="ChatBox" class="Page" style="display:none;">
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Fry" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message 1</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Frank" oncontextmenu="ContextME(this)">Frank<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message 2</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Hairy" oncontextmenu="ContextME(this)">Hairy<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Peter" oncontextmenu="ContextME(this)">Peter<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Say"><div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> says: <span class="MSG">Message</span></div>
+				<div class="OOC">(<span class="GuildName">TFS</span>) <div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div>: <span class="MSG">Message</span></div>
+				<div class="OOC">(<span class="GuildName">TFS</span>) <div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div>: <span class="MSG">Message</span></div>
+				<div class="Say"><div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> says: <span class="MSG">Message</span></div>
+				<div class="Vil"><div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div>: <span class="MSG">Message</span></div>
+				<div class="Gui">{<span class="GuiTitle">Captain</span>} <div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div>: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Adm"><font style="color:#FFFF00;">*</font><div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div>: <span class="MSG">Message</span></div>
+				<div class="Dam"><span class="MSG">You did 100 damage to Frank</span></div>
+				<div class="Gai"><span class="MSG">Your Strength has increased by 1</span></div>
+				<div class="Ann"><span class="MSG">* game will go down in 5 minutes *</span></div>
+				<div class="Mac"><span class="Login"><div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div>/Screwyparasite has logged in!</span></div>
+				<div class="Mac"><span class="Logout">Fry/Screwyparasite has logged in!</span></div>
+				<div class="Mac"><div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> has beaten <div onclick='' class="PlayerName" data-Player="Frank" oncontextmenu="ContextME(this)">Frank</div> in the arena!</div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Frank" oncontextmenu="ContextME(this)">Frank<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Hairy" oncontextmenu="ContextME(this)">Hairy<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Peter" oncontextmenu="ContextME(this)">Peter<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Frank" oncontextmenu="ContextME(this)">Frank<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Hairy" oncontextmenu="ContextME(this)">Hairy<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Peter" oncontextmenu="ContextME(this)">Peter<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Frank" oncontextmenu="ContextME(this)">Frank<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Hairy" oncontextmenu="ContextME(this)">Hairy<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Peter" oncontextmenu="ContextME(this)">Peter<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Frank" oncontextmenu="ContextME(this)">Frank<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Hairy" oncontextmenu="ContextME(this)">Hairy<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Peter" oncontextmenu="ContextME(this)">Peter<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Fry" oncontextmenu="ContextME(this)">Fry<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Frank" oncontextmenu="ContextME(this)">Frank<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Hairy" oncontextmenu="ContextME(this)">Hairy<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+				<div class="Pri"><div onclick='' class="PlayerName" data-Player="Peter" oncontextmenu="ContextME(this)">Peter<div class="PlayerBox"><button>Whisper</button><button>Inspect</button></div></div> whsipers: <span class="MSG">Message</span></div>
+			</div>
+			<div id="GameBox" class="Page" style="display:none;">
+				<div id="GameInd"></div>
+				<div class="GamePage" id="StatsPage">
+					<div class="StCont" id="BasicInfo">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Basic Info</button>
+						<div>
+							<span class="PPStat" id="PName"><span class="StName" id="Name1">[Name1]</span> <span class="StName" id="Clan">[Clan]</span> <span class="StName" id="Alias">[Alias]</span></span>
+							<span class="PPStat" id="PRank"><span class="StName" id="Rank">[Rank]</span> of the <span class="StName" id="Village">[Village]</span></span>
+							<span class="PPStat" id="PLevel"><span class="StName">Level:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Level">[Level.Current]</span></span>
+							<span class="PPStat" id="PYen"><span class="StName">Yen:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Yen">[Yen]</span></span>
+							<span class="PPStat" id="PProfession"><span class="StName">Profession:</span><span class="StDesc">Description Here</span><span class="StEntr" id="ZWord">[Profession]</span></span>
+							<span class="PPStat" id="PZWord"><span class="StName">Location:</span><span class="StDesc">Description Here</span><span class="StEntr" id="ZWord">[ZWord]</span></span>
+						</div>
+					</div>
+					<div class="StCont" id="PrimaryStats">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Primary Stats</button>
+						<div>
+							<span class="PPStat" id="PHealth"><span class="StName">Health:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Health">[Health.Current] / [Health.Max]</span></span>
+							<span class="PPStat" id="PStamina"><span class="StName">Stamina:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Stamina">[Stamina.Current] / [Stamina.Max]</span></span>
+							<span class="PPStat" id="PChakra"><span class="StName">Chakra:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Chakra">[Chakra.Current] / [Chakra.Max]</span></span>
+							<br />
+							<span class="PPStat" id="PTaijutsu"><span class="StName">Taijutsu:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Taijutsu">[Taijutsu.Current]</span></span>
+							<span class="PPStat" id="PNinjutsu"><span class="StName">Ninjutsu:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Ninjutsu">[Ninjutsu.Current]</span></span>
+							<span class="PPStat" id="PGenjutsu"><span class="StName">Genjutsu:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Genjutsu">[Genjutsu.Current]</span></span>
+							<br />
+							<span class="PPStat" id="PBugCount" style="display:none;"><span class="StName">Bugs:</span><span class="StDesc">Description Here</span><span class="StEntr" id="BugCount">[BugCount]</span></span>
+							<span class="PPStat" id="PSandCollected" style="display:none;"><span class="StName">Sand:</span><span class="StDesc">Description Here</span><span class="StEntr" id="SandCollected">[SandCollected] / [SandMax]</span></span>
+							<span class="PPStat" id="PInSharingan" style="display:none;"><span class="StName">Sharingan:</span><span class="StDesc">Description Here</span><span class="StEntr" id="InSharingan">[InSharingan]</span></span>
+							<span class="PPStat" id="PInGate" style="display:none;"><span class="StName">Gate:</span><span class="StDesc">Description Here</span><span class="StEntr" id="InGate">[InGate] / [CanGate]</span></span>
+						</div>
+					</div>
+					<div class="StCont" id="SecondaryStats">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Secondary Stats</button>
+						<div style="display:none;">
+							<span class="PPStat" id="PChakra-Control"><span class="StName">Chakra Control:</span><span class="StDesc">Description Here</span><span class="StEntr" id="ChakraControl">[ChakraControl.Current]</span></span>
+							<span class="PPStat" id="PSealSpeed"><span class="StName">Seal Speed:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Seal Speed">[SealSpeed.Current]</span></span>
+							<span class="PPStat" id="PReflexes"><span class="StName">Reflexes:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Reflexes">[Reflexes.Current]</span></span>
+							<span class="PPStat" id="PSpeed"><span class="StName">Speed:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Speed">[Speed.Current]</span></span>
+							<br />
+							<span class="PPStat" id="PCrafting"><span class="StName">Crafting:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Crafting Skill">[Crafting.Current]</span></span>
+							<span class="PPStat" id="PMining"><span class="StName">Mining:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Mining Skill">[Mining.Current]</span></span>
+							<span class="PPStat" id="PFirstAid"><span class="StName">First Aid:</span><span class="StDesc">Description Here</span><span class="StEntr" id="First Aid Skill">[FirstAid.Current]</span></span>
+							<span class="PPStat" id="PFishing"><span class="StName">Fishing:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Fishing">[Fishing.Current]</span></span>
+							<br />
+							<span class="PPStat" id="PKnife"><span class="StName">Knife:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Knife">[Knife.Current]</span></span>
+							<span class="PPStat" id="PSword"><span class="StName">Sword:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Sword">[Sword.Current]</span></span>
+							<span class="PPStat" id="PPole"><span class="StName">Pole:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Pole">[Pole.Current]</span></span>
+							<span class="PPStat" id="PFan"><span class="StName">Fan:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Fan">[Fan.Current]</span></span>
+							<span class="PPStat" id="PShuriken"><span class="StName">Shuriken:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Shuriken">[Shuriken.Current]</span></span>
+							<span class="PPStat" id="PSenbon"><span class="StName">Senbon:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Senbon">[Senbon.Current]</span></span>
+							<span class="PPStat" id="PUnarmed"><span class="StName">Unarmed:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Unarmed">[Unarmed.Current]</span></span>
+						</div>
+					</div>
+					<div class="StCont" id="ElementStats" style="display:none;">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Elements</button>
+						<div style="display:none;">
+							<span class="PEStat" style="display:none;" id="PEarth"><span class="StName">Earth:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Earth">[EarthElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PFire"><span class="StName">Fire:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Fire">[FireElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PLightning"><span class="StName">Lightning:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Lightning">[LightningElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PWater"><span class="StName">Water:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Water">[WaterElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PWind"><span class="StName">Wind:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Wind">[WindElement.Current]</span></span>
+							<br />
+							<span class="PEStat" style="display:none;" id="PLava"><span class="StName">Lava:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Lava">[LavaElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PExplosion"><span class="StName">Explosion:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Explosion">[ExplosionElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PWood"><span class="StName">Wood:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Wood">[WoodElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PMagnet"><span class="StName">Magnet:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Magnet">[MagnetElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PBlaze"><span class="StName">Blaze:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Blaze">[BlazeElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PBoil"><span class="StName">Boil:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Boil">[BoilElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PScorch"><span class="StName">Scorch:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Scorch">[ScorchElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PStorm"><span class="StName">Storm:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Storm">[StormElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PSwift"><span class="StName">Swift:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Swift">[SwiftElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PGale"><span class="StName">Gale:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Gale">[GaleElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PSand"><span class="StName">Sand:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Sand">[SandElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PParticle"><span class="StName">Particle:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Particle">[ParticleElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PYin"><span class="StName">Yin:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Yin">[YinElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PYang"><span class="StName">Yang:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Yang">[YangElement.Current]</span></span>
+							<span class="PEStat" style="display:none;" id="PNature"><span class="StName">Nature:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Nature">[NatureElement.Current]</span></span>
+						</div>
+					</div>
+					<div class="StCont" id="PetStats" style="display:none;">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Pet</button>
+						<div style="display:none;">
+							<span class="PPStat" id="DgHealth"><span class="StName">Health:</span><span class="StDesc">Description Here</span><span class="StEntr" id="DgHealth">Pet Health</span></span>
+							<span class="PPStat" id="DgChakra"><span class="StName">Chakra:</span><span class="StDesc">Description Here</span><span class="StEntr" id="DgChakra">Pet Chakra</span></span>
+							<span class="PPStat" id="DgStamina"><span class="StName">Stamina:</span><span class="StDesc">Description Here</span><span class="StEntr" id="DgStamina">Pet Stamina</span></span>
+							<br />
+							<span class="PPStat" id="DgNinjutsu"><span class="StName">Ninjutsu:</span><span class="StDesc">Description Here</span><span class="StEntr" id="DgNinjutsu">Pet Ninjutsu</span></span>
+							<span class="PPStat" id="DgTaijutsu"><span class="StName">Taijutsu:</span><span class="StDesc">Description Here</span><span class="StEntr" id="DgTaijutsu">Pet Taijutsu</span></span>
+							<span class="PPStat" id="DgGenjutsu"><span class="StName">Genjutsu:</span><span class="StDesc">Description Here</span><span class="StEntr" id="DgGenjutsu">Pet Genjutsu</span></span>
+							<span class="PPStat" id="DgSpeed"><span class="StName">Speed:</span><span class="StDesc">Description Here</span><span class="StEntr" id="DgSpeed">Pet Speed</span></span>
+						</div>
+					</div>
+					<div class="StCont" id="MissionStats">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Mission</button>
+						<div style="display:none;">
+							<span class="PPStat" id="PMSrank"><span class="StName">S:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Smissions">[Missions["S"]]</span></span>
+							<span class="PPStat" id="PMArank"><span class="StName">A:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Amissions">[Missions["A"]]</span></span>
+							<span class="PPStat" id="PBMrank"><span class="StName">B:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Bmissions">[Missions["B"]]</span></span>
+							<span class="PPStat" id="PMCrank"><span class="StName">C:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Cmissions">[Missions["C"]]</span></span>
+							<span class="PPStat" id="PMDrank"><span class="StName">D:</span><span class="StDesc">Description Here</span><span class="StEntr" id="Dmissions">[Missions["D"]]</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="GamePage" id="ItemPage" style="display:none;">
+					<div class="StCont" id="GenItems">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">General</button>
+						<div style="display:none;">
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='../../skin/3232.png'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='../../skin/Arrow.png'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="StCont" id="WeaItems">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Weapons</button>
+						<div style="display:none;">
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="StCont" id="CloItems">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Clothing</button>
+						<div style="display:none;">
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="StCont" id="FooItems">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Food</button>
+						<div style="display:none;">
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="StCont" id="MatItems">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Materials</button>
+						<div style="display:none;">
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Item Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is an item</span>
+										<span>This is an item</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="GamePage" id="TechPage" style="display:none;">
+					<div class="StCont" id="GeneTechs">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">General</button>
+						<div style="display:none;">
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='../../skin/3232.png'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='../../skin/Arrow.png'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="StCont" id="NinTechs">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Ninjutsu</button>
+						<div style="display:none;">
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='../../skin/3232.png'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='../../skin/Arrow.png'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="StCont" id="TaiTechs">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Taijutsu</button>
+						<div style="display:none;">
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='../../skin/3232.png'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='../../skin/Arrow.png'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="StCont" id="GenTechs">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Genjutsu</button>
+						<div style="display:none;">
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='../../skin/3232.png'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='../../skin/Arrow.png'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="StCont" id="ClanTechs">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Clan Jutsu</button>
+						<div style="display:none;">
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='https://lh3.googleusercontent.com/CuJMNS31ba0wHi1rLJZhX_b7Xm6yMXYMOkBzpf7hKsftae-aTj0xvWgUiHuvX29_G6rrenWKbSLbNWXu4GeoXrc=s400'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='../../skin/3232.png'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src='../../skin/Arrow.png'>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+							<div class="OBJ"  ObjRef="\ref[A]" ondblclick="" oncontextmenu="ContextME(this)">
+								<div>
+									<span class="OName">Tech Name</span>
+									<img class="Image" src=''>
+									<div class="OInfo">
+										<span>This is a Technique</span>
+										<span>This is a Technique</span>
+									</div>
+									<div class="OVerbs" style="display:;">
+										<button class="Verb1">Use</button>
+										<button class="Verb2">Eat</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="GamePage" id="VerbPage" style="display:none;">
+					<div class="StCont" id="VerbTab">
+							<button class='Verb1'>Use</button>
+							<button class='Verb2'>Save</button>
+							<button class='Verb1'>Whisper</button>
+							<button class='Verb2'>Logout</button>
+							<button class='Verb1'>Punch</button>
+							<button class='Verb2'>Eat</button>
+							<button class='Verb1'>Meditate</button>
+							<button class='Verb2'>Rest</button>
+							<button class='Verb1'>Use</button>
+							<button class='Verb2'>Save</button>
+							<button class='Verb1'>Whisper</button>
+							<button class='Verb2'>Logout</button>
+							<button class='Verb1'>Punch</button>
+							<button class='Verb2'>Eat</button>
+							<button class='Verb1'>Meditate</button>
+							<button class='Verb2'>Rest</button>
+							<button class='Verb1'>Use</button>
+							<button class='Verb2'>Save</button>
+							<button class='Verb1'>Whisper</button>
+							<button class='Verb2'>Logout</button>
+							<button class='Verb1'>Punch</button>
+							<button class='Verb2'>Eat</button>
+							<button class='Verb1'>Meditate</button>
+							<button class='Verb2'>Rest</button>
+					</div>
+				</div>
+				<div class="GamePage" id="GuildPage" style="display:none;">
+					<span id="GuName">\[GuName]</span>
+					<img class="Image" id="GuImg" src="">
+					<div id="GuInfo">
+						<span>value</span>
+					</div>
+					<div id="GuVerbs">
+						<button class="Verb1">\[Verbs]</button>
+						<button class="Verb2">\[Verbs]</button>
+						<button class="Verb1">\[Verbs]</button>
+						<button class="Verb2">\[Verbs]</button>
+					</div>
+				</div>
+				<div class="GamePage" id="AdminPage" style="display:none;">
+					<div class="StCont" id="AdminTab">
+							<button class='Verb1'>Kick</button>
+							<button class='Verb2'>Mute</button>
+							<button class='Verb1'>Announce</button>
+							<button class='Verb2'>Admin Chat</button>
+							<button class='Verb1'>Who</button>
+							<button class='Verb2'>Save World</button>
+							<button class='Verb1'>Reboot</button>
+							<button class='Verb2'>Shutdown</button>
+					</div>
+				</div>
+
+				<div id="InfoPanel" style="display:none;">
+					<div>
+						<button id="InfoClose" onclick="InfoClose()">x</button>
+						<span id="ObName">\[ObName]</span>
+						<img class="Image" id="InfoImg" src="">
+						<div id="ObInfo">
+							<span>value</span>
+						</div>
+						<div id="ObjVerbs">
+							<button class="Verb1">\[Verbs]</button>
+							<button class="Verb2">\[Verbs]</button>
+							<button class="Verb1">\[Verbs]</button>
+							<button class="Verb2">\[Verbs]</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="SetBox" class="Page" style="display:none;">
+				<div id="SettInd"></div>
+				<div class="SettPage" id="ChatSetts" style="display:none;">
+						<div id="Notify">
+							<span>Notification:</span>
+							<label for="NotiO">On</label><input type="radio" id="NotiO" name="Notify" checked="checked">
+							<label for="NotiN">Off</label><input type="radio" id="NotiN" name="Notify">
+						</div>
+				</div>
+				<div class="SettPage" id="ColoSetts" style="display:none;">
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Panels</button>
+						<div>
+							<span>Background:</span><input type="text" id="BGC" value="#707070" style="background:linear-gradient(-90deg, #707070 30%, #111111 90%)" onblur="if(this.value==''){this.value='#707070';};" onkeyup="SettColor(this);">
+							<span>Tab Background:</span><input type="text" id="TBC" value="#D0D0D0" style="background:linear-gradient(-90deg, #D0D0D0 30%, #111111 90%)" onblur="if(this.value==''){this.value='#D0D0D0';};" onkeyup="SettColor(this);">
+							<span>Verb Background:</span><input type="text" id="TBC" value="#292929" style="background:linear-gradient(-90deg, #292929 30%, #111111 90%)" onblur="if(this.value==''){this.value='#292929';};" onkeyup="SettColor(this);">
+							<span>Head:</span><input type="text" name="HBC" id="HBC" value="#303030" style="background:linear-gradient(-90deg, #303030 30%, #111111 90%)" onblur="if(this.value==''){this.value='#303030';};" onkeyup="SettColor(this);">
+							<span>Head Font:</span><input type="text" id="HFC" value="#FEFEFE" style="background:linear-gradient(-90deg, #FEFEFE 30%, #111111 90%)" onblur="if(this.value==''){this.value='#FEFEFE';};" onkeyup="SettColor(this);">
+							<span>Highlight:</span><input type="text" id="HLC" value="#FF8C00" style="background:linear-gradient(-90deg, #FF8C00 30%, #111111 90%)" onblur="if(this.value==''){this.value='#FF8C00';};" onkeyup="SettColor(this);">
+							<span>Hover:</span><input type="text" id="HoC" value="#FF6D00" style="background:linear-gradient(-90deg, #FF6D00 30%, #111111 90%)" onblur="if(this.value==''){this.value='#FF6D00';};" onkeyup="SettColor(this);">
+							<span>Health:</span><input type="text" id="HeC" value="#DD4040" style="background:linear-gradient(-90deg, #DD4040 30%, #111111 90%)" onblur="if(this.value==''){this.value='#DD4040';};" onkeyup="SettColor(this);">
+							<span>Stamina:</span><input type="text" id="StC" value="#40DD40" style="background:linear-gradient(-90deg, #40DD40 30%, #111111 90%)" onblur="if(this.value==''){this.value='#40DD40';};" onkeyup="SettColor(this);">
+							<span>Chakra:</span><input type="text" id="ChC" value="#4040EE" style="background:linear-gradient(-90deg, #4040EE 30%, #111111 90%)" onblur="if(this.value==''){this.value='#4040EE';};" onkeyup="SettColor(this);">
+							<span>Base Text:</span><input type="text" id="ChC" value="#313131" style="background:linear-gradient(-90deg, #313131 30%, #111111 90%)" onblur="if(this.value==''){this.value='#313131';};" onkeyup="SettColor(this);">
+						</div>
+						<button class="StatBut" onclick="HideThis(this.nextElementSibling)">Chat</button>
+						<div>
+							<span>OOC Message:</span><input type="text" id="OCOL" value="#202020" style="background:linear-gradient(-90deg, #202020 30%, #111111 90%)" onblur="if(this.value==''){this.value='#202020';};" onkeyup="SettColor(this);">
+							<span>OOC Name:</span><input type="text" id="OPCOL" value="#503C3C" style="background:linear-gradient(-90deg, #503C3C 30%, #111111 90%)" onblur="if(this.value==''){this.value='#503C3C';};" onkeyup="SettColor(this);">
+							<span>Say Message:</span><input type="text" id="SCOL" value="#000030" style="background:linear-gradient(-90deg, #000030 30%, #111111 90%)" onblur="if(this.value==''){this.value='#000030';};" onkeyup="SettColor(this);">
+							<span>Say Name:</span><input type="text" id="SNCOL" value="#000099" style="background:linear-gradient(-90deg, #000099 30%, #111111 90%)" onblur="if(this.value==''){this.value='#000099';};" onkeyup="SettColor(this);">
+							<span>Whisper Message:</span><input type="text" id="PCOL" value="#CC33CC" style="background:linear-gradient(-90deg, #CC33CC 30%, #111111 90%)" onblur="if(this.value==''){this.value='#CC33CC';};" onkeyup="SettColor(this);">
+							<span>Whisper Name:</span><input type="text" id="PrNCOL" value="#FF00FF" style="background:linear-gradient(-90deg, #FF00FF 30%, #111111 90%)" onblur="if(this.value==''){this.value='#FF00FF';};" onkeyup="SettColor(this);">
+							<span>Guild Message:</span><input type="text" id="GCOL" value="#902010" style="background:linear-gradient(-90deg, #902010 60%, #111111 90%)" onblur="if(this.value==''){this.value='#902010';};" onkeyup="SettColor(this);">
+							<span>Guild Name:</span><input type="text" id="GNCOL" value="#FF0000" style="background:linear-gradient(-90deg, #FF0000 30%, #111111 90%)" onblur="if(this.value==''){this.value='#FF0000';};" onkeyup="SettColor(this);">
+							<span>Village Message:</span><input type="text" id="VCOL" value="#004400" style="background:linear-gradient(-90deg, #004400 30%, #111111 90%)" onblur="if(this.value==''){this.value='#004400';};" onkeyup="SettColor(this);">
+							<span>Damage:</span><input type="text" name="DaC" id="DaC" value="#AA0000" style="background:linear-gradient(-90deg, #AA0000 30%, #111111 90%)" onblur="if(this.value==''){this.value='#AA0000';};" onkeyup="SettColor(this);">
+							<span>Gains:</span><input type="text" name="GaC" id="GaC" value="#2088FF" style="background:linear-gradient(-90deg, #2088FF 30%, #111111 90%)" onblur="if(this.value==''){this.value='#2088FF';};" onkeyup="SettColor(this);">
+							<span>Status:</span><input type="text" name="StaC" id="StaC" value="#BB5500" style="background:linear-gradient(-90deg, #BB5500 30%, #111111 90%)" onblur="if(this.value==''){this.value='#BB5500';};" onkeyup="SettColor(this);">
+							<span>Login:</span><input type="text" name="LIC" id="LIC" value="#00BB70" style="background:linear-gradient(-90deg, #00BB70 30%, #111111 90%)" onblur="if(this.value==''){this.value='#00BB70';};" onkeyup="SettColor(this);">
+							<span>Logout:</span><input type="text" name="LOC" id="LOC" value="#FF5050" style="background:linear-gradient(-90deg, #FF5050 30%, #111111 90%)" onblur="if(this.value==''){this.value='#FF5050';};" onkeyup="SettColor(this);">
+							<span>Player Name:</span><input type="text" name="PNC" id="PNC" value="#503C3C" style="background:linear-gradient(-90deg, #503C3C 30%, #111111 90%)" onblur="if(this.value==''){this.value='#503C3C';};" onkeyup="SettColor(this);">
+						</div>
+													<!-- Colors 
+														/Chat
+															PlayerNames - 503C3C
+															OOC - 202020
+															Say - 000099
+															SayMsg - 000030
+															Pri - FF00FF
+															PriMsg - CC33CC
+															Gui - FF0000
+															GuiMsg - 902010
+															Village - 004400
+															
+														/Game
+															Damage - AA0000
+															Gains - 2088FF
+															Login - 00BB70
+															Logout - FF5050
+															Mac Msg - BB5500
+															MAC PN - 503C3C
+															
+														/StatPage
+															Head Font - FEFEFE
+															Health		#DD4040
+															Stamina 	#40DD40
+															Chakra  	#4040EE
+													-->
+						<button class="SaveSetButton" onclick="SaveColors()">Save</button>
+						<button  id="HowToButton" onclick="HideThis(this.nextElementSibling)">How to</button>
+						<div style="font-size:12px;display:none;">
+							These colours support three modes, it can use Hex code, RGB, and RGBA.
+							<p>
+								<b>Hex code</b> these are the most common found online; they follow a 6 digit format after a hash tag (#) to look like this <b>#000000</b> this is black for example. Each colour is controlled in pairs, the first pair following the hash is Red, the next is Green, and the last pair is Blue.
+								<br /><br />They scale from 00-FF, with 99 being the highest number followed by letters AA-FF; 00 being no color and FF being the most possible from the color. As an example #FF0000 would give me a bright red because the first two are both FF while the other pairs all have 00 to state there is no colour.
+							
+								<br /><br /> <b>RGB and RGBA</b> these are less common but provide better control with a bit more complexity available. when keying this in youll need to type it specifically as follows <b>RGB(000,000,000)</b> each number is in trios where the first zero is only important if you are going over 100.
+								<br>the numbers all scale from 000-255 and follow the same format as hex codes in that the first trio is Red, second is Green, and the third is Blue. to follow the example from hex codes RGB(255,000,000) will give me bright red.
+								<br><br>
+								This is where the control comes in, When you usr RGBA you have an extra layer of control with transparency. To put it simply you can make to so you can see through your colour, this still follows the same formatting of RGB with the aditional Alpha number. <b>RGBA(000,000,000,1)</b> is how this would look for a flat black. the alpha works in decimals, as an example 0.5 is half and 0.25 is a quarter.
+								Try using RGBA(255,000,000,0) and tell me if its red.
+								<br /><br /> 
+								Finally when finished rememebr to save your changes!
+							</p>
+						</div>
+				</div>
+				<div class="SettPage" id="PlaySetts" style="display:none;">
+						<div id="Notify">
+							<span>Player:</span>
+							<label for="NotiO">On</label><input type="radio" id="NotiO" name="Notify" checked="checked">
+							<label for="NotiN">Off</label><input type="radio" id="NotiN" name="Notify">
+						</div>
+				</div>
+				<div class="SettPage" id="GameSetts" style="display:none;">
+						<div id="Notify">
+							<span>Game:</span>
+							<label for="NotiO">On</label><input type="radio" id="NotiO" name="Gamey" checked="checked">
+							<label for="NotiN">Off</label><input type="radio" id="NotiN" name="Gamey">
+						</div>
+				</div>
+				<div class="SettPage" id="ServSetts" style="display:none;">
+						<div id="Notify">
+							<span>Server:</span>
+							<label for="NotiO">On</label><input type="radio" id="NotiO" name="Notify" checked="checked">
+							<label for="NotiN">Off</label><input type="radio" id="NotiN" name="Notify">
+						</div>
+				</div>
+			</div>
+			<button onclick="window.resizeTo(320, 600);">Resize Me 320</button>
+			<button onclick="window.resizeTo(640, 600);">Resize Me 640</button>
+		</div>
+		<script type="text/javascript">
+			document.addEventListener("contextmenu", function (e) {
+				//e.preventDefault();
+			}, false);
+			//window.onload = BottomBoy(),LoadPage("[SInte]","[SPage]","[STab]"),Unhide("[GClan]");
+			window.onload = BottomBoy(),LoadPage("Game","StatsPage","[STab]"),Unhide("[GClan]");
+		</script>
+	</body>
+</html>

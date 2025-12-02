@@ -1,0 +1,10 @@
+<br /><span class=\"[action]\">[time2text(world.realtime)]: [action]; Action by [Admin.ckey]; Reason: [reason]</span>
+<br /><span class=\"[action]\">[time2text(world.realtime)]: [action]; Action by [Admin.ckey]; Reason: [reason]</span>
+<br /><span class=\"[action]\">[time2text(world.realtime)]: [action]; Action by [Admin.ckey]; Reason: [reason]</span>
+<br /><span class=\"[action]\">[time2text(world.realtime)]: [action]; Action by [Admin.ckey]; Reason: [reason]</span>
+<br /><span class=\"[action]\">[time2text(world.realtime)]: [action]; Action by [Admin.ckey]; Reason: [reason]</span>
+<br /><span class=\"[action]\">[time2text(world.realtime)]: [action]; Action by [Admin.ckey]; Reason: [reason]</span>
+<br /><span class=\"[action]\">[time2text(world.realtime)]: [action]; Action by [Admin.ckey]; Reason: [reason]</span>
+<br /><span class=\"[action]\">[time2text(world.realtime)]: [action]; Action by [Admin.ckey]; Reason: [reason]</span>
+<br /><span class=\"[action]\">[time2text(world.realtime)]: [action]; Action by [Admin.ckey]; Reason: [reason]</span>
+<br /><span class=\"[action]\">[time2text(world.realtime)]: [action]; Action by [Admin.ckey]; Reason: [reason]</span>

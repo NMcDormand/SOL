@@ -1,0 +1,1163 @@
+Sun Apr 05 11:09:52 2020: Sand-nin had Teleported happen; Action by Fry; Reason: None
+Fri May 22 10:34:40 2020: Sand-nin had Teleported happen; Action by Fry; Reason: None
+Fri May 22 17:49:52 2020: Fry had Police Teleport happen; Action by Fry; Reason: none
+Fri May 22 17:49:52 2020: Chicken had Teleported happen; Action by Fry; Reason: None
+Sat May 23 10:28:16 2020: Sand-nin had Teleported happen; Action by Fry; Reason: None
+Mon May 25 17:02:56 2020: Sand-nin had Teleported happen; Action by Fry; Reason: None
+Tue May 26 18:18:40 2020: Sefegsrgb had Police Teleport happen; Action by Fry; Reason: none
+Tue May 26 18:45:20 2020: Shinsei had Police Teleport happen; Action by Fry; Reason: none
+Fri May 29 17:56:16 2020: Myst had Teleported happen; Action by Fry; Reason: None
+Sat May 30 13:12:32 2020: Barber had Teleported happen; Action by Fry; Reason: None
+Sun May 31 13:26:24 2020: Shinsei had Police Teleport happen; Action by Fry; Reason: none
+Sun May 31 14:10:08 2020: Banker had Teleported happen; Action by Fry; Reason: None
+Sun May 31 14:10:08 2020: Barber had Teleported happen; Action by Fry; Reason: None
+Sun May 31 14:24:00 2020: Minato Namikaze had Teleported happen; Action by Fry; Reason: None
+Sun May 31 14:24:00 2020: Barber had Teleported happen; Action by Fry; Reason: None
+Sun May 31 14:24:00 2020: Minato Namikaze had Teleported happen; Action by Fry; Reason: None
+Tue Jun 02 22:33:36 2020: Fry had Restored happen; Action by Fry; Reason: None
+Sat Jun 06 11:06:40 2020: Hiashi Hyuuga had Teleported happen; Action by Fry; Reason: None
+Sat Jun 06 12:32:00 2020: Fry had Police Teleport happen; Action by Fry; Reason: none
+Sat Jun 06 12:33:04 2020: Minato had Teleported happen; Action by Fry; Reason: None
+Sat Jun 06 13:34:56 2020: Fry had Restored happen; Action by Fry; Reason: None
+Sat Jun 06 13:40:16 2020: Fry had Restored happen; Action by Fry; Reason: None
+Sat Jun 06 13:40:16 2020: Weapons Dealer had Teleported happen; Action by Fry; Reason: None
+Sat Jun 06 13:40:16 2020: Fry had Restored happen; Action by Fry; Reason: None
+Sat Jun 06 13:40:16 2020: Shinsei had Police Teleport happen; Action by Fry; Reason: none
+Sat Jun 06 13:40:16 2020: Minato had Teleported happen; Action by Fry; Reason: None
+Sat Jun 06 13:44:32 2020: Minato had Death Verb happen; Action by Fry; Reason: None
+Sat Jun 06 13:57:20 2020: Minato had Death Verb happen; Action by Fry; Reason: None
+Sat Jun 06 16:10:40 2020: Minato had Spying happen; Action by Fry; Reason: none
+Sun Jun 07 11:46:08 2020: Minato had Teleported happen; Action by Fry; Reason: None
+Sun Jun 07 11:48:16 2020: Scroll Dealer had Teleported happen; Action by Fry; Reason: None
+Sun Jun 07 11:49:20 2020: Minato had Teleported happen; Action by Fry; Reason: None
+Sun Jun 07 11:50:24 2020: Minato had Death Verb happen; Action by Fry; Reason: None
+Sun Jun 07 13:08:16 2020: Minato had Teleported happen; Action by Fry; Reason: None
+Sun Jun 07 13:08:16 2020: Fry had Force Save happen; Action by Fry; Reason: None
+Sun Jun 07 13:08:16 2020: Fry had Force Save happen; Action by Fry; Reason: None
+Sun Jun 07 13:08:16 2020: Fry had Force Save happen; Action by Fry; Reason: None
+Sun Jun 07 13:08:16 2020: Fry had Force Save happen; Action by Fry; Reason: None
+Sun Jun 07 13:08:16 2020: Fry had Force Save happen; Action by Fry; Reason: None
+Mon Jun 22 20:17:04 2020: Tbgfd had Police Teleport happen; Action by Fry; Reason: none
+Mon Jul 27 15:39:44 2020: Fry had Force Save happen; Action by Fry; Reason: None
+Mon Jul 27 20:39:28 2020: Fry had Force Save happen; Action by Fry; Reason: None
+Mon Aug 03 23:54:40 2020: Monk had Teleported happen; Action by Fry; Reason: None
+Thu Aug 06 15:55:05 2020: Shirou Emiya had Teleported happen; Action by Fry; Reason: None
+Thu Aug 06 15:58:30 2020: Shirou Emiya had Poke happen; Action by Fry; Reason: None
+Thu Aug 06 16:01:55 2020: Shirou Emiya had Spying happen; Action by Fry; Reason: none
+Fri Aug 07 21:16:22 2020: Monk had Teleported happen; Action by Fry; Reason: None
+Thu Aug 13 14:31:28 2020: Leaf-nin was Teleported; Action by Fry; Reason: None
+Thu Aug 13 22:45:20 2020: Fry was Force Save; Action by Fry; Reason: None
+Thu Aug 13 22:46:24 2020: Fry was Force Save; Action by Fry; Reason: None
+Fri Aug 14 19:45:04 2020: Fry was Force Save; Action by Fry; Reason: None
+Fri Aug 14 20:36:41 2020: Miroku was Teleported; Action by Fry; Reason: None
+Fri Aug 14 23:52:06 2020: Ihatethis was Teleported; Action by Fry; Reason: None
+Fri Aug 14 23:54:40 2020: Akemu Zero was Summon; Action by Fry; Reason: Loc: 455, 58, 1
+Sat Aug 15 11:37:48 2020: All Might was Police Teleport; Action by Fry; Reason: none
+Sat Aug 15 11:50:36 2020: Fisherman was Summon; Action by Fry; Reason: Loc: 715, 495, 1
+Sat Aug 15 12:08:32 2020: Fisherman was Summon; Action by Fry; Reason: Loc: 716, 495, 1
+Sat Aug 15 12:11:56 2020: Fry was Force Save; Action by Fry; Reason: None
+Sat Aug 15 12:52:16 2020: Fisherman was Summon; Action by Fry; Reason: Loc: 717, 494, 1
+Sat Aug 15 12:52:16 2020: Fry was Force Save; Action by Fry; Reason: None
+Sat Aug 15 13:09:07 2020: Fisherman was Summon; Action by Fry; Reason: Loc: 717, 494, 1
+Mon Aug 17 19:01:20 2020: Minato was Teleported; Action by Fry; Reason: None
+Sat Aug 22 18:44:16 2020: Fry was Force Save; Action by Fry; Reason: None
+Sat Aug 22 19:20:32 2020: Minato was Teleported; Action by Fry; Reason: None
+Sat Aug 22 19:21:36 2020: Minato was Teleported; Action by Fry; Reason: None
+Sun Aug 23 17:46:40 2020: Leaf-nin was Teleported; Action by Fry; Reason: None
+Sun Aug 30 15:33:20 2020: Fry was Force Save; Action by Fry; Reason: None
+Tue Sep 01 20:27:44 2020: Minato was Teleported; Action by Fry; Reason: None
+Tue Sep 01 20:27:44 2020: Fry was Restored; Action by Fry; Reason: None
+Sun Sep 06 01:26:24 2020: Fry was Force Save; Action by Fry; Reason: None
+Mon Sep 07 16:11:44 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 07 16:11:44 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 07 16:19:12 2020: Fry was Force Save; Action by Fry; Reason: None
+Mon Sep 07 16:20:16 2020: Fry was Force Save; Action by Fry; Reason: None
+Mon Sep 07 16:24:32 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 07 16:28:48 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 07 16:28:48 2020: Fry was Force Save; Action by Fry; Reason: None
+Mon Sep 07 17:04:00 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 07 17:04:00 2020: Fry was Force Save; Action by Fry; Reason: None
+Mon Sep 07 17:06:08 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 07 17:29:36 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 07 17:43:28 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 07 18:15:28 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 07 18:16:32 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 07 20:10:40 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 07 20:10:40 2020: Medical Ninja was Teleported; Action by Fry; Reason: None
+Mon Sep 07 20:10:40 2020: Medic was Teleported; Action by Fry; Reason: None
+Mon Sep 07 20:10:40 2020: Cloud-nin was Teleported; Action by Fry; Reason: None
+Wed Sep 09 18:13:20 2020: Fry was Force Save; Action by Fry; Reason: None
+Wed Sep 09 18:58:08 2020: Minato was Teleported; Action by Fry; Reason: None
+Wed Sep 09 19:12:00 2020: TreeStump was Teleported; Action by Fry; Reason: None
+Wed Sep 09 19:12:00 2020: Minato was Teleported; Action by Fry; Reason: None
+Thu Sep 10 13:09:20 2020: Minato was Teleported; Action by Fry; Reason: None
+Thu Sep 10 13:17:52 2020: Waterfall-nin was Teleported; Action by Fry; Reason: None
+Thu Sep 10 13:17:52 2020: Minato was Teleported; Action by Fry; Reason: None
+Thu Sep 10 13:38:59 2020: Asarelah was Spying; Action by Fry; Reason: none
+Thu Sep 10 13:44:57 2020: Carraige Driver was Teleported; Action by Fry; Reason: None
+Thu Sep 10 13:44:57 2020: Sound-nin was Teleported; Action by Fry; Reason: None
+Thu Sep 10 14:53:52 2020: TreeStump was Teleported; Action by Fry; Reason: None
+Fri Sep 11 13:26:36 2020: Minato was Teleported; Action by Fry; Reason: None
+Sat Sep 12 03:21:36 2020: Minato was Teleported; Action by Fry; Reason: None
+Sat Sep 12 03:30:08 2020: Minato was Death Verb for Fry minutes; Action by screwyparasite; Reason: None
+Sat Sep 12 13:29:36 2020: Fry was Force Save; Action by Fry; Reason: None
+Sat Sep 12 16:28:48 2020: Fry was Force Save; Action by Fry; Reason: None
+Sat Sep 12 16:30:56 2020: Fry was Force Save; Action by Fry; Reason: None
+Sun Sep 20 23:25:52 2020: Leaf-nin was Teleported; Action by Fry; Reason: None
+Mon Sep 21 00:17:04 2020: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None
+Mon Sep 21 00:25:36 2020: Leaf-nin was Teleported; Action by Fry; Reason: None
+Wed Sep 23 22:48:06 2020: Sand Ninja was Teleported; Action by Fry; Reason: None
+Wed Sep 23 22:48:06 2020: Sand-nin was Teleported; Action by Fry; Reason: None
+Wed Sep 23 22:48:06 2020: Negrodamus was Teleported; Action by Fry; Reason: None
+Wed Sep 23 22:49:48 2020: Negrodamus was Teleported; Action by Fry; Reason: None
+Wed Sep 23 23:00:54 2020: Negrodamus was Un-Freeze; Action by Fry; Reason: None
+Wed Sep 23 23:09:52 2020: Mist-nin was Teleported; Action by Fry; Reason: None
+Wed Sep 23 23:09:52 2020: Cloud-nin was Teleported; Action by Fry; Reason: None
+Wed Sep 23 23:23:44 2020: Sand-nin was Teleported; Action by Fry; Reason: None
+Fri Sep 25 18:06:56 2020: Fry was Force Save; Action by Fry; Reason: None
+Sat Sep 26 13:13:36 2020: Student SomeGuy was Teleported; Action by Fry; Reason: None
+Sat Sep 26 14:40:00 2020: Chicken was Teleported; Action by Fry; Reason: None
+Sat Sep 26 15:05:36 2020: Sand-nin was Teleported; Action by Fry; Reason: None
+Sat Sep 26 15:08:48 2020: Chicken was Teleported; Action by Fry; Reason: None
+Sat Sep 26 15:14:08 2020: Chicken was Teleported; Action by Fry; Reason: None
+Sun Sep 27 13:46:40 2020: Cactus was Teleported; Action by Fry; Reason: None
+Sun Sep 27 13:46:40 2020: Fry was Force Save; Action by Fry; Reason: None
+Thu Oct 01 22:17:36 2020: Leaf-nin was Teleported; Action by Fry; Reason: None
+Thu Oct 01 22:36:09 2020: Asarelah was Teleported; Action by Fry; Reason: None
+Thu Oct 01 22:51:31 2020: Asarelah was Teleported; Action by Fry; Reason: None
+Thu Oct 01 22:52:22 2020: Barber was Teleported; Action by Fry; Reason: None
+Thu Oct 01 22:52:22 2020: Abubatata was Teleported; Action by Fry; Reason: None
+Thu Oct 01 23:21:23 2020: Leaf-nin was Teleported; Action by Fry; Reason: None
+Thu Oct 01 23:21:23 2020: Abubatata was Summon; Action by Fry; Reason: Loc: 437, 127, 1
+Thu Oct 01 23:21:23 2020: Girlypink was Summon; Action by Fry; Reason: Loc: 437, 127, 1
+Thu Oct 01 23:21:23 2020: Asarelah was Summon; Action by Fry; Reason: Loc: 437, 127, 1
+Thu Oct 01 23:30:46 2020: Abubatata was Summon; Action by Fry; Reason: Loc: 930, 95, 2
+Thu Oct 01 23:30:46 2020: Girlypink was Summon; Action by Fry; Reason: Loc: 930, 95, 2
+Thu Oct 01 23:30:46 2020: Asarelah was Summon; Action by Fry; Reason: Loc: 930, 95, 2
+Thu Oct 01 23:34:11 2020: Waterfall-nin was Teleported; Action by Fry; Reason: None
+Thu Oct 01 23:52:06 2020: Waterfall-nin was Teleported; Action by Fry; Reason: None
+Thu Oct 01 23:52:06 2020: Asarelah was Summon; Action by Fry; Reason: Loc: 63, 131, 2
+Thu Oct 01 23:52:06 2020: Girlypink was Summon; Action by Fry; Reason: Loc: 63, 131, 2
+Thu Oct 01 23:52:57 2020: Abubatata was Summon; Action by Fry; Reason: Loc: 63, 131, 2
+Thu Oct 01 23:54:40 2020: Asarelah was Teleported; Action by Fry; Reason: None
+Thu Oct 01 23:57:13 2020: Waterfall-nin was Teleported; Action by Fry; Reason: None
+Thu Oct 01 23:57:13 2020: Girlypink was Summon; Action by Fry; Reason: Loc: 62, 130, 2
+Thu Oct 01 23:58:04 2020: Asarelah was Summon; Action by Fry; Reason: Loc: 62, 130, 2
+Thu Oct 01 23:58:04 2020: Abubatata was Summon; Action by Fry; Reason: Loc: 62, 130, 2
+Sat Oct 03 17:10:24 2020: Itachi Uchiha was Teleported; Action by Fry; Reason: None
+Sat Oct 03 18:27:12 2020: Itachi Uchiha was Teleported; Action by Fry; Reason: None
+Sat Oct 03 18:41:04 2020: Missing Nin was Teleported; Action by Fry; Reason: None
+<br /><span class="Teleported">Sat Oct 03 19:54:52 2020: Waterfall-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 03 19:54:52 2020: Sensory Ninja was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 03 19:54:52 2020: Asarelah was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 03 20:04:16 2020: Leaf-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 03 20:05:07 2020: Waterfall-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 03 20:05:07 2020: Sand Ninja was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 03 20:05:07 2020: Sand-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 03 20:05:58 2020: Mist-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 03 20:40:06 2020: Sand-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 03 20:41:48 2020: Missing Nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Force Save">Sun Oct 04 00:29:52 2020: Fry was Force Save; Action by Fry; Reason: None</span>
+<br /><span class="Force Save">Sun Oct 04 00:44:48 2020: Fry was Force Save; Action by Fry; Reason: None</span>
+<br /><span class="Force Save">Sun Oct 04 00:49:16 2020: Fry was Force Save; Action by Fry; Reason: None</span>
+<br /><span class="Force Save">Sun Oct 04 00:49:16 2020: Fry was Force Save; Action by Fry; Reason: None</span>
+<br /><span class="Force Save">Sun Oct 04 00:49:16 2020: Fry was Force Save; Action by Fry; Reason: None</span>
+<br /><span class="Force Save">Wed Oct 07 23:23:56 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Oct 07 23:24:48 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Oct 09 11:40:48 2020: Clothes Dealer was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Oct 09 11:40:48 2020: Waterfall-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Remove Overlays">Fri Oct 09 13:11:28 2020: Screwyparasite was Remove Overlays; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Fri Oct 09 13:12:32 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Fri Oct 09 13:14:40 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Fri Oct 09 13:33:52 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Fri Oct 09 13:42:24 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Oct 09 15:16:16 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Sun Oct 11 15:12:00 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Oct 11 15:20:32 2020: TreeStump was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Oct 11 15:20:32 2020: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Sun Oct 11 15:24:48 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Sun Oct 11 15:49:20 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Oct 11 15:52:32 2020: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Oct 11 15:57:52 2020: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Sun Oct 11 16:03:12 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Sun Oct 11 16:03:12 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Dec 02 00:26:24 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Dec 02 00:34:56 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Dec 02 01:00:32 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Dec 02 01:10:08 2020: Clothes Dealer was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Dec 02 01:19:44 2020: Weapons Dealer was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Dec 02 01:19:44 2020: Waterfall-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 12 17:58:08 2020: TreeStump was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 12 19:03:24 2020: Asarelah was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Dec 13 13:33:36 2020: Fisherman was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Thu Dec 17 00:36:00 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Thu Dec 17 01:35:44 2020: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 11:33:04 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Sat Dec 19 11:36:16 2020: Screwyparasite was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 11:36:16 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 11:40:32 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Sat Dec 19 11:40:32 2020: Screwyparasite was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 11:41:36 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 12:22:08 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Sat Dec 19 12:44:32 2020: Screwyparasite was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 12:44:32 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Sat Dec 19 12:48:48 2020: Screwyparasite was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 12:48:48 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 12:52:00 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Sat Dec 19 12:53:04 2020: Screwyparasite was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 13:05:52 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Sat Dec 19 13:05:52 2020: Screwyparasite was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 13:05:52 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 13:08:00 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 13:08:00 2020: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Dec 19 13:09:04 2020: Jiroubou was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Dec 30 12:12:32 2020: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Dec 30 12:13:36 2020: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Thu Feb 18 11:13:52 2021: Screwyparasite was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Thu Feb 18 11:36:16 2021: Screwyparasite was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Thu Feb 18 11:41:36 2021: Screwyparasite was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Thu Feb 18 11:49:04 2021: Screwyparasite was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Fri Feb 19 14:20:32 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Fri Feb 19 14:26:56 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Feb 22 14:46:08 2021: Rock-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Mon Feb 22 16:55:12 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Feb 24 18:16:16 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Sun Feb 28 19:28:48 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Mar 06 19:57:36 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Sat Mar 06 19:57:36 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Sat Mar 06 20:06:08 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Sat Mar 06 21:11:12 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 12 18:46:08 2021: Deidara was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 12 20:18:56 2021: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 12 20:45:36 2021: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Mar 13 08:44:32 2021: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Mar 13 12:33:52 2021: TreeStump was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Sat Mar 13 13:25:55 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 14 12:34:08 2021: Kakashi Hatake was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 14 12:34:08 2021: Tsunade was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 14 12:35:12 2021: Jiraiya was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 14 12:42:40 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 14 21:39:12 2021: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 14 21:39:12 2021: Sound-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 14 21:39:12 2021: Sound-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 14 21:39:12 2021: Sand Ninja was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 14 21:40:16 2021: Student Fry was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 14 21:44:32 2021: Kakashi Hatake was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 15 09:54:08 2021: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 15 09:56:16 2021: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Mon Mar 15 11:37:36 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Mon Mar 15 12:12:48 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Mon Mar 15 12:23:28 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Mon Mar 15 12:40:32 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 15 13:36:00 2021: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 15 14:24:00 2021: the dog was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 17 17:52:00 2021: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 17 18:29:20 2021: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 17 20:57:36 2021: Fan Ninja was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 17:02:56 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 17:05:04 2021: Cactus was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 17:05:04 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 17:05:04 2021: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 17:05:04 2021: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 17:05:04 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Fri Mar 19 17:42:24 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 18:13:20 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 18:40:00 2021: Sand Ninja was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 18:40:00 2021: Saucepan Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 18:41:04 2021: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Spying">Fri Mar 19 18:41:04 2021: Minato was Spying; Action by Screwyparasite; Reason: none</span>
+<br /><span class="Force Save">Fri Mar 19 19:44:00 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 19:50:24 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 19:53:36 2021: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Summon">Fri Mar 19 19:53:36 2021: Screwyparasite was Summon; Action by Screwyparasite; Reason: Loc: 11, 81, 1</span>
+<br /><span class="Force Save">Fri Mar 19 20:14:56 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 20:22:24 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 21:39:12 2021: Weapons Dealer was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 22:58:08 2021: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 22:58:08 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 22:58:08 2021: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 23:00:16 2021: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 19 23:01:20 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Mar 20 00:54:24 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Sat Mar 20 12:12:48 2021: Minato was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Sat Mar 20 12:12:48 2021: Minato was Death Verb for Screwyparasite minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Mar 20 12:18:08 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 21 16:05:20 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 21 19:42:56 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 21 19:48:16 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 21 20:16:00 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 21 20:19:12 2021: Medical Ninja was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 21 20:21:20 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 22 18:15:28 2021: Mist-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 24 11:42:56 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 24 19:37:36 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 24 20:52:16 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 24 20:53:20 2021: TreeStump was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 24 22:25:04 2021: Weapons Dealer was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 24 22:25:04 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Thu Mar 25 14:33:36 2021: Chicken was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Thu Mar 25 14:38:56 2021: Missing Nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 26 21:11:28 2021: Zabuza was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 26 21:18:56 2021: Chicken was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Mar 26 21:57:20 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Mar 27 14:29:20 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Mar 27 15:38:40 2021: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sat Mar 27 15:50:24 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 28 10:17:36 2021: Itachi Uchiha was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Sun Mar 28 10:59:12 2021: TreeStump was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 29 12:26:40 2021: TreeStump was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 29 16:28:48 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 29 16:32:00 2021: TreeStump was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 29 17:18:56 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 29 18:04:48 2021: TreeStump was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 29 18:10:08 2021: TreeStump was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Mon Mar 29 18:11:12 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 29 18:17:36 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Mar 29 21:56:16 2021: TreeStump was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 16:06:24 2021: ZBro was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 16:09:36 2021: ZBro was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 16:17:04 2021: ZBro was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 16:53:20 2021: ZBro was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 16:53:20 2021: ZBro was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 17:41:20 2021: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Mar 31 17:54:08 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Mar 31 17:54:08 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 17:58:24 2021: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 18:01:36 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 18:36:48 2021: Sensory Ninja was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 18:36:48 2021: Sensory Ninja was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Mar 31 18:38:56 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 18:57:04 2021: Sensory Ninja was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 18:58:08 2021: Sensory Ninja was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 19:08:48 2021: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 19:08:48 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 19:08:48 2021: Fan Ninja was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 19:12:00 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Mar 31 19:12:00 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 19:14:08 2021: Minato was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Mar 31 19:34:24 2021: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Fri Apr 02 02:11:12 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 05 14:02:40 2021: Itachi Uchiha was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 05 14:03:44 2021: Tsunade was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 05 14:24:00 2021: Itachi Uchiha was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 05 16:05:20 2021: Sound 5 Quest Man was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 05 16:26:40 2021: Jiroubou was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Mon Apr 05 17:02:56 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 05 17:12:32 2021: Kidoumaru was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 05 17:27:28 2021: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 05 17:32:48 2021: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Mon Apr 05 21:05:04 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Tue Apr 06 13:53:04 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 06 17:16:48 2021: the dog was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 06 17:26:24 2021: Vet was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 06 17:39:12 2021: Assassin Ninja was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 06 17:46:40 2021: Assassin Ninja was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Tue Apr 06 17:46:40 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 06 18:06:56 2021: Barber was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 06 21:21:04 2021: Leaf-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Apr 07 00:44:48 2021: Fry was Force Save; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 00:54:24 2021: Itachi Uchiha was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 03:23:44 2021: Mist-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 03:29:04 2021: Leaf-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 03:32:16 2021: Mist-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 03:32:16 2021: Mist-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 04:33:04 2021: Medical Ninja was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 12:18:08 2021: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 12:21:20 2021: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 12:24:32 2021: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 12:29:52 2021: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 12:38:24 2021: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 12:40:32 2021: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 14:08:00 2021: the dog was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 14:10:08 2021: Vet was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Apr 07 14:12:16 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 07 14:15:28 2021: Sand-nin was Teleported; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Force Save">Wed Apr 07 15:02:24 2021: Screwyparasite was Force Save; Action by Screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri Apr 09 15:47:12 2021: Sand-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 10 02:04:48 2021: Leaf-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 10 02:05:52 2021: Minato was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 10 02:06:56 2021: TreeStump was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 10 02:11:12 2021: Minato was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 10 03:44:00 2021: Barber was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 10 03:44:00 2021: Sensory Ninja was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Spying">Sat Apr 10 14:21:39 2021: Wizzy was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Spying">Sat Apr 10 14:24:12 2021: Wizzy was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Spying">Sat Apr 10 15:35:53 2021: Wizzy was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Summon">Sat Apr 10 15:50:24 2021: Yen san was Summon; Action by Fry; Reason: Loc: 423, 35, 2</span>
+<br /><span class="Teleported">Sat Apr 10 15:54:40 2021: Leaf-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Spying">Sat Apr 10 15:54:40 2021: Yen san was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Teleported">Sat Apr 10 15:58:04 2021: Jue Viole grace was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Sat Apr 10 15:58:04 2021: Yen san was Summon; Action by Fry; Reason: Loc: 431, 7, 2</span>
+<br /><span class="Teleported">Sat Apr 10 15:58:04 2021: Leaf-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Spying">Sat Apr 10 16:00:38 2021: Fry was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Spying">Sat Apr 10 16:00:38 2021: Yen san was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Force Save">Sat Apr 10 16:04:03 2021: Yen san was Force Save; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 10 16:04:54 2021: Sensory Ninja was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 10 16:07:28 2021: Sand-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Spying">Sat Apr 10 16:07:28 2021: Yen san was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Spying">Sat Apr 10 16:08:19 2021: Yen san was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Summon">Sat Apr 10 16:24:32 2021: Yen san was Summon; Action by Fry; Reason: Loc: 8, 3, 1</span>
+<br /><span class="Teleported">Sat Apr 10 16:35:12 2021: Sensory Ninja was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 10 16:48:00 2021: Jue Viole grace was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 10 17:00:48 2021: Jue Viole grace was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 10 17:31:44 2021: Leaf-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Spying">Sat Apr 10 19:44:12 2021: Wizzy was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Force Save">Sat Apr 10 19:46:08 2021: Fry was Force Save; Action by Fry; Reason: None</span>
+<br /><span class="Force Save">Sat Apr 10 19:48:16 2021: Fry was Force Save; Action by Fry; Reason: None</span>
+<br /><span class="Spying">Sat Apr 10 20:00:25 2021: Wizzy was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Force Save">Sat Apr 10 20:21:20 2021: Fry was Force Save; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 12 14:05:52 2021: Minato was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 12 14:09:04 2021: Minato was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 12 16:07:28 2021: Student SomeGuy was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 12 16:07:28 2021: Sensory Ninja was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Death Verb">Mon Apr 12 16:22:24 2021: Fry was Death Verb for Fry minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Mon Apr 12 16:29:52 2021: Fry was Death Verb for Fry minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 12 16:35:12 2021: Sensory Ninja was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 12 17:02:56 2021: Leaf-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 12 17:32:48 2021: Sensory Ninja was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Spying">Mon Apr 12 18:06:56 2021: Wizzy was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Teleported">Mon Apr 12 18:10:20 2021: Jue Viole grace was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 13 14:40:00 2021: Jue Viole grace was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 13 17:01:52 2021: Minato was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 13 17:05:55 2021: Minato was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 13 17:05:55 2021: Jue Viole grace was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 13 17:11:02 2021: Minato was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 13 17:20:00 2021: Minato was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 13 17:22:08 2021: Minato was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 13 18:15:28 2021: Minato was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 13 18:33:36 2021: Jue Viole grace was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Remove Overlays">Wed Apr 14 01:15:44 2021: Fry was Remove Overlays; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 14 01:45:36 2021: Sand-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 14 01:45:36 2021: Leaf-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Force Save">Wed Apr 14 02:54:56 2021: Fry was Force Save; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 14 03:01:20 2021: Sand-nin was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 14 03:01:20 2021: Sensory Ninja was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 14 04:16:00 2021: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 14 04:17:04 2021: Sound 5 Quest Man was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 14 17:22:08 2021: Banker was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed Apr 14 19:15:12 2021: Fisherman was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Apr 15 18:53:52 2021: TreeStump was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Apr 15 20:01:42 2021: Wizzy was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Apr 15 20:06:49 2021: Cactus was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Apr 15 20:06:49 2021: Tsunade was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Apr 15 20:08:32 2021: Minato was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Apr 15 20:08:32 2021: Sensory Ninja was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Apr 15 20:49:04 2021: Banker was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Spying">Sun Apr 18 14:30:24 2021:  was Spying; Action by Fry; Reason: none</span>
+<br /><span class="Teleported">Sun Apr 18 18:13:20 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 18 21:43:28 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 18 21:53:04 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 18 21:59:28 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 18 22:09:04 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 18 22:09:04 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 19 16:45:52 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Poke">Mon Apr 19 18:53:26 2021: Asarelah was Poke; Action by Fry; Reason: None</span>
+<br /><span class="Poke">Mon Apr 19 18:53:26 2021: Asarelah was Poke; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 19 19:24:48 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 19 19:25:52 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 19 19:25:52 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 19 19:55:44 2021: Asarelah was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 19 20:51:12 2021: Asarelah was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 19 20:52:03 2021: Asarelah was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Poke">Mon Apr 19 20:53:45 2021: Asarelah was Poke; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 20 10:57:04 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 20 11:02:24 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 20 11:02:24 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 20 11:05:36 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 20 11:06:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 20 13:01:52 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 20 13:04:00 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 20 17:46:27 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 20 17:47:18 2021:  was Teleported; Action by Fry Puff; Reason: None</span>
+<br /><span class="Teleported">Tue Apr 20 18:10:08 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Apr 22 00:32:00 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Apr 22 11:28:00 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Apr 23 17:11:53 2021: Asarelah was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Apr 23 18:05:39 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Apr 23 18:06:30 2021: Asarelah was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 24 12:41:48 2021: Wizzy was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Apr 24 21:33:52 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 25 12:20:54 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 25 12:21:45 2021: Wizzy was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 25 21:27:28 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 25 21:27:28 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 25 22:15:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 25 22:15:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 25 22:15:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 25 22:15:40 2021: Wizzy was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Restored">Sun Apr 25 22:16:32 2021: Wizzy was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Restored">Sun Apr 25 22:18:14 2021: Wizzy was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Restored">Sun Apr 25 22:23:21 2021: Wizzy was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue May 04 18:36:48 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue May 04 19:47:12 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Death Verb">Wed May 05 12:22:24 2021: Fry was Death Verb for Fry minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed May 05 14:06:56 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed May 05 14:51:44 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed May 05 14:51:44 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed May 05 15:05:36 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed May 05 15:06:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed May 05 15:06:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed May 05 15:09:52 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed May 05 15:09:52 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed May 05 15:12:00 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed May 05 15:18:24 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu May 06 10:41:04 2021:  was Teleported; Action by Screwypara; Reason: None</span>
+<br /><span class="Teleported">Thu May 06 10:42:08 2021:  was Teleported; Action by Screwypara; Reason: None</span>
+<br /><span class="Teleported">Thu May 06 14:13:20 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 11:06:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 11:09:52 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 11:10:56 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 11:10:56 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 12:49:04 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 12:50:08 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 13:54:08 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 14:18:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 14:33:36 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 14:33:36 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 14:40:00 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri May 07 14:46:24 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon May 10 11:38:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon May 10 11:38:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon May 10 11:45:04 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon May 10 12:57:36 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon May 10 12:58:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon May 10 14:18:40 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon May 10 14:24:00 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon May 10 14:26:08 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon May 10 15:52:32 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon May 10 17:45:36 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Mon May 10 18:46:24 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Tue May 11 00:18:08 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Death Verb">Tue May 11 00:45:52 2021: Fry was Death Verb for Fry minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Tue May 11 00:51:12 2021: Fry was Death Verb for Fry minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Tue May 11 03:15:12 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 14:48:32 2021:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 16:14:56 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 16:16:00 2021: <not>Tsunade was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 16:16:00 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 16:16:00 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 17:49:52 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:00:32 2021: Large Rabbit was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:06:56 2021: Rooster was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:08:00 2021: Villain was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:08:00 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:10:08 2021: Murderer was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:14:24 2021: Villain was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:14:24 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:37:52 2021: Villain was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:38:56 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:38:56 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:41:04 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:45:20 2021: Villain was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:49:36 2021: Snake was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:50:40 2021: Mouse was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:52:48 2021: Villain was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:52:48 2021: Thief was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 18:58:08 2021: Villain was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 19:01:20 2021: Villain was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 19:01:20 2021: Mouse was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 19:04:32 2021: Mouse was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Wed May 19 19:05:36 2021: Villain was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Thu May 20 15:07:44 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Thu May 20 15:19:28 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Thu May 20 15:19:28 2021: Toad was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Thu May 20 15:24:48 2021: Rooster was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Thu May 20 15:25:52 2021: Snake was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Thu May 20 15:26:56 2021: Rabbit was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Thu May 20 16:39:28 2021: Murderer was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 01:58:24 2021: Murderer was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:08:00 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:34:40 2021: Murderer was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:49:36 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:49:36 2021: Prisoner was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:52:48 2021: Toad was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:52:48 2021: Ravager was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:52:48 2021: Prisoner was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:52:48 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:52:48 2021: Thief was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:53:52 2021: Prisoner was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:58:08 2021: Murderer was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:58:08 2021: Prisoner was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:58:08 2021: Thief was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 02:59:12 2021: Ravager was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 03:01:20 2021: Thief was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 03:01:20 2021: Murderer was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 03:01:20 2021: Ravager was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 03:04:32 2021: Prisoner was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 03:07:44 2021: Prisoner was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 03:08:48 2021: Prisoner was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 03:08:48 2021: Ravager was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 03:08:48 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 03:16:16 2021: Bird was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 03:17:20 2021: Bird was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 16:48:00 2021: Prisoner was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 17:00:48 2021: Prisoner was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 17:00:48 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 17:01:52 2021: Prisoner was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 17:01:52 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 17:01:52 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 17:20:00 2021: Prisoner was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 17:20:00 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 17:23:50 2021: Asarelah was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 17:28:06 2021: Asarelah was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 17:34:56 2021: Asarelah was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Fri May 21 17:37:29 2021: Asarelah was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Mon May 24 10:35:44 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Mon May 24 10:43:12 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Mon May 24 10:52:48 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Mon May 24 10:53:52 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Mon May 24 10:53:52 2021:  was Teleported; Action by Frish; Reason: None</span>
+<br /><span class="Teleported">Thu May 27 03:06:40 2021:  was Teleported; Action by Screwyparasitew; Reason: None</span>
+<br /><span class="Teleported">Thu May 27 03:12:00 2021:  was Teleported; Action by Screwyparasitew; Reason: None</span>
+<br /><span class="Teleported">Thu May 27 03:12:00 2021:  was Teleported; Action by Screwyparasitew; Reason: None</span>
+<br /><span class="Teleported">Thu May 27 03:35:28 2021:  was Teleported; Action by Screwyparasitew; Reason: None</span>
+<br /><span class="Teleported">Thu May 27 03:50:24 2021:  was Teleported; Action by Screwyparasitew; Reason: None</span>
+<br /><span class="Teleported">Thu May 27 03:50:24 2021:  was Teleported; Action by Screwyparasitew; Reason: None</span>
+<br /><span class="Teleported">Thu May 27 03:54:40 2021:  was Teleported; Action by Screwyparasitew; Reason: None</span>
+<br /><span class="Teleported">Thu May 27 17:52:00 2021: Prisoner was Teleported; Action by Screwyparasitew; Reason: None</span>
+<br /><span class="Teleported">Thu May 27 18:06:56 2021:  was Teleported; Action by Screwyparasitew; Reason: None</span>
+<br /><span class="Teleported">Thu May 27 18:36:48 2021:  was Teleported; Action by Screwyparasitew; Reason: None</span>
+<br /><span class="Teleported">Fri May 28 14:52:48 2021:  was Teleported; Action by Screwyparasitew; Reason: None</span>
+<br /><span class="Death Verb">Fri May 28 17:40:16 2021: Screwyparasitew was Death Verb for Screwyparasitew minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Death Verb">Fri May 28 17:44:32 2021: Screwyparasitew was Death Verb for Screwyparasitew minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Fri May 28 22:17:36 2021: Chicken was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 01:34:56 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 01:34:56 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 01:36:00 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 01:45:36 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 01:45:36 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 01:45:36 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 01:45:36 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 01:48:48 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 02:11:12 2021: Prisoner was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 02:14:24 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 02:20:48 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 02:27:12 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 03:01:20 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 03:38:40 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Sat May 29 03:38:40 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon May 31 18:06:56 2021: Prisoner was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon May 31 18:10:08 2021: Prisoner was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon May 31 18:11:12 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 02 13:42:24 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 02 14:58:08 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 02 14:58:08 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 02 15:13:04 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 02 15:14:08 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 02 16:07:28 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Thu Jun 03 02:43:12 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Thu Jun 03 02:49:36 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Thu Jun 03 02:50:40 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Thu Jun 03 03:28:00 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Thu Jun 03 03:30:08 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Thu Jun 03 17:41:20 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Thu Jun 03 17:41:20 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Thu Jun 03 18:35:44 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Fri Jun 04 02:16:32 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Fri Jun 04 02:24:00 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 07 17:10:24 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 07 17:10:24 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 07 17:10:24 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 07 17:52:00 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Tue Jun 08 13:39:12 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Tue Jun 08 13:42:24 2021: Thief was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Tue Jun 08 13:45:36 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Tue Jun 08 14:02:40 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Tue Jun 08 14:03:44 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Tue Jun 08 14:04:48 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 17:50:56 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 17:54:08 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 17:56:16 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 17:58:24 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 18:02:40 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 18:06:56 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 18:46:24 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 18:49:36 2021: Murderer was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 18:51:44 2021: Murderer was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 18:54:56 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:00:16 2021: Murderer was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:05:36 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:08:48 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:08:48 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:08:48 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:08:48 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:08:48 2021: Prisoner was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:09:52 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:09:52 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:12:00 2021: Murderer was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:12:00 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:12:00 2021: Murderer was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:12:00 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:13:04 2021: Murderer was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 19:14:08 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 20:27:44 2021: Ravager was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Mon Jun 14 20:49:04 2021: Ravager was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 16 17:01:52 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 16 17:15:44 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 16 17:56:16 2021: Chicken was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 16 23:36:32 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 15:25:52 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 15:32:16 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 15:33:20 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 15:39:44 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 15:39:44 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 15:39:44 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 15:48:16 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 16:09:36 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 16:56:32 2021: Chicken was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 17:24:16 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 17:25:20 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 17:29:36 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 17:54:08 2021: Prisoner was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 23 18:03:44 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Thu Jun 24 15:13:04 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Thu Jun 24 17:45:36 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Wed Jun 30 14:05:52 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Fri Jul 02 12:45:52 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Fri Jul 02 12:45:52 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Fri Jul 02 12:45:52 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Fri Jul 02 12:45:52 2021:  was Teleported; Action by Screwyparasitee; Reason: None</span>
+<br /><span class="Teleported">Tue Jul 06 12:55:28 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Tue Jul 06 19:37:48 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Tue Jul 06 19:37:48 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Tue Jul 06 19:57:26 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Fri Jul 23 17:38:08 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Fri Jul 23 17:39:12 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Edit">Fri Jul 23 17:39:12 2021: ScrewyParasite edited Quality Fishing Rod/Durability from 2500 to 1</span>
+<br /><span class="Edit">Fri Jul 23 17:39:12 2021: ScrewyParasite edited F/FishingSkill from 7 to 100</span>
+<br /><span class="Edit">Fri Jul 23 17:39:12 2021: ScrewyParasite edited F/FishingSkillTrue from 4 to 100</span>
+<br /><span class="Teleported">Fri Jul 23 17:50:56 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Edit">Mon Jul 26 14:37:52 2021: ScrewyParasite edited Quality Fishing Rod/Durability from -9 to 1</span>
+<br /><span class="Edit">Mon Jul 26 15:08:48 2021: ScrewyParasite edited Fishing Rod/Durability from 364 to 1</span>
+<br /><span class="Edit">Mon Jul 26 17:09:20 2021: ScrewyParasite edited F/FishingSkill from 100 to 120</span>
+<br /><span class="Edit">Mon Aug 16 13:59:28 2021: ScrewyParasite edited F/Kage from 0 to 1</span>
+<br /><span class="Edit">Tue Aug 17 15:20:32 2021: ScrewyParasite edited Index/VillagePoints/Cloud from 0 to 10000</span>
+<br /><span class="Edit">Sat Aug 28 14:10:08 2021: ScrewyParasite edited Meditate/JutsuType from null to Starter</span>
+<br /><span class="Teleported">Mon Aug 30 08:01:04 2021: Mouse was Teleported; Action by F; Reason: None</span>
+<br /><span class="Edit">Tue Aug 31 08:50:08 2021: ScrewyParasite edited Raiton Shichu Shibari/UpgradeAvailable from 0 to 1</span>
+<br /><span class="Teleported">Fri Sep 17 15:26:56 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Fri Sep 17 15:26:56 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Edit">Tue Oct 05 06:33:36 2021: ScrewyParasite edited Goukakyuu/CXP from 0 to 0</span>
+<br /><span class="Edit">Tue Oct 05 06:37:52 2021: ScrewyParasite edited Goukakyuu/CooldownCur from 179.1 to 0</span>
+<br /><span class="Teleported">Tue Oct 05 07:03:28 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Tue Oct 05 07:08:48 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Tue Oct 05 07:26:56 2021: dog was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Tue Oct 05 07:28:00 2021: dog was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Sun Oct 10 15:33:20 2021: dog was Teleported; Action by F; Reason: None</span>
+<br /><span class="Edit">Sun Oct 10 15:34:24 2021: ScrewyParasite edited Frysicle/pixel_x from -4 to 8</span>
+<br /><span class="Edit">Sun Oct 10 15:34:24 2021: ScrewyParasite edited Frysicle/pixel_x from 8 to 0</span>
+<br /><span class="Edit">Sun Oct 10 15:34:24 2021: ScrewyParasite edited Frysicle/pixel_x from 0 to -8</span>
+<br /><span class="Edit">Sun Oct 10 21:23:12 2021: ScrewyParasite edited Sp/ChakraControl from 21 to 100</span>
+<br /><span class="Death Verb">Sun Oct 10 21:23:12 2021: Sp was Death Verb for Sp minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Wed Oct 13 17:37:04 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Fri Oct 15 23:46:08 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Fri Oct 15 23:57:52 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 16 00:45:52 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Edit">Sat Oct 16 00:51:12 2021: ScrewyParasite edited Ryuuka/Description/about from Send a powerful flame in the direction you're facing. to Send a powerful flame in the direction you're facing.</span>
+<br /><span class="Teleported">Sat Oct 16 00:55:28 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 16 13:38:08 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 16 13:38:08 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Edit">Sat Oct 16 13:40:16 2021: ScrewyParasite edited Housenka/Level from 100 to 1</span>
+<br /><span class="Teleported">Sat Oct 16 16:21:20 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 16 16:22:24 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Edit">Sat Oct 16 16:48:00 2021: ScrewyParasite edited DoryuuDan/MXP from 1599 to 1599</span>
+<br /><span class="Edit">Sat Oct 16 16:48:00 2021: ScrewyParasite edited DoryuuDan/MXP from 1599 to 1</span>
+<br /><span class="Edit">Sat Oct 16 16:55:28 2021: ScrewyParasite edited DoryuuDan/CXP from 396 to 0</span>
+<br /><span class="Edit">Sat Oct 16 17:05:04 2021: ScrewyParasite edited Renkoudan/MXP from 962 to 1</span>
+<br /><span class="Edit">Sat Oct 16 17:08:16 2021: ScrewyParasite edited Renkoudan/UpgradeAvailable from 3 to 5</span>
+<br /><span class="Edit">Tue Oct 19 18:35:44 2021: ScrewyParasite edited F/Taijutsu from 500506 to 50000</span>
+<br /><span class="Edit">Fri Oct 22 21:42:24 2021: ScrewyParasite edited Sp/SharinganLevel from 4 to 2</span>
+<br /><span class="Edit">Sat Oct 23 10:38:56 2021: ScrewyParasite edited Sp/InKamui from 0 to 1</span>
+<br /><span class="Edit">Sat Oct 23 11:23:44 2021: ScrewyParasite edited Sp/InIzanami from 0 to 1</span>
+<br /><span class="Edit">Sat Oct 23 11:23:44 2021: ScrewyParasite edited Sp/InIzanagi from null to 1</span>
+<br /><span class="Edit">Sat Oct 23 12:29:00 2021: ScrewyParasite edited Sp/ChakraTrue from 6183 to 618300</span>
+<br /><span class="Edit">Sat Oct 23 12:29:00 2021: ScrewyParasite edited Sp/ChakraMax from 6183 to 618300</span>
+<br /><span class="Edit">Sat Oct 23 12:29:00 2021: ScrewyParasite edited Sp/Chakra from 6183 to 618300</span>
+<br /><span class="Restored">Sat Oct 23 12:29:52 2021: Sp was Restored; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 12:29:52 2021: Giyuu was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 12:29:52 2021: Giyuu was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 12:30:43 2021:  was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 12:30:43 2021:  was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Summon">Sat Oct 23 12:30:43 2021: Giyuu was Summon; Action by Sp; Reason: Loc: 47, 122, 2</span>
+<br /><span class="Edit">Sat Oct 23 12:31:34 2021: ScrewyParasite edited Giyuu/InIzanagi from null to 1</span>
+<br /><span class="Edit">Sat Oct 23 12:32:25 2021: ScrewyParasite edited Giyuu/InIzanagi from 1 to 0</span>
+<br /><span class="Teleported">Sat Oct 23 12:33:16 2021: Giyuu was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Restored">Sat Oct 23 12:35:50 2021: Giyuu was Restored; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 12:53:45 2021: Giyuu was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Edit">Sat Oct 23 12:54:36 2021: ScrewyParasite edited Izanami/Duration from 50 to 200</span>
+<br /><span class="Teleported">Sat Oct 23 12:54:36 2021:  was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Summon">Sat Oct 23 12:54:36 2021: Giyuu was Summon; Action by Sp; Reason: Loc: 324, 136, 1</span>
+<br /><span class="Teleported">Sat Oct 23 13:01:26 2021: Giyuu was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Edit">Sat Oct 23 13:01:26 2021: ScrewyParasite edited Giyuu/Genjutsu from 621145 to 1</span>
+<br /><span class="Restored">Sat Oct 23 13:15:56 2021: Giyuu was Restored; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 13:36:25 2021:  was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 13:36:25 2021:  was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 13:36:25 2021: Tee was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 13:38:59 2021: Tee was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 13:39:50 2021:  was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 13:39:50 2021:  was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 13:40:41 2021: Tee was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 13:46:40 2021:  was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Teleported">Sat Oct 23 13:46:40 2021: Tee was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Edit">Sat Oct 23 13:50:56 2021: ScrewyParasite edited Sp/SharType from 2 to 4</span>
+<br /><span class="Edit">Sat Oct 23 13:51:47 2021: ScrewyParasite edited Sp/SharType from 4 to 5</span>
+<br /><span class="Edit">Sat Oct 23 13:51:47 2021: ScrewyParasite edited Sp/SharType from 5 to 6</span>
+<br /><span class="Edit">Sat Oct 23 13:52:38 2021: ScrewyParasite edited Sp/SharType from 6 to 7</span>
+<br /><span class="Teleported">Mon Oct 25 15:07:44 2021:  was Teleported; Action by Sp; Reason: None</span>
+<br /><span class="Edit">Mon Oct 25 15:14:08 2021: ScrewyParasite edited Sp/SharType from 7 to 1</span>
+<br /><span class="Edit">Mon Oct 25 15:21:36 2021: ScrewyParasite edited Sp/FireElemental from 5000 to 10000</span>
+<br /><span class="Edit">Mon Oct 25 15:21:36 2021: ScrewyParasite edited Sp/SharType from 1 to 2</span>
+<br /><span class="Death Verb">Mon Oct 25 15:22:40 2021: Sp was Death Verb for Sp minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Edit">Mon Oct 25 15:46:08 2021: ScrewyParasite edited Sp/JutsuList/Amaterasu from 1 to 0</span>
+<br /><span class="Edit">Tue Oct 26 14:57:04 2021: ScrewyParasite edited Sp/Clan from Hyuuga to Taijutsu Specialist</span>
+<br /><span class="Teleported">Sat Oct 30 20:52:16 2021:  was Teleported; Action by Screwyparasitess; Reason: None</span>
+<br /><span class="Given 1000000 Gold">Sat Oct 30 20:52:16 2021: Screwyparasitess was Given 1000000 Gold; Action by Screwyparasitess; Reason: Event</span>
+<br /><span class="Edit">Mon Nov 01 13:11:28 2021: ScrewyParasite edited Screwyparasitess/Clan from Taijutsu Specialist to Inuzuka</span>
+<br /><span class="Teleported">Mon Nov 01 14:32:32 2021:  was Teleported; Action by Screwyparasitess; Reason: None</span>
+<br /><span class="Given 100000 Gold">Mon Nov 01 14:32:32 2021: Screwyparasitess was Given 100000 Gold; Action by Screwyparasitess; Reason: Event</span>
+<br /><span class="Teleported">Tue Nov 02 14:47:15 2021:  was Teleported; Action by F; Reason: None</span>
+<br /><span class="Teleported">Tue Nov 02 15:27:21 2021:  was Teleported; Action by Cc; Reason: None</span>
+<br /><span class="Teleported">Tue Nov 02 15:28:12 2021: Juweu was Teleported; Action by Cc; Reason: None</span>
+<br /><span class="Teleported">Tue Nov 02 15:30:46 2021: Juweu was Teleported; Action by Cc; Reason: None</span>
+<br /><span class="Teleported">Tue Nov 02 18:15:28 2021: Juweu was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Teleported">Tue Nov 02 18:19:44 2021: Juweu was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Given 100000 Gold">Wed Nov 03 00:30:56 2021: Fried was Given 100000 Gold; Action by Fried; Reason: Event</span>
+<br /><span class="Edit">Wed Nov 03 00:33:04 2021: ScrewyParasite edited Fishing Rod/Durability from 467 to 5</span>
+<br /><span class="Edit">Wed Nov 03 00:50:08 2021: ScrewyParasite edited Fishing Rod/Durability from 0 to 30</span>
+<br /><span class="Edit">Wed Nov 03 00:50:08 2021: ScrewyParasite edited Fishing Rod/Durability from 420 to 3</span>
+<br /><span class="Edit">Wed Nov 03 00:53:20 2021: ScrewyParasite edited Fishing Rod/Durability from 0 to 2</span>
+<br /><span class="Edit">Wed Nov 03 01:11:02 2021: ScrewyParasite edited Fried/SavePrevention from 1 to 0</span>
+<br /><span class="Edit">Wed Nov 03 01:42:24 2021: ScrewyParasite edited Fried/BeenKage from 1 to 0</span>
+<br /><span class="Edit">Wed Nov 03 01:45:36 2021: ScrewyParasite edited Fried/BeenKage from 1 to 0</span>
+<br /><span class="Edit">Wed Nov 03 01:46:40 2021: ScrewyParasite edited Fried/Kage from 1 to 0</span>
+<br /><span class="Edit">Wed Nov 03 02:00:32 2021: ScrewyParasite edited Fried/BeenKage from 1 to 0</span>
+<br /><span class="Teleported">Wed Nov 03 02:10:08 2021: Snake was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Edit">Wed Nov 03 02:10:08 2021: ScrewyParasite edited Snake/Size from 1 to 2</span>
+<br /><span class="Teleported">Wed Nov 03 02:12:16 2021: Snake was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Teleported">Fri Nov 05 16:35:12 2021:  was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Edit">Sat Nov 06 11:40:48 2021: ScrewyParasite edited Fried/Clan from Uchiha to Taijutsu Specialist</span>
+<br /><span class="Edit">Sat Nov 06 11:54:40 2021: ScrewyParasite edited Fried/movespeed from 3 to 1</span>
+<br /><span class="Edit">Mon Nov 08 12:16:48 2021: ScrewyParasite edited UraRenge/UpgradeAvailable from 0 to 1</span>
+<br /><span class="Edit">Mon Nov 08 12:17:52 2021: ScrewyParasite edited Hachimon/UpgradeAvailable from 3 to 1</span>
+<br /><span class="Teleported">Mon Nov 08 16:50:56 2021: Snake was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Edit">Mon Nov 08 16:50:56 2021: ScrewyParasite edited Snake/Size from 1 to 2</span>
+<br /><span class="Teleported">Mon Nov 08 16:50:56 2021:  was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Teleported">Tue Nov 09 16:54:08 2021:  was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Restored">Fri Nov 12 17:42:08 2021: Fried was Restored; Action by Fried; Reason: None</span>
+<br /><span class="Death Verb">Fri Nov 12 17:43:12 2021: Fried was Death Verb for Fried minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Edit">Fri Nov 12 17:45:20 2021: ScrewyParasite edited Fried/Taijutsu from 7.02 to 50000</span>
+<br /><span class="Edit">Fri Nov 12 17:46:24 2021: ScrewyParasite edited Fried/Taijutsu from 50006.3 to 500000</span>
+<br /><span class="Edit">Mon Nov 22 15:29:52 2021: ScrewyParasite edited Daibakufu/Control from 10 to 100</span>
+<br /><span class="Edit">Mon Nov 22 15:29:52 2021: ScrewyParasite edited Fried/WaterElemental from 10 to 10000</span>
+<br /><span class="Edit">Mon Nov 22 17:24:00 2021: ScrewyParasite edited Daibakufu/Size from 1 to 1</span>
+<br /><span class="Edit">Mon Nov 22 17:24:00 2021: ScrewyParasite edited Daibakufu/Size from 1 to 2</span>
+<br /><span class="Edit">Mon Nov 22 17:26:08 2021: ScrewyParasite edited Daibakufu/Size from 2 to 3</span>
+<br /><span class="Edit">Mon Nov 22 17:26:08 2021: ScrewyParasite edited Daibakufu/Size from 3 to 4</span>
+<br /><span class="Edit">Mon Nov 22 17:26:08 2021: ScrewyParasite edited Daibakufu/Size from 4 to 1</span>
+<br /><span class="Edit">Mon Nov 22 17:36:48 2021: ScrewyParasite edited Daibakufu/Size from 1 to 4</span>
+<br /><span class="Edit">Mon Nov 22 17:36:48 2021: ScrewyParasite edited Daibakufu/Size from 4 to 10</span>
+<br /><span class="Teleported">Sat Dec 04 00:56:16 2021:  was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Teleported">Wed Dec 15 15:39:28 2021:  was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Edit">Wed Dec 15 16:52:00 2021: ScrewyParasite edited North of Leaf/layer from 255 to 0</span>
+<br /><span class="Edit">Wed Dec 15 16:52:51 2021: ScrewyParasite edited Fried/ReflexTrue from 1 to 200</span>
+<br /><span class="Edit">Wed Dec 15 16:52:51 2021: ScrewyParasite edited Fried/Reflex from 1 to 200</span>
+<br /><span class="Teleported">Wed Dec 15 17:05:52 2021:  was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Edit">Wed Dec 15 17:11:37 2021: ScrewyParasite edited Madara/Stamina from 1.82287e+008 to 1</span>
+<br /><span class="Teleported">Wed Dec 15 17:11:37 2021:  was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Summon">Wed Dec 15 17:23:34 2021: Nyu was Summon; Action by Fried; Reason: Loc: 48, 946, 4</span>
+<br /><span class="Edit">Wed Dec 15 18:04:32 2021: ScrewyParasite edited Fried/movespeed from 1 to 0</span>
+<br /><span class="Edit">Wed Dec 15 18:06:40 2021: ScrewyParasite edited Fried/FlashSteps from 0 to 1</span>
+<br /><span class="Edit">Mon Jan 03 10:29:04 2022: ScrewyParasite edited Madara/FlashSteps from 0 to 1</span>
+<br /><span class="Edit">Mon Jan 03 16:41:20 2022: ScrewyParasite edited Madara/movespeed from 3 to 1</span>
+<br /><span class="Restored">Mon Jan 03 16:41:20 2022: Fried was Restored; Action by Fried; Reason: None</span>
+<br /><span class="Teleported">Mon Jan 03 16:42:24 2022:  was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Teleported">Mon Jan 03 16:43:28 2022:  was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Edit">Mon Jan 03 16:43:28 2022: ScrewyParasite edited Fried/MoveUses/Bunshin from 1 to 30000</span>
+<br /><span class="Edit">Mon Jan 03 16:43:28 2022: ScrewyParasite edited KageBunshin/Control from 10 to 100</span>
+<br /><span class="Teleported">Mon Jan 03 16:43:28 2022: Madara was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Restored">Mon Jan 03 16:44:32 2022: Fried was Restored; Action by Fried; Reason: None</span>
+<br /><span class="Edit">Mon Jan 03 16:44:32 2022: ScrewyParasite edited Madara/Stamina from 9.77419e+007 to 10</span>
+<br /><span class="Edit">Mon Jan 03 16:50:56 2022: ScrewyParasite edited Fried/NinjaRank from Former Yondaime to Genin</span>
+<br /><span class="Edit">Mon Jan 03 16:52:00 2022: ScrewyParasite edited Fried/Taijutsu from 537734 to 5377340</span>
+<br /><span class="Edit">Mon Jan 03 16:52:00 2022: ScrewyParasite edited Fried/TaijutsuMax from 537734 to 5377340</span>
+<br /><span class="Edit">Mon Jan 03 16:52:00 2022: ScrewyParasite edited Fried/TaijutsuTrue from 537734 to 5377340</span>
+<br /><span class="Edit">Mon Jan 03 16:56:16 2022: ScrewyParasite edited Fried/FlashSteps from 0 to 1</span>
+<br /><span class="Edit">Mon Jan 03 17:10:20 2022: ScrewyParasite edited Fried/movespeed from 1 to 0</span>
+<br /><span class="Edit">Mon Jan 03 17:13:45 2022: ScrewyParasite edited Fried/FlashSteps from 1 to 0</span>
+<br /><span class="Summon">Mon Jan 03 17:13:45 2022: Enryu was Summon; Action by Fried; Reason: Loc: 45, 936, 4</span>
+<br /><span class="Edit">Mon Jan 03 17:14:36 2022: ScrewyParasite edited Fried/movespeed from 0 to 1</span>
+<br /><span class="Teleported">Mon Jan 03 17:14:36 2022:  was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Teleported">Mon Jan 03 17:19:44 2022: Enryu was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Edit">Mon Jan 03 17:22:17 2022: ScrewyParasite edited Madara/Reflex from 180 to 280</span>
+<br /><span class="Edit">Mon Jan 03 17:23:08 2022: ScrewyParasite edited Madara/Reflex from 330 to 350</span>
+<br /><span class="Edit">Wed Jan 05 12:50:56 2022: ScrewyParasite edited Madara/movespeed from 3 to 1</span>
+<br /><span class="Edit">Wed Jan 05 15:50:08 2022: ScrewyParasite edited Fried/StaminaTrue from 1.00001e+008 to 1e+010</span>
+<br /><span class="Edit">Wed Jan 05 15:50:08 2022: ScrewyParasite edited Fried/StaminaMax from 1.00001e+008 to 1e+009</span>
+<br /><span class="Edit">Wed Jan 05 15:50:08 2022: ScrewyParasite edited Fried/Stamina from 1.00001e+008 to 1e+010</span>
+<br /><span class="Edit">Wed Jan 05 16:02:56 2022: ScrewyParasite edited Fried/movespeed from 1 to 0</span>
+<br /><span class="Restored">Wed Jan 05 16:14:40 2022: Fried was Restored; Action by Fried; Reason: None</span>
+<br /><span class="Restored">Wed Jan 05 16:17:52 2022: Fried was Restored; Action by Fried; Reason: None</span>
+<br /><span class="Restored">Wed Jan 05 16:38:08 2022: Fried was Restored; Action by Fried; Reason: None</span>
+<br /><span class="Restored">Wed Jan 05 16:39:12 2022: Fried was Restored; Action by Fried; Reason: None</span>
+<br /><span class="Edit">Wed Jan 05 16:43:28 2022: ScrewyParasite edited Fried/Reflex from 200 to 450</span>
+<br /><span class="Edit">Wed Jan 05 16:43:28 2022: ScrewyParasite edited Fried/ReflexTrue from 200 to 450</span>
+<br /><span class="Restored">Thu Jan 06 10:05:36 2022: Fried was Restored; Action by Fried; Reason: None</span>
+<br /><span class="Restored">Thu Jan 06 10:40:48 2022: Fried was Restored; Action by Fried; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 10:41:52 2022: ScrewyParasite edited Madara/KO from 0 to 1</span>
+<br /><span class="Edit">Thu Jan 06 10:51:28 2022: ScrewyParasite edited Madara/KO from 1 to 0</span>
+<br /><span class="Teleported">Thu Jan 06 10:57:52 2022:  was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Death Verb">Thu Jan 06 10:58:56 2022: Fried was Death Verb for Fried minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 11:00:00 2022: Madara was Teleported; Action by Fried; Reason: None</span>
+<br /><span class="Restored">Thu Jan 06 11:05:20 2022: Fried was Restored; Action by Fried; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 11:11:31 2022: ScrewyParasite edited Fry/ReflexTrue from 1 to 450</span>
+<br /><span class="Edit">Thu Jan 06 11:11:31 2022: ScrewyParasite edited Fry/Reflex from 1 to 450</span>
+<br /><span class="Teleported">Thu Jan 06 11:12:22 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 11:14:56 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 11:25:10 2022: Chucky was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 11:25:10 2022: ScrewyParasite edited Chucky/Reflex from 200 to 450</span>
+<br /><span class="Edit">Thu Jan 06 11:25:10 2022: ScrewyParasite edited Chucky/ReflexTrue from 200 to 450</span>
+<br /><span class="Teleported">Thu Jan 06 11:26:01 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Thu Jan 06 11:26:01 2022: Chucky was Summon; Action by Fry; Reason: Loc: 44, 949, 4</span>
+<br /><span class="Death Verb">Thu Jan 06 11:31:08 2022: Chucky was Death Verb for Fry minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Summon">Thu Jan 06 11:32:00 2022: Chucky was Summon; Action by Fry; Reason: Loc: 44, 946, 4</span>
+<br /><span class="Teleported">Thu Jan 06 11:32:51 2022: Kino was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 11:32:51 2022: ScrewyParasite edited BuildingExt/opacity from 0 to 1</span>
+<br /><span class="Edit">Thu Jan 06 11:33:42 2022: ScrewyParasite edited Kino/Reflex from 200 to 450</span>
+<br /><span class="Edit">Thu Jan 06 11:33:42 2022: ScrewyParasite edited Kino/ReflexTrue from 200 to 450</span>
+<br /><span class="Teleported">Thu Jan 06 11:33:42 2022: Chucky was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Thu Jan 06 11:33:42 2022: Kino was Summon; Action by Fry; Reason: Loc: 47, 944, 4</span>
+<br /><span class="Teleported">Thu Jan 06 11:36:16 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Death Verb">Thu Jan 06 11:39:40 2022: Chucky was Death Verb for Fry minutes; Action by screwyparasite; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 11:43:56 2022: Kino was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 11:44:48 2022: ScrewyParasite edited Kino/MoveUses/SunaBunshin from null to 3000</span>
+<br /><span class="Edit">Thu Jan 06 11:44:48 2022: ScrewyParasite edited Kino/MoveUses/SabakuKyou from null to 400</span>
+<br /><span class="Teleported">Thu Jan 06 11:45:39 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Thu Jan 06 11:45:39 2022: Chucky was Summon; Action by Fry; Reason: Loc: 10, 77, 1</span>
+<br /><span class="Summon">Thu Jan 06 11:47:21 2022: Chucky was Summon; Action by Fry; Reason: Loc: 59, 140, 1</span>
+<br /><span class="Summon">Thu Jan 06 11:47:21 2022: Kino was Summon; Action by Fry; Reason: Loc: 59, 140, 1</span>
+<br /><span class="Teleported">Thu Jan 06 11:48:12 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 12:02:43 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 12:02:43 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Thu Jan 06 12:02:43 2022: Chucky was Summon; Action by Fry; Reason: Loc: 46, 946, 4</span>
+<br /><span class="Summon">Thu Jan 06 12:02:43 2022: Kino was Summon; Action by Fry; Reason: Loc: 46, 946, 4</span>
+<br /><span class="Teleported">Thu Jan 06 12:03:34 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 12:04:25 2022: ScrewyParasite edited SabakuKyou/Control from 10 to 100</span>
+<br /><span class="Teleported">Thu Jan 06 12:55:37 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 12:59:02 2022: ScrewyParasite edited Fry/density from 1 to 0</span>
+<br /><span class="Edit">Thu Jan 06 12:59:02 2022: ScrewyParasite edited Fry/InKamui from 0 to 1</span>
+<br /><span class="Summon">Thu Jan 06 13:07:34 2022: Chucky was Summon; Action by Fry; Reason: Loc: 46, 942, 4</span>
+<br /><span class="Summon">Thu Jan 06 13:08:25 2022: Rui was Summon; Action by Fry; Reason: Loc: 46, 942, 4</span>
+<br /><span class="Edit">Thu Jan 06 13:08:25 2022: ScrewyParasite edited Rui/ReflexTrue from 200 to 450</span>
+<br /><span class="Edit">Thu Jan 06 13:08:25 2022: ScrewyParasite edited Rui/Reflex from 200 to 450</span>
+<br /><span class="Teleported">Thu Jan 06 13:10:08 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 13:13:32 2022: ScrewyParasite edited Fry/see_invisible from 7 to 30</span>
+<br /><span class="Teleported">Thu Jan 06 13:14:24 2022: Madara was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 13:15:15 2022: ScrewyParasite edited Fry/protect from 0 to 1</span>
+<br /><span class="Teleported">Thu Jan 06 13:17:48 2022: Chucky was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 13:17:48 2022: ScrewyParasite edited Fry/InKamui from 1 to 0</span>
+<br /><span class="Edit">Thu Jan 06 13:18:40 2022: ScrewyParasite edited Fry/TaijutsuMax from 510685 to 5106850</span>
+<br /><span class="Edit">Thu Jan 06 13:18:40 2022: ScrewyParasite edited Fry/Taijutsu from 510685 to 5106850</span>
+<br /><span class="Edit">Thu Jan 06 13:18:40 2022: ScrewyParasite edited Fry/TaijutsuTrue from 510685 to 5106850</span>
+<br /><span class="Teleported">Thu Jan 06 13:18:40 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 13:18:40 2022: Rui was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 13:25:29 2022: ScrewyParasite edited Fry/StaminaMax from 1e+008 to 1e+012</span>
+<br /><span class="Edit">Thu Jan 06 13:25:29 2022: ScrewyParasite edited Fry/StaminaTrue from 1e+008 to 1e+011</span>
+<br /><span class="Summon">Thu Jan 06 13:32:19 2022: Rui was Summon; Action by Fry; Reason: Loc: 64, 941, 4</span>
+<br /><span class="Summon">Thu Jan 06 13:32:19 2022: Chucky was Summon; Action by Fry; Reason: Loc: 64, 941, 4</span>
+<br /><span class="Teleported">Thu Jan 06 13:32:19 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 13:33:10 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 13:41:42 2022: Madara was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Thu Jan 06 13:48:32 2022: Rui was Summon; Action by Fry; Reason: Loc: 58, 942, 4</span>
+<br /><span class="Summon">Thu Jan 06 13:48:32 2022: Chucky was Summon; Action by Fry; Reason: Loc: 58, 940, 4</span>
+<br /><span class="Teleported">Thu Jan 06 13:51:56 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 13:58:08 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 13:58:08 2022: ScrewyParasite edited Fry/density from 0 to 1</span>
+<br /><span class="Restored">Thu Jan 06 15:34:20 2022: Fry was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 15:35:12 2022: ScrewyParasite edited Fry/setspeed from 1 to 0</span>
+<br /><span class="Edit">Thu Jan 06 15:35:12 2022: ScrewyParasite edited Fry/movespeed from 1 to 0</span>
+<br /><span class="Given 40000 Stat Points">Thu Jan 06 15:36:54 2022: Chucky was Given 40000 Stat Points; Action by Fry; Reason: Event</span>
+<br /><span class="Given 80000 Stat Points">Thu Jan 06 15:37:45 2022: Chucky was Given 80000 Stat Points; Action by Fry; Reason: Event</span>
+<br /><span class="Restored">Thu Jan 06 15:38:36 2022: Chucky was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Thu Jan 06 15:39:28 2022: Ryoshi was Summon; Action by Fry; Reason: Loc: 50, 937, 4</span>
+<br /><span class="Restored">Thu Jan 06 15:40:19 2022: Ryoshi was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 15:41:10 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 15:47:08 2022: Chucky was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 15:48:00 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 15:54:24 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 15:56:32 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Thu Jan 06 15:57:36 2022: ScrewyParasite edited Fry/setspeed from 0 to 0.2</span>
+<br /><span class="Edit">Thu Jan 06 15:57:36 2022: ScrewyParasite edited Fry/movespeed from 0 to 0.2</span>
+<br /><span class="Edit">Thu Jan 06 16:11:28 2022: ScrewyParasite edited Madara/Reflex from 55 to 450</span>
+<br /><span class="Teleported">Thu Jan 06 18:24:09 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 18:30:08 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Thu Jan 06 18:31:50 2022: Madara was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Thu Jan 06 18:33:32 2022: Chucky was Summon; Action by Fry; Reason: Loc: 74, 936, 4</span>
+<br /><span class="Teleported">Fri Jan 07 17:41:55 2022: Chucky was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Fri Jan 07 19:34:08 2022: ScrewyParasite edited CursedSeal Heaven/name from CursedSeal Heaven to CursedSeal Heaven</span>
+<br /><span class="Teleported">Fri Jan 07 19:51:12 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Fri Jan 07 19:52:16 2022: ScrewyParasite edited Fry/WindElemental from 0 to 1</span>
+<br /><span class="Teleported">Fri Jan 07 19:53:20 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 19:53:20 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:01:52 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:04:25 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:04:25 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Fri Jan 07 20:04:25 2022: Chucky was Summon; Action by Fry; Reason: Loc: 46, 941, 4</span>
+<br /><span class="Summon">Fri Jan 07 20:04:25 2022: Rui was Summon; Action by Fry; Reason: Loc: 46, 941, 4</span>
+<br /><span class="Restored">Fri Jan 07 20:05:16 2022: Chucky was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Restored">Fri Jan 07 20:05:16 2022: Rui was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:05:16 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:08:41 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:09:32 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:10:24 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Fri Jan 07 20:10:24 2022: ScrewyParasite edited Fry/InKamui from 0 to 1</span>
+<br /><span class="Restored">Fri Jan 07 20:11:15 2022: Rui was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Fri Jan 07 20:12:06 2022: Chucky was Summon; Action by Fry; Reason: Loc: 52, 948, 4</span>
+<br /><span class="Teleported">Fri Jan 07 20:12:06 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:14:40 2022: Rui was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Restored">Fri Jan 07 20:15:31 2022: Chucky was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Restored">Fri Jan 07 20:15:31 2022: Rui was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:16:22 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:31:44 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:31:44 2022: Chucky was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:32:35 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 20:36:51 2022: Madara was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Fri Jan 07 20:37:42 2022: Chucky was Summon; Action by Fry; Reason: Loc: 21, 946, 4</span>
+<br /><span class="Summon">Fri Jan 07 20:37:42 2022: Rui was Summon; Action by Fry; Reason: Loc: 21, 946, 4</span>
+<br /><span class="Edit">Fri Jan 07 20:43:40 2022: ScrewyParasite edited Fry/see_invisible from 7 to 100</span>
+<br /><span class="Edit">Fri Jan 07 20:59:53 2022: ScrewyParasite edited Fry/ReverseGenjutsu from null to 1</span>
+<br /><span class="Restored">Fri Jan 07 21:00:44 2022: Chucky was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Restored">Fri Jan 07 21:01:36 2022: Rui was Restored; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 21:01:36 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 21:03:18 2022: Rui was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 07 21:04:09 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 14 14:13:04 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 14 14:13:04 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 14 14:59:21 2022: Wiz was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Fri Jan 14 15:03:37 2022: ScrewyParasite edited Grass/loc/layer from 255 to 0</span>
+<br /><span class="Edit">Fri Jan 14 15:04:28 2022: ScrewyParasite edited Grass/loc/layer from 0 to 255</span>
+<br /><span class="Edit">Fri Jan 14 15:04:28 2022: ScrewyParasite edited Grass/loc/mouse_opacity from 0 to 0</span>
+<br /><span class="Edit">Fri Jan 14 15:05:20 2022: ScrewyParasite edited Grass/loc/mouse_opacity from 0 to 2</span>
+<br /><span class="Summon">Fri Jan 14 15:05:20 2022: Psyo was Summon; Action by Fry; Reason: Loc: 866, 126, 1</span>
+<br /><span class="Edit">Fri Jan 14 15:10:27 2022: ScrewyParasite edited Psyo/fishing from 1 to 0</span>
+<br /><span class="Edit">Fri Jan 14 15:30:04 2022: ScrewyParasite edited Fry/Reflex from 450 to 1</span>
+<br /><span class="Teleported">Fri Jan 14 15:31:47 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 14 15:32:38 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Fri Jan 14 15:32:38 2022: Psyo was Summon; Action by Fry; Reason: Loc: 61, 116, 2</span>
+<br /><span class="Summon">Fri Jan 14 15:32:38 2022: Wiz was Summon; Action by Fry; Reason: Loc: 61, 116, 2</span>
+<br /><span class="Edit">Fri Jan 14 15:46:56 2022: ScrewyParasite edited Wiz/density from 0 to 1</span>
+<br /><span class="Edit">Fri Jan 14 15:54:24 2022: ScrewyParasite edited Fry/HiraishinToggled from 1 to 500</span>
+<br /><span class="Edit">Fri Jan 14 16:01:52 2022: ScrewyParasite edited Psyo/JubakuBound from null to 1</span>
+<br /><span class="Edit">Fri Jan 14 16:02:56 2022: ScrewyParasite edited Psyo/JubakuBound from 1 to 0</span>
+<br /><span class="Edit">Fri Jan 14 16:04:00 2022: ScrewyParasite edited Psyo/afkFishing from 1 to 0</span>
+<br /><span class="Edit">Fri Jan 14 16:05:04 2022: ScrewyParasite edited Psyo/afkFishing from 0 to 1</span>
+<br /><span class="Edit">Fri Jan 14 16:06:08 2022: ScrewyParasite edited Psyo/AFK from null to 1</span>
+<br /><span class="Edit">Fri Jan 14 16:06:08 2022: ScrewyParasite edited Psyo/AFK from 1 to 0</span>
+<br /><span class="Edit">Fri Jan 14 16:10:24 2022: ScrewyParasite edited Psyo/afkFishing from 0 to 1</span>
+<br /><span class="Edit">Fri Jan 14 16:23:12 2022: ScrewyParasite edited Fry/Reflex from 450 to 600</span>
+<br /><span class="Teleported">Fri Jan 14 16:27:28 2022: Madara was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 14 16:37:29 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Fri Jan 14 16:37:29 2022: Wiz was Summon; Action by Fry; Reason: Loc: 146, 28, 2</span>
+<br /><span class="Edit">Fri Jan 14 16:52:00 2022: ScrewyParasite edited Psyo/afkFishing from 1 to 0</span>
+<br /><span class="Edit">Fri Jan 14 16:52:51 2022: ScrewyParasite edited Psyo/fishing from 1 to 0</span>
+<br /><span class="Teleported">Fri Jan 14 16:54:33 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Fri Jan 14 16:54:33 2022: Wiz was Summon; Action by Fry; Reason: Loc: 706, 60, 1</span>
+<br /><span class="Summon">Fri Jan 14 16:54:33 2022: Surge was Summon; Action by Fry; Reason: Loc: 704, 60, 1</span>
+<br /><span class="Teleported">Fri Jan 14 16:57:58 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Summon">Fri Jan 14 16:57:58 2022: Wiz was Summon; Action by Fry; Reason: Loc: 82, 19, 1</span>
+<br /><span class="Teleported">Fri Jan 14 17:03:56 2022: Madara was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Jan 15 10:16:16 2022: Fry was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Sat Jan 15 10:16:16 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Sat Jan 15 11:34:08 2022: ScrewyParasite edited Finish/OnHotBar from 1 to 0</span>
+<br /><span class="Edit">Tue Jan 18 02:10:56 2022: ScrewyParasite edited Fry/HiraishinToggled from 1 to 4000</span>
+<br /><span class="Teleported">Fri Jan 21 13:57:04 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Fri Jan 21 13:59:12 2022: ScrewyParasite edited Fry/MoveUses/Shunshin from 27 to 400</span>
+<br /><span class="Teleported">Fri Jan 21 16:52:00 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 21 17:01:36 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Jan 21 17:13:20 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Tue Jan 25 02:29:04 2022: ScrewyParasite edited Extra Weights (50)/amount from 50 to 200</span>
+<br /><span class="Edit">Fri Feb 04 17:21:52 2022: ScrewyParasite edited Fry/Clan from Uchiha to Yuki</span>
+<br /><span class="Edit">Fri Feb 04 17:22:56 2022: ScrewyParasite edited Fry/Clan from Yuki to Hyuuga</span>
+<br /><span class="Edit">Fri Feb 04 18:51:28 2022: ScrewyParasite edited Fry/Clan from Hyuuga to Inuzuka</span>
+<br /><span class="Edit">Fri Feb 04 18:53:36 2022: ScrewyParasite edited Fry/Clan from Inuzuka to Kaguya</span>
+<br /><span class="Edit">Fri Feb 04 18:54:40 2022: ScrewyParasite edited Fry/Clan from Kaguya to Taijutsu Specialist</span>
+<br /><span class="Edit">Fri Feb 04 18:55:44 2022: ScrewyParasite edited Fry/Clan from Taijutsu Specialist to Nara</span>
+<br /><span class="Edit">Fri Feb 04 18:55:44 2022: ScrewyParasite edited Fry/Clan from Nara to Uchiha</span>
+<br /><span class="Teleported">Fri Feb 04 21:20:48 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Teleported">Fri Feb 04 21:24:00 2022:  was Teleported; Action by Fry; Reason: None</span>
+<br /><span class="Edit">Fri Feb 04 21:24:00 2022: ScrewyParasite edited Fry/Clan from Uchiha to Yuki</span>
+<br /><span class="Teleported">Sat Feb 19 18:52:32 2022:  was Teleported; Action by Satoru Gojo; Reason: None</span>
+<br /><span class="Edit">Sat Feb 19 19:01:04 2022: ScrewyParasite edited Satoru Gojo/Slot from SlotOne to SlotTwo</span>
+<br /><span class="Teleported">Sat Feb 19 19:28:48 2022:  was Teleported; Action by Satoru Gojo; Reason: None</span>
+<br /><span class="Edit">Sat Feb 19 19:29:52 2022: ScrewyParasite edited Satoru Gojo/cooldownmultiplier from 0.6 to 0</span>
+<br /><span class="Edit">Thu Apr 14 00:58:40 2022: ScrewyParasite edited Wall07/opacity from 1 to 0</span>
+<br /><span class="Edit">Thu Apr 14 00:58:40 2022: ScrewyParasite edited Wall07/opacity from 1 to 0</span>
+<br /><span class="Edit">Thu Apr 14 00:58:40 2022: ScrewyParasite edited Wall05/opacity from 1 to 0</span>
+<br /><span class="Edit">Thu Apr 14 01:00:48 2022: ScrewyParasite edited T02/opacity from 0 to 1</span>
+<br /><span class="Teleported">Thu Apr 14 02:28:16 2022:  was Teleported; Action by Frytwo; Reason: None</span>
+<br /><span class="Teleported">Thu Apr 14 02:31:28 2022:  was Teleported; Action by Frytwo; Reason: None</span>
+<br /><span class="Edit">Thu Apr 14 03:05:36 2022: ScrewyParasite edited HiuchiYagura/Shots from 1 to 3</span>
+<br /><span class="Edit">Thu Apr 14 03:08:48 2022: ScrewyParasite edited Frytwo/FireElemental from 23 to 10000</span>
+<br /><span class="Edit">Thu Apr 14 03:09:52 2022: ScrewyParasite edited Frytwo/FireElemental from 23 to 10000</span>
+<br /><span class="Edit">Fri Apr 15 13:31:44 2022: ScrewyParasite edited Frytwo/FireElemental from 23 to 1000</span>
+<br /><span class="Edit">Fri Apr 15 13:31:44 2022: ScrewyParasite edited Frytwo/WaterElemental from 52 to 1000</span>
+<br /><span class="Edit">Fri Apr 15 13:31:44 2022: ScrewyParasite edited Frytwo/LightningElemental from 2 to 1000</span>
+<br /><span class="Edit">Fri Apr 15 13:31:44 2022: ScrewyParasite edited Frytwo/EarthElemental from 2 to 1000</span>
+<br /><span class="Edit">Fri Apr 15 13:31:44 2022: ScrewyParasite edited Frytwo/WindElemental from 2 to 1000</span>
+<br /><span class="Edit">Fri Apr 15 15:17:20 2022: ScrewyParasite edited Haisekisho/Shots from 3 to 7</span>
+<br /><span class="Edit">Fri Apr 15 15:17:20 2022: ScrewyParasite edited Haisekisho/Range from 6 to 12</span>
+<br /><span class="Edit">Fri Apr 15 15:20:32 2022: ScrewyParasite edited Haisekisho/Speed from 1 to 0.1</span>
+<br /><span class="Edit">Fri Apr 15 15:20:32 2022: ScrewyParasite edited Haisekisho/Speed from 0.1 to 0</span>
+<br /><span class="Teleported">Fri Apr 15 21:41:07 2022: Nuyoo was Teleported; Action by Frytwo; Reason: None</span>
+<br /><span class="Teleported">Fri Apr 15 21:41:58 2022: Nuyoo was Teleported; Action by Frytwo; Reason: None</span>
+<br /><span class="Teleported">Fri Apr 15 21:41:58 2022:  was Teleported; Action by Frytwo; Reason: None</span>
+<br /><span class="Summon">Fri Apr 15 21:41:58 2022: Nuyoo was Summon; Action by Frytwo; Reason: Loc: 50, 109, 2</span>
+<br /><span class="Edit">Fri Apr 15 21:46:40 2022: ScrewyParasite edited Haisekisho/Shots from 7 to 1</span>
+<br /><span class="Edit">Fri Apr 15 21:50:56 2022: ScrewyParasite edited Haisekisho/Shots from 7 to 1</span>
+<br /><span class="Edit">Fri Apr 15 21:50:56 2022: ScrewyParasite edited Haisekisho/Range from 12 to 5</span>
+<br /><span class="Edit">Fri Apr 15 22:38:56 2022: ScrewyParasite edited Haisekisho/Range from 5 to 12</span>
+<br /><span class="Edit">Fri Apr 15 22:38:56 2022: ScrewyParasite edited Haisekisho/Shots from 1 to 3</span>
+<br /><span class="Teleported">Sun Apr 17 10:51:44 2022: Gecko was Teleported; Action by Frytwo; Reason: None</span>
+<br /><span class="Edit">Sun Apr 17 10:51:44 2022: ScrewyParasite edited Gecko/SharType from 3 to 1</span>
+<br /><span class="Edit">Sun Apr 17 10:52:35 2022: ScrewyParasite edited Frytwo/Genjutsu from 500000 to 1</span>
+<br /><span class="Edit">Sun Apr 17 10:54:17 2022: ScrewyParasite edited Gecko/HasMangekyou from 1 to 1</span>
+<br /><span class="Edit">Sun Apr 17 10:59:24 2022: ScrewyParasite edited Rui/NinjaRank from Academy Student to Jounin</span>
+<br /><span class="Edit">Sun Apr 17 11:00:16 2022: ScrewyParasite edited Rui/CanLearnSharingan from null to 1</span>
+<br /><span class="Teleported">Sun Apr 17 11:01:58 2022:  was Teleported; Action by Frytwo; Reason: None</span>
+<br /><span class="Summon">Sun Apr 17 11:01:58 2022: Rui was Summon; Action by Frytwo; Reason: Loc: 220, 182, 1</span>
+<br /><span class="Restored">Sun Apr 17 11:01:58 2022: Frytwo was Restored; Action by Frytwo; Reason: None</span>
+<br /><span class="Summon">Sun Apr 17 11:03:40 2022: Rui was Summon; Action by Frytwo; Reason: Loc: 31, 133, 2</span>
+<br /><span class="Edit">Sun Apr 17 11:03:40 2022: ScrewyParasite edited Rui/SharType from 3 to 1</span>
+<br /><span class="Edit">Sun Apr 17 11:07:05 2022: ScrewyParasite edited Frytwo/Genjutsu from 500000 to 1</span>
+<br /><span class="Edit">Sun Apr 17 11:09:39 2022: ScrewyParasite edited Frytwo/GenjutsuMax from 500000 to 1</span>
+<br /><span class="Edit">Sun Apr 17 11:09:39 2022: ScrewyParasite edited Frytwo/GenjutsuTrue from 500000 to 1</span>
+<br /><span class="Edit">Sun Apr 17 11:21:36 2022: ScrewyParasite edited Haisekisho/Shots from 3 to 1</span>
+<br /><span class="Edit">Sun Apr 17 11:21:36 2022: ScrewyParasite edited Haisekisho/Range from 12 to 6</span>
+<br /><span class="Edit">Sun Apr 17 11:45:04 2022: ScrewyParasite edited HiuchiYagura/pixel_y from 32 to 0</span>
+<br /><span class="Edit">Sun Apr 17 11:48:16 2022: ScrewyParasite edited HiuchiYagura/pixel_y from 0 to 32</span>
+<br /><span class="Edit">Sun Apr 17 11:48:16 2022: ScrewyParasite edited HiuchiYagura/pixel_y from 32 to 64</span>
+<br /><span class="Edit">Sun Apr 17 11:51:28 2022: ScrewyParasite edited HiuchiYagura/Shots from 3 to 1</span>
+<br /><span class="Summon">Sun Apr 17 12:38:24 2022: Fry Favorite Br was Summon; Action by Frytwo; Reason: Loc: 47, 130, 2</span>
+<br /><span class="Edit">Sun Apr 17 12:39:15 2022: ScrewyParasite edited Fry Favorite Br/CanLearnMangekyouSharingan from null to 1</span>
+<br /><span class="Edit">Sun Apr 17 12:41:48 2022: ScrewyParasite edited Fry Favorite Br/CanLearnMangekyouSharingan from 1 to 0</span>
+<br /><span class="Un-Summon">Sun Apr 17 12:44:22 2022: Minato was Un-Summon; Action by Frytwo; Reason: Loc: 220, 184, 1</span>
+<br /><span class="Poke">Sun Apr 17 12:47:47 2022: Fry Favorite Br was Poke; Action by Frytwo; Reason: None</span>
+<br /><span class="Edit">Sun Apr 17 12:50:20 2022: ScrewyParasite edited HiuchiYagura/Shots from 1 to 3</span>
+<br /><span class="Teleported">Sun Apr 17 12:52:54 2022: Fry Favorite Br was Teleported; Action by Frytwo; Reason: None</span>
+<br /><span class="Restored">Sun Apr 17 13:00:35 2022: Fry Favorite Br was Restored; Action by Frytwo; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 17 13:01:26 2022:  was Teleported; Action by Frytwo; Reason: None</span>
+<br /><span class="Teleported">Sun Apr 17 13:01:26 2022:  was Teleported; Action by Frytwo; Reason: None</span>
+<br /><span class="Summon">Sun Apr 17 13:01:26 2022: Fry Favorite Br was Summon; Action by Frytwo; Reason: Loc: 65, 122, 2</span>
+<br /><span class="Edit">Sun Apr 17 22:24:00 2022: ScrewyParasite edited HiuchiYagura/Shots from 3 to 7</span>
+<br /><span class="Teleported">Mon Apr 18 13:59:28 2022:  was Teleported; Action by Code; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 18 14:37:52 2022:  was Teleported; Action by Code; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 18 14:52:48 2022:  was Teleported; Action by Code; Reason: None</span>
+<br /><span class="Teleported">Mon Apr 18 14:59:12 2022:  was Teleported; Action by Code; Reason: None</span>
+<br /><span class="Edit">Thu Apr 21 18:47:28 2022: ScrewyParasite edited Code/Clan from Taijutsu Specialist to Sarutobi</span>
+<br /><span class="Teleported">Thu Apr 21 18:47:28 2022:  was Teleported; Action by Code; Reason: None</span>
+<br /><span class="Edit">Thu Apr 21 18:52:48 2022: ScrewyParasite edited Code/cooldownmultiplier from 0.6 to 0</span>
+<br /><span class="Edit">Thu Apr 21 18:53:52 2022: ScrewyParasite edited Code/SS from 1 to 0</span>
+<br /><span class="Edit">Mon Apr 25 19:35:28 2022: ScrewyParasite edited Screwyparasite/HairColour from #0a780e to #0a780e</span>
+<br /><span class="Teleported">Tue Apr 26 19:51:28 2022:  was Teleported; Action by Gordo; Reason: None</span>
+<br /><span class="Edit">Sun May 01 12:37:20 2022: ScrewyParasite edited Screwyparasite/Multipliers/Genjutsu from 1 to 1</span>
+<br /><span class="Teleported">Mon May 02 11:29:04 2022:  was Teleported; Action by Aton; Reason: None</span>
+<br /><span class="Edit">Mon May 02 16:22:24 2022: ScrewyParasite edited Aton/cooldownmultiplier from 0.6 to 0</span>

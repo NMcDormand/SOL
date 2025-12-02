@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+            <link rel="stylesheet" href="colorpicker.css" type="text/css" />
+        <title>ColorPicker</title>
+            <script type="text/javascript" src="jquery.js"></script>
+            <script type="text/javascript" src="colorpicker.js"></script>
+        <script type="text/javascript" src="eye.js"></script>
+        <script type="text/javascript" src="utils.js"></script>
+        <script type="text/javascript" src="layout.js?ver=1.0.2"></script>
+            <script type="text/javascript">
+                    function load(){
+                            this.window.focus();
+                            this.document.getElementById("colorpickerHolder").childNodes[0].childNodes[11].onclick=function(){
+                                    this.document.getElementById("pickcolor").value=this.document.getElementById("colorpickerHolder").childNodes[0].childNodes[4].childNodes[0].value;
+                                    document.forms["myform"].submit();
+                            }
+                    }
+            </script>
+    </head>
+    <body onload='load();'>
+            <p id="colorpickerHolder"></p>
+            <form method=get id='myform' action='byond://'>
+                    <input id='pickcolor' name="color" type='hidden'>
+            </form>
+    </body>
+    </html>

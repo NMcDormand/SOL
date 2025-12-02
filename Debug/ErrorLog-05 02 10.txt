@@ -1,0 +1,9 @@
+runtime error: list index out of bounds
+proc name: Activate (/obj/SkillCards/Clan/Sarutobi/Haisekisho/Activate)
+  source file: Haisekisho.dm,69
+  usr: Aton (/mob/player)
+  src: Haisekisho (/obj/SkillCards/Clan/Sarutobi/Haisekisho)
+  usr.loc: Sand (979,192,1) (/turf/terrain/Sand)
+  src.loc: Aton (/mob/player)
+  call stack:
+Haisekisho (/obj/SkillCards/Clan/Sarutobi/Haisekisho): Activate(Aton (/mob/player))

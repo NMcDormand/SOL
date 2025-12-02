@@ -1,0 +1,17 @@
+obj/KonohaInvasion/FightScene
+	layer=100
+	ThirdHokage
+		icon='ThirdHokage.dmi'
+	Orochimaru
+		icon='Orochimaru.dmi'
+		dir=WEST
+	Jiroubou
+		icon='Jiroubou.dmi'
+	Tayuya
+		icon='Tayuya.dmi'
+	Sakon
+		icon='Sakon.dmi'
+	Kidoumaru
+		icon='Kidoumaru.dmi'
+	Prison
+		icon='Sound4Prison.dmi'

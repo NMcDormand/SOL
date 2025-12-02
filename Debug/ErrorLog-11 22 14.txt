@@ -1,0 +1,10 @@
+runtime error: Cannot read null.SnakeBound
+proc name: Activate (/obj/SkillCards/Ninjutsu/Starter/Kawarimi/Activate)
+  source file: Code/Jutsu/Ninjutsu/Kawarimi.dm,23
+  usr: Gyhuk (/mob/player)
+  src: Kawarimi (/obj/SkillCards/Ninjutsu/Starter/Kawarimi)
+  usr.loc: Floor02 (22,47,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Kawarimi (/obj/SkillCards/Ninjutsu/Starter/Kawarimi): Activate(null)
+Kawarimi (/obj/SkillCards/Ninjutsu/Starter/Kawarimi): MouseDown("1", "AllJutsu.4", "icon-x=8;icon-y=17;vis-x=0;vis...", null)

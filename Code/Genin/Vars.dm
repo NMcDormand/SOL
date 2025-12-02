@@ -1,0 +1,12 @@
+var
+	GeninTime=1
+	GeninCheck=1
+	GeninAccess=1
+mob/var
+	tmp/GeninScore=0
+	InGeninRoom
+	GeninTimer=0
+	GeninAttempts=0
+	GeninResults=0
+obj/var
+	inuse

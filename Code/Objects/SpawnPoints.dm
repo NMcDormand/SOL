@@ -1,0 +1,34 @@
+var/list/JailSpawnPoints=list()
+obj/SpawnPoints
+	Jail
+		New()
+			sleep(-1)
+			JailSpawnPoints+=src
+		Cloud
+		Leaf
+		Mist
+		Rock
+		Sand
+	ClanWar
+		Aburame
+		Yuki
+		Hyuuga
+		Inuzuka
+		Kaguya
+		Nara
+		Uchiha
+		Taijutsu
+		Uzumaki
+	VillageWar
+		Cloud
+		Grass
+		Leaf
+		Mist
+		Rain
+		Rock
+		Sound
+		Sand
+		Waterfall
+	GuildWar
+		SA
+		SB

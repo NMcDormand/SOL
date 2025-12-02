@@ -1,0 +1,76 @@
+runtime error: bad index
+proc name: MouseDrop (/obj/SkillCards/MouseDrop)
+  source file: Techniques.dm,100
+  usr: Craney (/mob/player)
+  src: Shi Tsu Bakuretsu Hiryu (/obj/SkillCards/Profession/Clay/ShiTsuBakuretsuHiryu)
+  usr.loc: Grass (436,205,1) (/turf/NEW/Outside/Terrain/Grass)
+  src.loc: Craney (/mob/player)
+  call stack:
+Shi Tsu Bakuretsu Hiryu (/obj/SkillCards/Profession/Clay/ShiTsuBakuretsuHiryu): MouseDrop(PlaceHolder (/obj/PlaceHolder), "1", "1", "AllJutsu.26", "HotBarPane.2", "icon-x=27;icon-y=13;vis-x=0;vi...")
+runtime error: Cannot read 1.Creator
+proc name: ReleaseFakeEye (/mob/proc/ReleaseFakeEye)
+  source file: Sutendomira.dm,161
+  usr: (src)
+  src: Minato (/mob/NPC/People/Minato)
+  src.loc: Dirt (220,184,1) (/turf/NEW/Outside/Terrain/Cliffs/RockyCliffs/Dirt)
+  call stack:
+Minato (/mob/NPC/People/Minato): ReleaseFakeEye()
+Minato (/mob/NPC/People/Minato): DispelProc()
+Minato (/mob/NPC/People/Minato): AI()
+Minato (/mob/NPC/People/Minato): AI()
+Wed Feb 24 11:03:24 2021
+runtime error: Cannot read null.protect
+proc name: AI (/mob/FE/AI)
+  source file: Tobenai-EnemyMob.dm,77
+  usr: Abism (/mob/player)
+  src: Abism (/mob/FE)
+  usr.loc: Floor08 (209,21,2) (/turf/Buildings/Floors/Floor08)
+  src.loc: null
+  call stack:
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+...
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): AI()
+Abism (/mob/FE): Attack1(null)
+Wed Feb 24 12:07:21 2021
+runtime error: Cannot read null.DorouDoumu
+proc name: DorouDoumu Captured (/proc/DorouDoumu_Captured)
+  source file: DorouDoumu.dm,109
+  usr: (src)
+  src: null
+  call stack:
+DorouDoumu Captured(Minato (/mob/NPC/People/Minato), null, the obj (/obj))
+DorouDoumu (/obj/SkillCards/Ninjutsu/Doton/DorouDoumu): DorouDoumu(Minato (/mob/NPC/People/Minato))
+runtime error: Cannot read null.DorouDoumu
+proc name: DorouDoumu BreakCheck (/proc/DorouDoumu_BreakCheck)
+  source file: DorouDoumu.dm,124
+  usr: (src)
+  src: null
+  call stack:
+DorouDoumu BreakCheck(null, /list (/list), /list (/list), /list (/list), the obj (/obj))
+DorouDoumu (/obj/SkillCards/Ninjutsu/Doton/DorouDoumu): DorouDoumu(Minato (/mob/NPC/People/Minato))
+runtime error: Cannot read null.taitraining
+proc name: Yanagi (/obj/SkillCards/Clan/Kaguya/YanagiNoMai/verb/Yanagi)
+  source file: YanagiNoMai.dm,69
+  usr: Hans F (/mob/player)
+  src: YanagiNoMai (/obj/SkillCards/Clan/Kaguya/YanagiNoMai)
+  usr.loc: Grass (424,154,1) (/turf/NEW/Outside/Terrain/Grass)
+  src.loc: Hans F (/mob/player)
+  call stack:
+YanagiNoMai (/obj/SkillCards/Clan/Kaguya/YanagiNoMai): Yanagi()

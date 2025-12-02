@@ -1,0 +1,1364 @@
+		Ninjutsu
+		
+			Henge
+				EName="Transformation Technique"
+				JName="Henge no Jutsu"
+				Sindex		= 1
+			BunshinDaibakuha
+				EName="Clone Explosion Technique"
+				JName="Bunshin Dabakuha no Jutsu"
+				Sindex		= 2
+			Shunshin
+				EName="Body Flicker Technique"
+				JName="Shunshin no Jutsu"
+				Sindex		= 3
+			Kanashibari
+				EName="Temporary Body Paralysis"
+				JName="Kanashibari"
+				Sindex		= 4
+			Kawarimi
+				EName="Body Replacement Technique"
+				JName="Kawarimi no Jutsu"
+				Sindex		= 5
+			ChakuraHari //Non elemental projectile (freiza lasers)
+				EName="Chakra Needle"
+				JName="Chakura no Hari"
+				Sindex		= 6
+			EnbuNiDan //Spins like tornado, throws kunai in all directions
+				EName="Dance: Second Step"
+				JName="Enbu: Ni no Dan"
+				Sindex		= 7
+			ShikeiSeppun //Kage level tech, used to determine element Or maybe high damage? undecided
+				EName="Execution Kiss"
+				JName="Shikei Seppun"
+				Sindex		= 8
+			TanukiNeiri //Think of snorlax, sleeps to recover health
+				EName="Feigning Sleep"
+				JName="Tanuki Neiri no Jutsu"
+				Sindex		= 9
+			Bunretsu //Creates one exact clone of the user, bunshin cant be used while this is active
+				EName="Fission Technique"
+				JName="Bunretsu no Jutsu"
+				Sindex		= 10
+			EdoTensei //Let the user pick which enemies to remember, create bunshin like mobs with the look of the people they killed and remembered
+				EName="Impure World Reincarnation"
+				JName="Kuchiyose: Edo Tensei"
+				Sindex		= 11
+			/*somethingu //
+				EName="something"
+				JName="somethingu"
+				Sindex		= 7*/
+
+		Taijutsu
+		
+			DynamicEntry //Homing Hick from distance
+				EName="Dainamikku Entori"
+				JName="Dynamic Entry"
+				Sindex		= 12
+			Oukashou //Charged Punch
+				EName="Release"
+				JName="Oukashou"
+				Sindex		= 13
+			TsutenKyaku //Charged Kick
+				EName="Release"
+				JName="Tsuuten Kyaku"
+				Sindex		= 14
+			HaruShurai //Extra Strong Punch
+				EName="Spring Kick"
+				JName="Haru no Shurai"
+				Sindex		= 15
+			MajiNaguri //Saitama Serious Punch
+				EName="Serious Punch"
+				JName="Maji Naguri"
+				Sindex		= 17
+			Lariat //Dash attack
+				EName="Lariat"
+				JName="Rariatto"
+				Sindex		= 18
+			Chotsuyosa //Enhan
+				EName="Super Strangth"
+				JName="Cho tsuyo-sa"
+				Sindex		= 19
+
+		Genjutsu
+		
+			Kai //Dispels genjutsu
+				EName="Release"
+				JName="Kai"
+				Sindex		= 20
+			JubakuSatsu //Stuns
+				EName="Tree Binding Death"
+				JName="Jubaku Satsu"
+				Sindex	 	= 21
+			Kokuangyou //Only see black
+				EName="Journey into Black Darkness"
+				JName="Kokuangyou"
+				Sindex		= 22
+			NehanShouja //Puts to sleep
+				EName="Temple of Nirvana"
+				JName="Nehan Shouja"
+				Sindex		= 23
+			Tewofuru //Hides user from sight of target
+				EName="Roaming Droplet"
+				JName="Tewofuru"
+				Sindex		= 24
+			HanabiraEsukepu //sends fake user running in direction, while real is invisible for short time
+				EName="Flower Petal Escape"
+				JName="Hanabira Esukepu"
+				Sindex		= 25
+			KieruBokusoChi //Disables number of Targets jutsu at random
+				EName="something"
+				JName="Kieru bokuso-chi"
+				Sindex		= 27
+			KyomenSakushi //Reverses movement directions
+				EName="Mirrored Illusion"
+				JName="Kyomen sakushi"
+				Sindex		= 27
+			Odoroita //Creates fake jutsu in targets list, that causes Long stun when used
+				EName="Trapped Surprise"
+				JName="Odoroita"
+				Sindex		= 28
+			/*somethingu //
+				EName="something"
+				JName="somethingu"
+				Sindex		= 7*/
+
+		Special
+			Assassin
+			
+				Kakuremino //invisibility standing still, disables if you take a step
+					EName="Release"
+					JName="Kai"
+					Sindex		= 29
+				MeisaiGakure //invisibility while walking
+					EName="Release"
+					JName="Kai"
+					Sindex		= 30
+				MuonSatsujin //throat slit
+					EName="Release"
+					JName="Kai"
+					Sindex		= 31
+
+			Bam
+			
+				Shinwonryu //JAJAJAJA
+					EName="Black Hole Sphere"
+					JName="Shinwonryu"
+					Sindex		= 32
+
+			Medical
+			
+				ChakraMesu
+					EName="Release"
+					JName="Chakra no Mesu"
+					Sindex		= 33
+				RanshinShou //Randomizes movement
+					EName="Release"
+					JName="Ranshin Shou"
+					Sindex		= 34
+				Shousen //Heals Target
+					EName="Release"
+					JName="Shousen"
+					Sindex		= 35
+				NikutaiKassei //Counter to supers, allows user to survive anything for a very short time but leave them with next to no health
+					EName="Body Revival Technique"
+					JName="Nikutai Kassei no Jutsu"
+					Sindex		= 36
+				RyumeiTensei //Stronger Shousen but drains users health
+					EName="Dragon Life Reincarnation"
+					JName="Ryumei Tensei"
+					Sindex		= 37
+
+			Sensory
+			
+				Kanchi //Sensory Jutsu, can see chakra the moment they get it, but must be enabled
+					EName="Sensory Technique"
+					JName="Kanchi no Jutsu"
+					Sindex		= 38
+				FuroSeigyo //Suppressing Chakra, when in use cant use sensory moves or bunshin
+					EName="Flow Control"
+					JName="Furo seigyo"
+					Sindex		= 39
+					
+			SwordNin
+			
+				MikazukiMai //sword slice 2-3 tiles ahead with after images
+					EName="Release"
+					JName="Mikazuki no Mai"
+					Sindex		= 40
+				Damashigiri //Sword Counter, will block the next physical attack and counter back with damage from behind attacker
+					EName="Deception Beheading"
+					JName="Damashigiri"
+					Sindex		= 41
+				KumoRyuMikazukigiri //Horizontal sword slash damage 3 tiles directly in front of you
+					EName="Crescent Moon Beheading"
+					JName="Mikazukigiri"
+					Sindex		= 42
+				Omotegiri //Strong regular sword slash
+					EName="Front Beheading"
+					JName="Omotegiri"
+					Sindex		= 43
+				Uragiri //Attacks the 3 tiles directly behind user
+					EName="Reverse Beheading"
+					JName="Urategiri"
+					Sindex		= 44
+
+			Sound
+			
+				NamidaSanjo //AOE stun that sets off explosive tags in the area; based on sound
+					EName="Calling on Tears"
+					JName="Namida Sanjo no Jutsu"
+					Sindex		= 45
+
+		Bunshin
+		
+			Bunshin
+				EName="Clone Technique"
+				JName="Bunshin no Jutsu"
+				Sindex = 46
+			Kage
+				EName="Shadow Clone Technique"
+				JName="Kage Bunshin no Jutsu"
+				Sindex = 46.01
+			Earth
+				EName="Earth Clone Technique"
+				JName="Doton Bunshin no Jutsu"
+				Sindex = 46.02
+			Wind
+				EName="Wind Clone Technique"
+				JName="Futon Bunshin no Jutsu"
+				Sindex = 46.03
+			Fire
+				EName="Fire Clone Technique"
+				JName="Katon Bunshin no Jutsu"
+				Sindex = 46.04
+			Water
+				EName="Water Clone Technique"
+				JName="Mizu Bunshin no Jutsu"
+				Sindex = 46.05
+			Lightning
+				EName="Lightning Clone Technique"
+				JName="Raiton Bunshin no Jutsu"
+				Sindex = 46.06
+			Bug
+				EName="Bug Clone Technique"
+				JName="Mushi Bunshin no Jutsu"
+				Sindex = 46.07
+			Sand
+				EName="Sand Clone Technique"
+				JName="Suna Bunshin no Jutsu"
+				Sindex = 46.08
+			Explosion
+				EName="Explosive Clone Technique"
+				JName="Kibaku Bunshin no Jutsu"
+				Sindex = 46.09
+			Wood
+				EName="Wood Clone Technique"
+				JName="Mokuton Bunshin no Jutsu"
+				Sindex = 46.1
+
+		Clan
+		
+			Jugo //natural chakra from the start
+			
+			Otsutsuki //easy elemental training, easy jutsu mastery, Kaguya jutsu, easier dojutsu, Chakra Fruit on kills
+			
+			//Tenseigan, or Byakugan start
+				YasogamiKugeki //Handful of chakra fists
+					EName="Eighty Gods Vacuum Attack"
+					JName="Yasogami Kugeki"
+					Sindex= 47
+				TomogoroshiHaikotsu //Projectiled Bone that OHKO
+					EName="All-Killing Ash Bones"
+					JName="Tomogoroshi no Haikotsu"
+					Sindex= 48
+				BochoGudodama //Basically a spirit ball
+					EName="Expansive Truth-Seeking Ball"
+					JName="Bocho Gudodama"
+					Sindex= 49
+				Gudodama //Preset at birth how many they get balls of all elements that can stop jutsu
+					EName="Truth-Seeking Ball"
+					JName="Gudodama"
+					Sindex= 50
+				Amenominaka //Mass Teleport
+					EName="Heavenly Governing"
+					JName="Amenominaka"
+					Sindex= 51
+				YomotsuHirasaka //think portal 1 & 2, portals
+					EName="Underworld Slope Hill"
+					JName="Yomotsu Hirasaka"
+					Sindex= 52
+					
+			Senju //Super Stamina
+			
+			Uzumaki //Super Chakra and health, faster healing, Sealing techniques
+			
+				ReaperDeathSeal //Seals all chakra and resting until death, or user dies
+					EName="Reaper Death Seal"
+					JName="Shiki Fujin"
+					Sindex= 53
+				ReaperDeathSealKai //release the seal
+					EName="Reaper Death Seal: Dispel"
+					JName="Shiki Fujin: Kai"
+					Sindex= 54
+				KongoFusa //Chains seal movement on contact, no damage
+					EName="Adamantine Sealing Chains"
+					JName="Kongo Fusa"
+					Sindex= 55
+				Atakkuchen //Chains that track for damage, stun on contact
+					EName="Adamantine Attacking Chains"
+					JName="Atakkuchen"
+					Sindex= 56
+				BunshinKawa //Throws bunshin at enemey
+					EName="Bunshin Stream"
+					JName="BunshinKawa"
+					Sindex= 57
+				BunshinBore //bunshin Throws you to dodge
+					EName="Bunshin Volley"
+					JName="Bunshin Bore"
+					Sindex= 58
+				GosenRendan //Mass bunshin attack
+					EName="5k Combo"
+					JName="Gosen Rendan"
+					Sindex= 59
+
+			Aburame
+			
+				Bugs
+					EName="Bugs"
+					JName="Mushi"
+					Sindex= null
+					
+					Kidaichu //Parasitic - grow as they eat
+						EName="Kidaichu"
+						JName="Kidaichu"
+						Sindex= 60.01
+					Kikaichu //Parasitic - dont grow
+						EName="Kikaichu"
+						JName="Kikaichu"
+						Sindex= 60.02
+					Kochu //Poisonous
+						EName="Kochu"
+						JName="Kochu"
+						Sindex= 60.03
+					Rinkaichu //Phosphorus - invisible do a lot of damage
+						EName="Rinkaichu"
+						JName="Rinkaichu"
+						Sindex= 60.04
+					Shokaichu //Tracking
+						EName="Shokaichu"
+						JName="Shokaichu"
+						Sindex= 60.05
+				MushiKabe //Insect ball of defense, like kaiten
+					EName="Insect Jar"
+					JName="Mushi Kabe"
+					Sindex= 61
+				MushiDama //Covers enemy in bugs and eats them with kidaichu and kikaichu
+					EName="Insect Sphere"
+					JName="Mushi Dama"
+					Sindex= 62
+				MushiMuragaru //Bug Ball
+					EName="Insect Swarm"
+					JName="Mushi Muragaru"
+					Sindex= 63
+				MushiYose //Gain more bugs
+					EName="Summon Bugs Technique"
+					JName="Mushi Yose no Jutsu"
+					Sindex= 64
+				MushiYoroi //Armor of bugs
+					EName="Armor of Bugs"
+					JName="Mushi no Yoroi"
+					Sindex= 65
+			Hyuuga
+			
+				HakkeKuushou //pushes target back a few steps with damage
+					EName="Vacuum Palm"
+					JName="Hakke Kuushou"
+					Sindex= 66
+				HakkeHasangeki //sends victim flying with intense damage (higher level vaccum palm)
+					EName="Destructive Mountain Fist"
+					JName="Hakke Hasangeki"
+					Sindex= 67
+				HakkeRokujuuyonshou //Sixty-Four Palms
+					EName="Sixty-Four Palms"
+					JName="Hakke Rokujuuyon shou"
+					Sindex= 68
+				HakkeHyakunijuuhachishou //128 Palms
+					EName="One-Hundred and Twenty-Eight Palms"
+					JName="Hakke Hyaku nijuuhachi shou"
+					Sindex= 69
+				HakkeshouKaiten //Kaiten
+					EName="Heavenly Spin"
+					JName="Hakkeshou Kaiten"
+					Sindex= 70
+				JuuhoSoushiken // Twin lion fist, hinata uses before being destroyed by pein
+					EName="Twin Lion Fist"
+					JName="Juuho Soushiken"
+					Sindex= 71
+				JuukenRyuu //Makes punches deal tenketsu damage and drain chakra
+					EName="Gentle Fist Style"
+					JName="Juuken Ryuu"
+					Sindex= 72
+				TenketsuBakuha //Closes all tenketsu and temporarily disables chakra use
+					EName="Chakra Point Explosion"
+					JName="Tenketsu Bakuha"
+					Sindex= 73
+
+			Inuzuka
+			
+				JuujinBunshin //Pet transforms to look like you
+					EName="Beast-man Clone"
+					JName="Juujin Bunshin"
+					Sindex= 74
+				Tsuuga //one tornado
+					EName="Piercing Fang"
+					JName="Tsuuga"
+					Sindex= 75
+				Gatsuuga //two tornado
+					EName="Dual Piercing Fang"
+					JName="Gatsuuga"
+					Sindex= 76
+				ChakuranoTsume //increases punch damage because claws
+					EName="Chakra Claws"
+					JName="Chakurano Tsume"
+					Sindex= 77
+				Soutourou //Giant wolf two heads
+					EName="Double-Headed Wolf"
+					JName="Soutourou"
+					Sindex= 78
+				Garouga  //giant wolf two heads tornado
+					EName="Wolf Fang Over Fang"
+					JName="Garouga"
+					Sindex= 79
+				Pet //your tamed animal
+					EName="Tame Pet"
+					JName="Tame Pet"
+					Size="S"
+					Sindex= null
+					
+			Kaguya
+			
+				Weapons
+					EName="Bone Weapons"
+					JName="Bone Weapons"
+					Sindex = null
+				HoneYoroi //Bone Armor
+					EName="Armor of Bone"
+					JName="Hone no Yoroi"
+					Sindex= 80
+				KaramatsuMai //rib cage out potentially doing damage to anyone who punches
+					EName="Dance of the Larch"
+					JName="Karamatsu no Mai"
+					Sindex= 81
+				SawarabiMai //Bones everywhere, buff while inside
+					EName="Dance of the Young Ferns"
+					JName="Sawarabi no Mai"
+					Sindex= 82
+					Range=7
+				TeshiSendan //Shooting your literall knuckes at people
+					EName="Ten Finger Drilling Bullets"
+					JName="Teshi Sendan"
+					Sindex= 83
+					Range=9
+				TessenkaMaiHana //Create Drill, if drill exists dashes at enemy
+					EName="Dance of the Clematis: Flower"
+					JName="Tessenka no Mai: Hana"
+					Sindex= 84
+				TessenkaMaiTsuru //Grabs target and stuns them
+					EName="Dance of the Clematis: Vine"
+					JName="Tessenka no Mai: Tsuru"
+					Sindex= 85
+				YanagiMai //AOE slashes
+					EName="Dance of the Willows"
+					JName="Yanagi no Mai"
+					Sindex= 86
+
+			Nara
+			
+				Kagemane //Grabs with shadow and prevents all movement while caught breakout with tai
+					EName="Shadow Possesion"
+					JName="Kagemane no Jutsu"
+					Sindex= 87
+				KageArashi //AOE shadow created trapping all inside
+					EName="Shadow Storm"
+					JName="Kage Arashi"
+					Sindex= 88
+				KageKabe //A wall preventing physical hits, will trap victim in shadow
+					EName="Shadow Wall"
+					JName="Kage Kabe"
+					Sindex= 89
+				KageKubiKujiku //Snaps anyone trapped in shadow's neck
+					EName="Shadow Neck Snap"
+					JName="Kage Kubi Kujiku"
+					Sindex= 90
+				KageKubiShibari //Strangles any victim, doing a lot of damage over a short time. Stun if not killed
+					EName="Shadow Neck Bind"
+					JName="Kage Kubi Shibari"
+					Sindex= 91
+				KageNui //Shadows that cause damage and restrains like kagemane
+					EName="Shadow Sewing"
+					JName="Kage Nui"
+					Sindex= 92
+				KageTsuru //Faster Shadows
+					EName="Shadow Vine"
+					JName="Kage Tsuru"
+					Sindex= 93
+				KageAmetsuchi //A ball of shadow covering user, physical attacks will restrain the attacker, defends against nin
+					EName="Shell of Shadow"
+					JName="Kagem no Ametsuchi"
+					Sindex= 94
+				KageYoroi //shadow armor, phsyical attacks will be countered by a restrain for the first attacker
+					EName="Armor of Shadow"
+					JName="Kage no Yoroi"
+					Sindex= 95
+
+			TaiSpecialist
+			
+				Senpuu //A Strong Kick
+					EName="Whirlwind"
+					JName="Senpuu"
+					Sindex= 96
+				KonohaSenpuu //A Stronger Strong Kick
+					EName="Leaf Whirlwind"
+					JName="Konoha Senpuu"
+					Sindex= 97
+				DaiSenpuu //A Strong aoe kick
+					EName= "Great Whirlwind"
+					JName= "Dai Senpuu"
+					Sindex= 98
+				GourikiSenpuu //A Stronger Strong aoe Kick
+					EName= "Strong Whirlwind"
+					JName= "Gouriki Senpuu"
+					Sindex= 49
+				Shoufuu //A high Kick potentially causing a KO
+					EName="Rising Wind"
+					JName="Shoufuu"
+					Sindex= 101
+				Reppu //A sweep that may cause victim to drop their weapon
+					EName="Violent Wind"
+					JName="Reppu"
+					Sindex=102
+				OmoteRenge //Kicks victim into sky, drills them down
+					EName="Front Lotus"
+					JName="Omote Renge"
+					Sindex= 103
+				UraRenge //A barrage of attacks from different directions
+					EName="Reverse Lotus"
+					JName="Ura Renge"
+					Sindex= 104
+				AsaKujaku //an onslaught of punches creating fire from friction
+					EName="Morning Peacock"
+					JName="Asa Kujaku"
+					Sindex= 105
+				Hirudora //A Gust of wind created by force of punch, shaped like tiger
+					EName="Afternoon Tiger"
+					JName="Hirudora"
+					Sindex= 106
+				Sekizo //Violent gusts of air coming from all directions cause by kicks from the user
+					EName="Evening Elephant"
+					JName="Sekizo"
+					Sindex= 107
+				Yagai //A dashing kick cause immense damage that cant miss, aura of a red dragon
+					EName="Night Guy"
+					JName="Hachimon"
+					Sindex= 108
+				Hachimon //The eight gates
+					EName="Eight Gates"
+					JName="Hachimon"
+					Sindex= 109
+
+			Uchiha
+			
+				KyoutenChiten //Genjutsu reversal
+					Type="Genjutsu"
+					EName="Mirror Heaven Change"
+					JName="Kyouten Chiten"
+					Sindex= 110
+				Utakata //long range tsuki like attack if target facing user no where near as much damage
+					EName="Ephemeral"
+					JName="Utakata"
+					Sindex= 111
+				Kamui //Kakashis mangekyou attack
+					EName="Kamui"
+					JName="Kamui"
+					Sindex= 112
+				Izanagi //Makes user unable to be hit for a few seconds at a time, disables sharingan permanently without EMS
+					EName="Mirror Heaven Change"
+					JName="Kyouten Chiten"
+					Sindex= 113
+				Izanami //Permanent stun until death, disables sharingan permanently without EMS
+					EName="Izanami"
+					JName="Izanami"
+					Sindex= 114
+				Susanoo //The uchiha perfect defense
+					EName="Susanoo"
+					JName="Susanoo"
+					Sindex= 115
+				IndrasArrow //An arrow that needs charging but travels very fast dealing almost the most damage in the game
+					EName="Indras Arrow"
+					JName="Indora no Ya"
+					Sindex= 116
+				AmaterasuKakyu //Giant ball of black fire
+					EName="FireBall of the Flame God"
+					JName="Amaterasu: Kakyu"
+					Sindex= 117
+				AmaterasuMabataki //Concentrated Fire burn on target, hard to miss
+					EName="Flame God's Blink"
+					JName="Amaterasu: Mabataki"
+					Sindex= 118
+				AmaterasuKawa //Beam of black fire
+					EName="River of the Flame God"
+					JName="Amaterasu: Kawa"
+					Sindex= 119
+				HonoRogoku //amat seal, movement attempt causes damage
+					EName="Prison of Black Flames"
+					JName="Kuro Hono no Rogoku"
+					Sindex= 120
+
+		Elemental
+		
+			Earth
+			
+				DoryuuDango //Ball of rock thrown at victim
+					EName="Mausoleum Earth Dumpling"
+					JName="Doryou Dango"
+					Sindex= 121
+				DoryuuHeki //Wall of Stone
+					EName="Earth Style Wall"
+					JName="Doryuu Heki"
+					Sindex= 122
+				Doryuudan //3 projectiles shot that track target
+					EName="Earth Dragon Projectile"
+					JName="Doryuudan"
+					Sindex= 124
+				ShinjuZanshou //A stun that buries victim up their neck for some time
+					EName="Double Suicide Decapitation Technique"
+					JName="Shinju Zanshu"
+					Sindex= 125
+				Asudatsu //Earth senbon
+					EName="Earth Spears"
+					JName="Ishi no Yari"
+					Sindex= 126
+				ChikyuDomu //Earth dome
+					EName="Earth Dome"
+					JName="Chikyu no Domu"
+					Sindex= 127
+				DoroIke //AOE Mud pond trap thing
+					EName="Mud Pond"
+					JName="Doro no ike"
+					Sindex= 128
+
+			Fire
+			
+				Housenka //Little fireballs that home on contact
+					JName = "Housenka"
+					EName = "Phoenix Fire"
+					Sindex= 129
+				Ryuka //Dragon head fire tracks target
+					JName = "Ryuka"
+					EName = "Dragon Fire"
+					Sindex= 130
+				GokaSenpu //Fire Twisters
+					JName = "Katon Goka Senpu"
+					EName = "Great Fire Whirlwind"
+					Sindex= 131
+				Tenro //Chakra drain, if victim gets too far damage is inflicted
+					JName = "Tenro"
+					EName = "Heavenly Prison"
+					Sindex= 132
+				Hibashiri //Homing movement seal, circles victim and can move but will be burned
+					JName = "Hibashiri"
+					EName = "Running Fire"
+					Sindex= 133
+				GokaMekkyaku //Multi Tile large fire
+					JName = "Goka Mekkyaku"
+					EName = "Great Fire Annihilation"
+					Sindex= 134
+				Haisekisho //Smokescreen
+					JName = "Haisekisho"
+					EName = "Ash Pile Burning"
+					Sindex= 135
+				Goukakyuu //giant fireball
+					JName = "Katon Goukakyuu"
+					EName = "Great Fireball Technique"
+					Sindex= 136
+
+			Lightning
+			
+				Raikyuu //Ball of lightning
+					EName="Lightning Ball"
+					JName="Raikyuu"
+					Sindex= 137
+				RairyuTatsumaki //tracking Lightning tiger thing
+					EName="Lightning Dragon Tornado"
+					JName="Rairyu no Tatsumaki"
+					Sindex= 138
+				Chidori //come on
+					EName="Thousand Birds"
+					JName="Chidori"
+					Sindex= 139
+				ChidoriNagashi //Chiro laser
+					EName="Thousand Bird Current"
+					JName="Chidori Nagashi"
+					Sindex= 140
+				TengokuSutajiamu //AOE lightning rod, anything within range gets shocked
+					EName="Heavenly Stadium"
+					JName="Tengoku Sutajiamu"
+					Sindex= 141
+				Kirin //instantaneous projectile only works with high enough temperature
+					EName="Heavenly Stadium"
+					JName="Tengoku Sutajiamu"
+					Sindex= 142
+				ChakuraModo //Lightning Cloak
+					EName="Chakra Mode"
+					JName="Chakura Modo"
+					Sindex= 143
+				Kuropansa //Giant black electric panther that tracks down and damages target
+					EName="Black Panther"
+					JName="Kuropansa"
+					Sindex= 144
+				Jigokuzuki //A single punch that can be charged, when charged next punch will cause the damage
+					EName="Hell Stab"
+					JName="Jigokuzuki"
+					Sindex= 145
+
+			Water
+			
+				Daibakufu //Water Wave
+					EName="Great Watefall"
+					JName="Daibakufu"
+					Sindex= 146
+				Kirigakure //Mist that slows down, makes user invisible while inside
+					EName="Hidden Mist"
+					JName="Kirigakure no Jutsu"
+					Sindex= 147
+				Teppodama //a Bullet of water shot at target
+					EName="Water Bullet"
+					JName="Teppodama"
+					Sindex= 148
+				Suiryuudan //Water dragont That tracks
+					EName="Water Dragon Bullet"
+					JName="Suiryuudan"
+					Sindex= 149
+				HageshiMizuRyu //Water dragon that only goes straight but does more damage
+					EName="Fierce Water Dragon"
+					JName="Hageshi mizu ryu"
+					Sindex= 150
+				DekishiUsu //Whirlpool on water tiles
+					EName="Drowned Vortex"
+					JName="Dekishi no uzu"
+					Sindex= 151
+				Homatsu //Floating water balls that pop when bumped
+					EName="Bubbles Technique"
+					JName="Homatsu no Jutsu"
+					Sindex= 152
+				Goshokuzame //underwaterhoming super damage only in water
+					EName="Five Feeding Sharks"
+					JName="Goshokuzame"
+					Sindex= 153
+				Ameshiko //4 homing sharks
+					EName="Four Sharks"
+					JName="Ameshiko"
+					Sindex= 154
+				BakuhatsuSuruSogi //hits all within range with water
+					EName="Four Sharks"
+					JName="Bakuhatsu Suru Sogi"
+					Sindex= 155
+				HateshinaiAme //Slowly convert area to water tiles temp
+					EName="Unending Rain"
+					JName="Hateshinai Ame"
+					Sindex= 156
+				Suiro //water prison
+					EName="Water Prison"
+					JName="Suiro no jutsu"
+					Sindex= 157
+				MujinMeisai  //invisibilty Hide presense even from sensory types (undecided if sharingan and such can see it)
+					EName="Dustless Bewildering Cover"
+					JName="Mujin Meisai"
+					Sindex= 158
+
+			Wind
+			
+				Harikenkuronikuru //Locks players in an area, push back by air
+					EName="Hurricane Chronicle"
+					JName="Harikenkuronikuru"
+					Sindex= 159
+				Renkuudan //Large Air Bullet
+					EName="Drilling Air Bullet"
+					JName="Renkuudan"
+					Sindex= 160
+				Shinkuha //aoe air slice
+					EName="Vacuum Blade"
+					JName="Shinkuha"
+					Sindex= 161
+				ShinkuDangan //Laser sized air bullet
+					EName="Vacuum Bullet"
+					JName="Shinku no dangan"
+					Sindex= 162
+				Daitoppa //Air Bullet
+					EName="Great Breakthrough"
+					JName="Daitoppa"
+					Sindex= 163
+				MegamiKiryu //Beam of air
+					EName="Airstream of the Goddess"
+					JName="Megami no kiryu"
+					Sindex= 164
+				HanachiriMai //circling Twister
+					EName="Flower Scattering Dance"
+					JName="Hanachiri Mai"
+					Sindex= 165
+				Hankami //Air burst pushing all nearby
+					EName="Breath of the DemiGod"
+					JName="Han kami no iki"
+					Sindex= 166
+
+			Blaze
+			
+				EntonGokakyu //black gokakyu
+					EName="Great Fireball"
+					JName="Gokakyu"
+					Sindex= 167
+				AmeOhabari //AOE Amaterasu
+					EName="Heaven's Tail-feather"
+					JName="Ame-no-Ohabari"
+					Sindex= 168
+					AreaDamage = 1
+				KubikiriKitsune //Sword tech a wave of fire
+					EName="Beheading Fox"
+					JName="Kubikiri Kitsune"
+					Sindex= 169
+				EnshinRaitonTama //Ball of fire that shocks anything nearby
+					EName="Lightning Ball of the Flame God"
+					JName="Enshin no Raiton Tama"
+					Sindex= 170
+				TenMoeruZanshou //Halo of fire shrinks to hit victims
+					EName="Heavenly Blazing Beheading"
+					JName="Ten no Moeru Zanshou"
+					Sindex= 171
+				MigotonaKyojin //Instantaneous area stun causing burn
+					EName="Stunning Titan"
+					JName="Migotona Kyojin"
+					Sindex= 172
+				MoeruChidori //Fire chidori
+					EName="Blazing Thousand Birds"
+					JName="Moeru Chidori"
+					Sindex= 173
+				Kureijiinoshishi //blast of fire that shocks on contact
+					EName="Kureijiinoshishi"
+					JName="Crazy Boar"
+					Sindex= 174
+				MoeruChidoriNagashi //Chidori nagashi of fire
+					EName="Blazing Thousand Birds Stream"
+					JName="Moeru Chidori Nagashi"
+					Sindex= 175
+				Entenka //barrier of fire, anything gets burned when making contact, some jutsu wont work on it
+					EName="Flame Barrier"
+					JName="Entenka"
+					Sindex= 176
+
+			Boil //Water & Fire
+			
+				Sankou //Boil AOE doesnt slow but does extra damage
+					EName="Sankou no Jutsu"
+					JName="Acid Rain"
+					Sindex= 177
+				Sankou //Boil kiri slows and damages while inside
+					EName="Fushoku-sei no Kiri"
+					JName="Corrosive Mist"
+					Sindex= 178
+				JokiDan //Steam beam
+					EName="Joki-dan"
+					JName="Steam Bullet"
+					Sindex= 179
+				MitsunaKiri //a literal wall of mist
+					EName="Mitsuna Kiri"
+					JName="Solid Mist"
+					Sindex= 180
+				KuttoKanketsusen //Random geysers of water in area
+					EName="Kutto Kanketsusen"
+					JName="Boiling Geysers"
+					Sindex= 181
+				KamigamiOnsen //Aoe healing of friends
+					EName="Kamigami no Onsen"
+					JName="Hot Springs of the Gods"
+					Sindex= 182
+				FushokuseiBakudan //Corrosive bomb triggered by distance
+					EName="Fushoku-sei bakudan"
+					JName="Corrosive bomb"
+					Sindex= 183
+				JokiBakushin //Aoe healing of friends only works on water tiles
+					EName="Joki Bakushin"
+					JName="Steam Dash"
+					Sindex= 184
+				Boiruama //Boil chakra cloak
+					EName="Boil Release Armour"
+					JName="Boiruama"
+					Sindex= 185
+
+			Explosion //Lightning & Earth
+			
+				KibakuNendo //Clay Creation
+					EName="Exploding Clay"
+					JName="Kibaku Nendo"
+					Sindex= 186
+				HanabiBasuto //random explosions in area
+					EName="Firwork Burst"
+					JName="Hanabi Basuto"
+					Sindex= 187
+				KibakuJirai //land mines hidden under ground that blow when anyone but user walk over it
+					EName="Explosive Landmines"
+					JName="Kibaku Jirai"
+					Sindex= 188
+				ShiWan //Moulding of clay into random figure that move
+					EName="C1"
+					JName="Shi Wan"
+					Sindex= 189
+				ShiSuri //Clay moulded into one bomb, timed can hit user
+					EName="C3"
+					JName="Shi Suri"
+					Sindex= 190
+				ShiFo //big Clone that blows when told to by user
+					EName="C4"
+					JName="Shi Fo"
+					Sindex= 191
+				RyuuNendo //big clay dragon that may blow on contact
+					EName="Clay Dragon"
+					JName="Ryuu Nendo"
+					Sindex= 192
+				KyukyokuGeijutsu //Bomb that disentegrates all enemies within range
+					EName="Ultimate Art"
+					JName="Kyukyoku Geijutsu"
+					Sindex= 193
+				KeiseiBakuhatsu //Explosion fist, one burst
+					JName = "Keisei Bakuhatsu"
+					EName = "Spastic Expulsion"
+					Sindex= 194
+
+			Storm //Water and Lightning
+			
+				ReizaSakasu //Laser Circus
+					EName = "Laser Circus"
+					JName = "Reiza Sakasu"
+					Sindex= 195
+				Raiunkuha //Short Range aoe like kiri, damage and visibility if walked into
+					EName = "Thunder Cloud Inner Wave"
+					JName = "Raiunkuha"
+					Sindex= 196
+				Rankiryu //Large Aoe that absorbs Chakra and grows as more os obtained
+					EName = "Gale Dragon"
+					JName = "Rankiryu"
+					Sindex= 197
+				DairakkaPesuto //Large AOE, Shocks and absorbs chakra on hit - ultimate
+					EName = "Great Falling Plague"
+					JName = "Dairakka Pesuto"
+					Sindex= 198
+				ParusaHa //AOE that hits multiple for multi damage, Stuns
+					EName = "Pulsar Wave"
+					JName = "Parusa-Ha"
+					Sindex= 199
+				Kaosurichi //Literally Kamehamha
+					EName = "Thunder Cloud Inner Wave"
+					JName = "Kaosurichi"
+					Sindex= 200
+				HakaiEnban //Literally Destructo Disk
+					EName = "Disk of Destruction"
+					JName = "Hakai no enban"
+					Sindex= 201
+				Rezaparedo //Daibakufu with lightning
+					EName = "Laser Parade"
+					JName = "Rezaparedo"
+					Sindex= 202
+
+			Ice
+			
+				KoriSupaiku //Big Ice spikes hurled at target
+					JName = "Kori no Supaiku"
+					EName = "Ice Spikes"
+					Sindex= 203
+				AkumaKessho //Random hail fall in area
+					JName = "Akuma no Kessho Aki"
+					EName = "Crystal Demon Fall"
+					Sindex= 204
+				KoriDomu //Ice dome for defense
+					JName = "Kori no Domu"
+					EName = "Ice Dome"
+					Sindex= 205
+				MakyouHyoushou //Ice Mirrors
+					JName = "Makyou Hyoushou"
+					EName = "Crystal Ice Mirrors"
+					Sindex= 206
+				SensatsuSuishou //Ice Needles
+					JName = "Water Needles of Death"
+					EName = "Sensatsu Suishou"
+					Sindex= 207
+				SuishoBunya //Freeze water and mist
+					JName = "Suisho no bun'ya"
+					EName = "Crystal field"
+					Sindex= 208
+				YukiHanabira //AOE Ice blast
+					JName = "Yuki no hanabira"
+					EName = "Flower Petal of Snow"
+					Sindex= 209
+				KoriKabe //Wall of ice
+					JName = "Kori no Kabe"
+					EName = "Ice Wall"
+					Sindex= 210
+				KoriBakuha //Freezing Ice ball
+					JName = "Kori Bakuha"
+					EName = "Ice Ball"
+					Sindex= 211
+
+			Lava
+			
+				Gomuheki //Rubber Wall
+					EName = "Wall of Rubber"
+					JName = "Gomuheki"
+					Sindex= 212
+				Yoganjadan  //Homing lava with fire trail
+					EName = "Lava Serpent Bullet"
+					JName = "Yoganjdan"
+					Sindex= 213
+				KojinYoroi //obsidian armor
+					EName = "Armour of Kojin"
+					JName = "Kojin no Yoroi"
+					Sindex= 214
+				ChitoseFunka //LavaFlow from singular spot
+					EName = "Thousand Year Eruption"
+					JName = "Chitose Funka"
+					Sindex= 215
+				KazanYashi //damage buff for punches, chakra drain while active
+					EName = "Volcanic Palm"
+					JName = "Kazan Yashi"
+					Sindex= 216
+				KamiTe //Giant hand of lava hits victim
+					EName = "God Hand"
+					JName = "Kami no Te"
+					Sindex= 217
+				KeiseiKujo //LavaFlow from singular spot
+					EName = "Spastic Expulsion"
+					JName = "Keisei Kujo"
+					Sindex= 218
+				AkaiSoraKoka //AOE falling from sky
+					EName = "Red Sky Descent"
+					JName = "Akai Sora Koka"
+					Sindex= 219
+
+			Magnet
+			
+				Sand
+				
+					SabakuKyou //Sand coffin
+						EName = "Sand Coffin"
+						JName = "Sabaku Kyou"
+						Sindex= 220
+					SabakuSoso //Sand Burial
+						EName = "Sand Burial"
+						JName = "Sabaku Soso"
+						Sindex= 221
+					SunaYoroi //Sand armor
+						EName = "Sand Armour"
+						JName = "Suna no Yoroi"
+						Sindex= 222
+					SunaShuriken //Sand shuriken
+						EName = "Sand Shuriken"
+						JName = "Suna Shuriken"
+						Sindex= 223
+					SunaTate //Protects from some punches and all thrown weapons, no chakra usage but drains sand reserves
+						EName = "Sand Shield"
+						JName = "Suna no Tate"
+						Sindex= 224
+					SabakuSotaisoFuin //Drains chakra, and seals tranformations for a time
+						EName = "Sand Mausoleum Seal"
+						JName = "Sabaku Sotaiso Fuin"
+						Sindex= 225
+						
+				JikiShushu //Used to gather materials to craft
+					EName = "Magnetic Gathering"
+					JName = "Jiki Shushu"
+					Sindex= 226
+				SatetsuKabe //Iron Sand Armor/Cloak
+					EName = "Iron Wall Wall"
+					JName = "Satetsu no Kabe"
+					Sindex= 227
+				SatetsuKesshuSatetsuso //Iron Sand Spear homing if Marked
+					EName = "Iron Sand Gathering: Spear"
+					JName = "Satetsu Kesshu Satetsuso"
+					Sindex= 228
+				SatetsuKesshuGosunkugi //Iron Sand senbon homing if Marked
+					EName = "Iron Sand Gathering: Needle"
+					JName = "Satetsu Kesshu Gosunkugi"
+					Sindex= 229
+				SatetsuKesshuTsuchi //Iron Sand Hammer homing if Marked
+					EName = "Iron Sand Gathering: Hammer"
+					JName = "Satetsu Kesshu Tsuchi"
+					Sindex= 230
+				SatetsuMakingu //Marking that magnetically lets iron sand techs track target, thrown weapons too
+					EName = "Iron Sand Marking"
+					JName = "Satetsu no Makingu"
+					Sindex= 231
+				SatetsuKuroganeTsubasa //seceret tech lots of needles and armor at once, wont be damaged while active
+					EName = "Iron Sand: Black Iron Wings"
+					JName = "Satetsu Kurogane no Tsubasa"
+					Sindex= 232
+
+			Scorch
+			
+				KorinShippu //Rasengan combined with amaterasu clearly sharingan is required
+					EName = "Halo Hurricane"
+					JName = "Korin Shippu"
+					Sindex= 233
+				Hannokakubunretsu //small fireball that blows into 3x3 blast on hit
+					EName = "Reactive Fission"
+					JName = "Hanno Kakubunretsu"
+					Sindex= 234
+				Daijohappa //Super bright AOE fireball steam on hit
+					EName = "Steaming Explosive Blast"
+					JName = "Daijohappa"
+					Sindex= 235
+				Kajosatsu //3 or more balls of fire circling user, if enemy walks into it they take mass damage, protects from attackts if hit
+					EName = "Steaming Murder"
+					JName = "Kajosatsu"
+					Sindex= 236
+				FukitsunaMerutodaun //Heat shield surrounding user, closer to user the more damage, DOT as well even after reaching safe distance
+					EName = "Unholy Metldown"
+					JName = "Fukitsuna Merutodaun"
+					Sindex= 237
+				PiasuHato //Fast Arrows that blow on contact
+					EName = "Piercing Dove"
+					JName = "Piasu Hato"
+					Sindex= 238
+				TaiyoFurea //Blinding Light obvious for dbz fans
+					EName = "Solar Flare"
+					JName = "Taiyo furea"
+					Sindex= 239
+				KyohakuTekinaNensho //Random bursts of fire in an area
+					EName = "Obsessive Combustion"
+					JName = "Kyohaku-Tekina Nensho"
+					Sindex= 240
+				GaidansuChosa //Placed on ground, attracts all metal thrown and electric attacks Megnet release not affected, even users weapons are drawn
+					EName = "Guidance Poll"
+					JName = "Gaidansu Chosa"
+					Sindex= 241
+
+			Swift
+			
+				Hiraishin //Minato teleporting anywhere seal is placed
+					EName = "Flying Thunder God"
+					JName = "Hiraishin"
+					Sindex= 242
+				HiraishinFuin //Minato teleporting to any seal
+					EName = "Flying Thunder God: Seal"
+					JName = "Hiraishin: fuin"
+					Sindex= 243
+				HiraishinNiDan //Thrown Kunai, on hit hits from behind victim (rasengan if you have it)
+					EName = "Flying Thunder God: Level 2"
+					JName = "Hiraishin — Ni no Dan"
+					Sindex= 244
+				HiraishinJikuShippu //Thrown Kunai, Multiple hits (Rasengan finish if you have it)
+					EName = "Space–Time Hurricane Flash"
+					JName = "Hiraishin: Jiku Shippu Senko Ren"
+					Sindex= 245
+				HiraishinDorai //Teleports any jutsu thrown at user that hits a barrier in where placed by user, can be combined with seal to hit target
+					EName = "Flying Thunder God: Guiding Thunder"
+					JName = "Hiraishin Dorai"
+					Sindex= 246
+				JoshoRyu //temporary boost to all speed stats
+					EName = "Rising Current"
+					JName = "Josho-ryu"
+					Sindex= 247
+				Mueisho //Small window counter, counters with multiple hits
+					EName = "Shadowless Flight"
+					JName = "Mueisho"
+					Sindex= 248
+				Shizukana //AOE electric fence, random air projectiles in random directions within the fence
+					EName = "Silent Rebound"
+					JName = "Shizukana"
+					Sindex= 249
+
+			Wood
+			
+				MokutonBunshin //obvious
+					EName = "Wood Clone"
+					JName = "Mokuton Bunshin"
+					Sindex= 250
+				Daijurin //Homing Wood projectile
+					EName = "Great Forest"
+					JName = "Daijurin no Jutsu"
+					Sindex= 251
+				MokusatsuShibari  //Wood Sealing tech
+					EName = "Smothering Binding"
+					JName = "Mokusatsu Shibari"
+					Sindex= 252
+				ShinSusenju //Big Statue with hands, slaps them all up
+					EName = "True Several Thousand Hands"
+					JName = "Shin Susenju"
+					Sindex= 253
+				KajukaiKorin //AOE that stuns
+					EName = "World of Flowering Trees"
+					JName = "Kajukai Korin"
+					Sindex= 254
+				Hobi  //Small singular Wood dome to protect user
+					EName = "Wood Expulsion"
+					JName = "Hobi no Jutsu"
+					Sindex= 255
+				Mokujin //Big wood Golem
+					EName = "Wood Golem"
+					JName = "Mokujin"
+					Sindex= 256
+				Mokuryu //Wood dragon, absorbs jutsu and tracks target
+					EName = "Wood Dragon"
+					JName = "Mokuryu"
+					Sindex= 257
+				KiSedai //Create wood material
+					EName = "Wood Generation"
+					JName = "Ki no sedai"
+					Sindex= 258
+
+			Particle
+
+			Yang
+
+			Yin
+
+			Nature
+
+		Boost
+		
+			Genesis
+				EName="Genesis Seal"
+				JName="Genesis Seal"
+				Sindex= 259
+			Sage //Sensory verbs accesible when activated
+				Sindex= 260
+				var
+					Storing
+					Stored
+
+			Seal
+				Heaven
+					EName="Heaven Seal"
+					JName="Heaven Seal"0
+					Sindex= 261
+				Earth
+					EName="Earth Seal"
+					JName="Earth Seal"0
+					Sindex= 262
+			Karma
+			
+			SharkTrans
+
+		Doujutsu
+		
+			Tenseigan //Like rinne can control gravity, can see like byakugan
+				Tenseigan
+					EName="Tenseigan"
+					JName="Tenseigan"
+					Cooldown=10
+					CCost=100
+					Sindex = 263
+				TenseiChakuraModo //Physically stronger, can fly, truth seeking balls,
+					EName="Tenseigan Chakra Mode"
+					JName="Tensei Chakura Modo"
+					Sindex= 264
+				GinrinTenseiBaku //Basically a silver rasengan around a ttruth ball, only usable in chakra mode
+					EName="Silver Wheel Explosion"
+					JName="Ginrin Tensei Baku"
+					Sindex= 265
+				KinrinTenseiBaku //golden Sword of chakra equipped, or beam thrown if weapon already equipped, only usable in chakra mode
+					EName="Golden Wheel Explosion"
+					JName="Kinrin Tensei Baku"
+					Sindex= 266
+				KinboTenseiBaku //Chakra focused on hand for punch, causes stun, usable without chakra mode
+					EName="Local Wheel Explosion"
+					JName="Kinbo Tensei Baku"
+					Sindex= 267
+					
+			Rinnegan
+				Rinnegan
+					EName="Rinnegan"
+					JName="Rinnegan"
+					Sindex= 268
+				ChibakuTensei //Gravitational pull, pulls all living things nearby
+					EName="Catastrophic Construction"
+					JName="Chibaku Tensei"
+					Sindex= 269
+				TengaiShinsei //Meteor drops
+					EName="Shattered Heaven"
+					JName="Tengai Shinsei"
+					Sindex= 270
+				ShinraTensei //Target pushed from user
+					EName="Almighty Push"
+					JName="Shinra Tensei"
+					Sindex= 271
+				BanshoTenin //Target Pulled to user
+					EName="Universal Pull"
+					JName="Bansho Tenin"
+					Sindex= 272
+				BanshoKokuin //Gravity ball that gains size as it travels
+					EName="Attraction of Creation"
+					JName="Bansho Kokuin"
+					Sindex= 273
+				Amenotejikara //Switches Spots with anything, in this case youd place on the map, and next hit or trigger would instant switch it
+					EName="Heavenly Hand"
+					JName="Amenotejikara"
+					Sindex= 274
+					
+			Ketsuryugan //Genjutsu through contact, blood techs
+				Ketsuryugan
+					EName="Ketsuryugan"
+					JName="Ketsuryugan"
+					Sindex= 275
+				KetsuryuShoten //Summoned 8 headed dragon, that shoots projectiles, ideas on how to do?
+					EName="Blood Dragon Ascension"
+					JName="Ketsuryu Shoten"
+					Sindex= 276
+				AkaGyakusatsu //Causes DOT to victim per punch while active, mass damage after too many hits. causes users blood to be poisonous
+					EName="Res Masacre"
+					JName="Aka no gyakusatsu"
+					Sindex= 277
+				KetsuaTsutsuiho //Bloats body, slows victim
+					EName="Blood Pressure Expulsion"
+					JName="Ketsuatsu Tsuiho"
+					Sindex= 278
+				FuseinaSakuseiSha //AOE DOT damage to anyone in range, no control of who, even if invisible
+					EName="Rouge Crator"
+					JName="Fuseina Sakusei-sha"
+					Sindex= 279
+					
+			Sharingan
+				Amaterasu
+					EName="Goddess of the Sun"
+					JName="Amaterasu"
+					Sindex= 280
+				Sharingan
+					EName="Sharingan"
+					JName="Sharingan" //Change name to "Mangekyou Sharingan" on LimitM 4 and eternal @ 5
+					Sindex= 281
+				Tsukiyomi
+					EName="God of the Moon"
+					JName="Tsukiyomi"
+					Sindex= 282
+				SpaceTimeMigration
+					EName="Space Time Migration"
+					JName="Jikukan"
+					Sindex= 283
+					
+			Byakugan
+				Byakugan
+					EName="Byakugan"
+					JName="Byakugan"
+					Sindex= 284
+				ByakuganSearch
+					EName="White Eye Search"
+					JName="Kensaku Byakugan"
+					Sindex= 285
+					
+			Jogan //Can see chakra pathways, allows for more critical hits while active, can see chakra traps
+				Jogan
+					EName="Jogan"
+					JName="Jogan"
+					Sindex= 286
+
+		Throwing
+			KageShuriken
+			ShurikenKageBunshin

@@ -1,0 +1,968 @@
+
+charname = "Juweu"
+Image = null
+LOC
+	x = 122
+	y = 55
+	z = 2
+Mob = object(".0")
+	.0
+		type = /mob/player
+		Stamina = 2193.25
+		Chakra = 801
+		Taijutsu = 10
+		Ninjutsu = 10
+		Genjutsu = 10
+		JutsuList = list("ActionButton" = 1,
+				"ClimbTree" = 1,
+				"Henge" = 1,
+				"Kawarimi" = 1,
+				"Bunshin" = 1,
+				"Block" = 1,
+				"Finish" = 1,
+				"Kick" = 1,
+				"Punch" = 1,
+				"Craft" = 1,
+				"Smelt" = 1,
+				"Bunshin Controls: Attack" = 1,
+				"Bunshin Controls: Follow" = 1,
+				"Bunshin Controls: Stay" = 1,
+				"Bunshin Controls: Destroy All" = 1,
+				"Bunshin Controls: Destroy One" = 1,
+				"Meditate" = 1,
+				"Rest" = 1,
+				"Spar" = 1,
+				"Yield" = 1)
+		FriendlyFire = list()
+		SkillSeeds = list()
+		VillageHitList = list()
+		LeafNinList = list()
+		SandNinList = list()
+		RainNinList = list()
+		RockNinList = list()
+		GrassNinList = list()
+		WaterfallNinList = list()
+		SoundNinList = list()
+		MistNinList = list()
+		CloudNinList = list()
+		SDB = list()
+		Cooldowns = list("Large Fish" = 152539.890625)
+		SpeedRailSlotsUsed = list("Inventory.ItemGrid" = null,"speedrail.ItemSlot_01" = null)
+		PlayerKills = 19
+		CriminalKills = 92
+		AnimalKills = 148
+		LargeAnimalKills = 11
+		TotalKills = 833
+		SV = 8
+		Profession = list("None" = 1)
+		Settings = list()
+		InVillage = "Rain"
+		Bounty = list()
+		BingoBookAssociations = list()
+		Fines = list()
+		ListOfFriends = list()
+		InventoryOpen = 1
+		Slot = "SlotOne"
+		Multipliers = list("Stamina" = 1.6000000238418579,"Chakra" = 0.5,"Taijutsu" = 2,"Ninjutsu" = 0.40000000596046448,"Genjutsu" = 0.40000000596046448)
+		StaminaMax = 2193.25
+		StaminaTrue = 2193.25
+		StaminaXP = 40.488990783691406
+		StaminaMXP = 127
+		ChakraMax = 824
+		ChakraTrue = 824
+		ChakraControl = 20
+		ChakraControlTrue = 20
+		ChakraControlXP = 0
+		ChakraControlMXP = 60
+		TaijutsuMax = 10
+		TaijutsuTrue = 10
+		TaijutsuXP = 0
+		TaijutsuMXP = 50
+		NinjutsuMax = 10
+		NinjutsuTrue = 10
+		NinjutsuXP = 0
+		GenjutsuMax = 10
+		GenjutsuTrue = 10
+		GenjutsuXP = 0
+		GenjutsuMXP = 50
+		PE = "Wind"
+		SE = "Earth"
+		EarthElemental = 10
+		WindElemental = 10
+		gold = 500
+		Village = "Rain"
+		Clan = "Taijutsu Specialist"
+		Speciality = "Taijutsu"
+		ZCoord = "Rain Village"
+		Cap_Stamina = 78800
+		Cap_Chakra = 1200
+		Cap_Genjutsu = 2620
+		Cap_Ninjutsu = 2080
+		Cap_Taijutsu = 10600
+		VillageColour = "#77DDFF"
+		Henge1Clothes = list()
+		Henge2Clothes = list()
+		Henge3Clothes = list()
+		IrisColour = "#cc0000"
+		basename = "Pale"
+		CurrentHair = "Bald"
+		EyeIcon = object(".0")
+			.0
+				type = /Overlay_Obj
+				icon = filedata("name=;ext=.dmi;length=905;crc32=0x6c8cd725;encoding=base64",{"
+iVBORw0KGgoAAAANSUhEUgAAAcAAAAGgBAMAAADP/6oaAAAAGFBMVEXAwMD48OfOAgLbDw/427bx
+49LNnFLAwMDjxuxGAAAAAXRSTlMAQObYZgAAASp6VFh0RGVzY3JpcHRpb24AAHicpVTJbsIwED3b
+XxHBNaow4dBLL2WpUAW99AcMmZARXiLbIeLva0KlBJrIVaK5zEjvPc/qafS+/tjuo9VuSy9gLGoV
+vUWLlxklFaYu90EypyQHPOXuHljHHXh3MqEkRWNveEoywyX8+ikIfvXuPK6NEqkvIEHdBFjD/zYA
+S4Hy0AixltATcsOFCAK7U0qalBazmMU+NlChSh/Jn7ziBiUGXwkBe+q1FcpRlJ6aXmNvDceAdcES
+Mq6C42NxbZQIrYtHelGqYz5G4IzH87/5rXYAFANoBaphD+Z+7YcxlzrLUAXnsCkVGB5ebAtc2G5U
+8nRwrT39CuqmeAruF7sf8d8hlmoU/SB0X2dZ94UW4Pp7NY3W+1X9kf0Af8dPciAgtPoAAAHpSURB
+VHic7d1BbtswEAXQME66Dppkz97AvUF6g/YGuf8psiXpQGOZpUXZ7+0GI0L0RhDwNfTDAwAAMFLK
+jy/LV/ysy187u386HoIbvNbl72Z95wbH379T7wbH3x8AAAAAAIB5bJ0vnqFvA9353vj4bWx+BwAA
+AAAAAHese57w4ylY/1aXf5p2flxe3mv+gcutHQ/BBU3/WJfp7/PkPxAAAAAAAGBRymV1mg2N7tdx
+0xnTgU2+lr+9qNxAle+chlej+3Ued8Z04M3PE77X5b9tdgEAAAAAALBXQb6WclldP//r7Yf52tb5
+X3d+CAAAAAAAACtE83c7zw/j+bud54cAAAAAAACwQspldcH5nZPnh/3nd06eHwIAAAAAAMAdSbms
+vpsf3LkwH0y5rC6ZsJxcd4LaFXGvj8Tr/jV0RdzrI/H2Ly4BAAAAAIB9Sbms2vSod55vAsvpUe88
+32k81IRDUX96J/HQ67o+AAAAAAAAU0m5rDY4/3Pw+aXbn/85+PxSAAAAAAAAWCHlsmrztZSXz6Ns
++1G9geV87cfx8Lm8ul4R1QBXFT9lo6HmycVP2WioGYDLTfAyP5aXeQAAAAAAAO7If8j/5v4OJc7/
+wv3v/TuUve8fAACAKd385ArAopt/CprfAwDg6r4ANSIk3HtZ9HsAAAAASUVORK5CYII=
+"})
+				layer = -4.0999999046325684
+		hairlist = list()
+		NinjaRank = "Genin"
+		WipeVersion = 4
+		spawnwhere = "Rain"
+		MissionsComplete = list("S" = 0,"A" = 0,"B" = 0,"C" = 0,"D" = 0)
+		protect = 1
+		Crafted = list()
+		Craftable = list("Shuriken")
+		InGeninRoom = 0
+		GeninAttempts = 1
+		GeninResults = 14.000000953674316
+		MoveUses = list()
+		Calories = 2
+		EdoList = list()
+		MarkedLocations = list()
+		MeditationPoints = 499
+		HuntList = list()
+		weightspeed = 3
+		Minutes = 53
+		Friendship = list()
+		KageDA = list()
+		BonusCap = list("Stamina" = 0,"Chakra" = 0,"Taijutsu" = 0,"Ninjutsu" = 0,"Genjutsu" = 0)
+		StatPointsSpent = list()
+		StatPointsObtained = list()
+		popuplocation = list("0,0")
+		trueName = "Juweu"
+		PlayerID = 348
+		RebirthData = object(".0")
+			.0
+				type = /Rebirth
+				JL = list("ActionButton" = object(".0"),"ClimbTree" = object(".1"),"Henge" = object(".2"),"Kawarimi" = object(".3"),"Bunshin" = object(".4"),"Block" = object(".5"),"Finish" = object(".6"),"Kick" = object(".7"),"Punch" = object(".8"))
+					.0
+						type = /SkillSeed
+						name = "ActionButton"
+						Stat_Req = list("Taijutsu" = 6,"Ninjutsu" = 7,"Genjutsu" = 5)
+					.1
+						type = /SkillSeed
+						name = "ClimbTree"
+						Stat_Req = list("Taijutsu" = 5,"Ninjutsu" = 5,"Genjutsu" = 6)
+					.2
+						type = /SkillSeed
+						name = "Henge"
+						Stat_Req = list("Taijutsu" = 6,"Ninjutsu" = 6,"Genjutsu" = 5)
+					.3
+						type = /SkillSeed
+						name = "Kawarimi"
+						Stat_Req = list("Taijutsu" = 5,"Ninjutsu" = 7,"Genjutsu" = 6)
+					.4
+						type = /SkillSeed
+						name = "Bunshin"
+						Stat_Req = list("Taijutsu" = 7,"Ninjutsu" = 7,"Genjutsu" = 7)
+					.5
+						type = /SkillSeed
+						name = "Block"
+						Stat_Req = list("Taijutsu" = 6,"Ninjutsu" = 5,"Genjutsu" = 6)
+					.6
+						type = /SkillSeed
+						name = "Finish"
+						Stat_Req = list("Taijutsu" = 6,"Ninjutsu" = 7,"Genjutsu" = 5)
+					.7
+						type = /SkillSeed
+						name = "Kick"
+						Stat_Req = list("Taijutsu" = 7,"Ninjutsu" = 6,"Genjutsu" = 5)
+					.8
+						type = /SkillSeed
+						name = "Punch"
+						Stat_Req = list("Taijutsu" = 5,"Ninjutsu" = 6,"Genjutsu" = 5)
+				StatsTotal = list("Stamina" = 0,"Chakra" = 0,"Taijutsu" = 0,"Ninjutsu" = 0,"Genjutsu" = 0)
+				StatsBar = list("Stamina" = 0,"Chakra" = 0,"Taijutsu" = 0,"Ninjutsu" = 0,"Genjutsu" = 0)
+				SkillTotal = list("ScytheSkill" = 0,
+						"AxeSkill" = 0,
+						"FanSkill" = 0,
+						"StaffSkill" = 0,
+						"SwordSkill" = 0,
+						"KnifeSkill" = 0,
+						"ThrowingSkill" = 0,
+						"H2HSkill" = 0,
+						"FishingSkill" = 0,
+						"FirstAidSkill" = 0,
+						"MiningSkill" = 0,
+						"CraftingSkill" = 0,
+						"SS" = 0,
+						"ChakraControl" = 0)
+				SkillBar = list("ScytheSkill" = null,
+						"AxeSkill" = null,
+						"FanSkill" = null,
+						"StaffSkill" = null,
+						"SwordSkill" = null,
+						"KnifeSkill" = 1,
+						"ThrowingSkill" = 1,
+						"H2HSkill" = 1,
+						"FishingSkill" = 1,
+						"FirstAidSkill" = 1,
+						"MiningSkill" = 20,
+						"CraftingSkill" = 1,
+						"SS" = 18,
+						"ChakraControl" = 20)
+				Multis = list("Stamina" = 0,"Chakra" = 0,"Taijutsu" = 0,"Ninjutsu" = 0,"Genjutsu" = 0)
+				SeedList = list()
+				SecretList = list()
+				RebirthVersion = null
+		name = "Juweu"
+		icon_state = ""
+		layer = 4.9693198204040527
+		gender = "male"
+		contents = list(
+				object(".0"),
+				object(".1"),
+				object(".2"),
+				object(".3"),
+				object(".4"),
+				object(".5"),
+				object(".6"),
+				object(".7"),
+				object(".8"),
+				object(".9"),
+				object(".10"),
+				object(".11"),
+				object(".12"),
+				object(".13"),
+				object(".14"),
+				object(".15"),
+				object(".16"),
+				object(".17"),
+				object(".18"),
+				object(".19"),
+				object(".20"),
+				object(".21"),
+				object(".22"),
+				object(".23"),
+				object(".24"))
+			.0
+				type = /obj/Clothing/Feet/Sandals
+				TailList = list()
+				worn = 1
+				vis_flags = 0
+				suffix = "Equipped"
+			.1
+				type = /obj/Clothing/Pants/Pants
+				TailList = list()
+				worn = 1
+				vis_flags = 0
+				suffix = "Equipped"
+			.2
+				type = /obj/Clothing/Shirt/RainShirt
+				TailList = list()
+				worn = 1
+				vis_flags = 0
+				suffix = "Equipped"
+			.3
+				type = /obj/PlaceHolder
+				TailList = list()
+				vis_flags = 0
+			.4
+				type = /obj/SkillCards/ActionButton
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Talk with the various NPCs","title" = "Action","type" = "Action","strong" = "N/A","weak" = "N/A","rank" = "N/A")
+				vis_flags = 0
+			.5
+				type = /obj/SkillCards/ClimbTree
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Climb large trees to train your Chakra Control","title" = "Climb Tree","type" = "Action","strong" = "N/A","weak" = "N/A","rank" = "N/A")
+				vis_flags = 0
+			.6
+				type = /obj/SkillCards/Ninjutsu/Starter/Henge
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list("Lower Cost")
+				Description = list("about" = "With this technique you can transform into other people or objects.  Perfect for posing as a friend before attacking the enemy, or blending into the landscape to avoid attack.  You can remember up to three different things.  Drains chakra while in effect.","title" = "Henge no Jutsu","type" = "Ninjutsu","strong" = "N/A","weak" = "N/A","rank" = "D","pic" = filedata("name=Henge.png;length=4010;crc32=0x74e1b420;encoding=base64",{"
+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
+JMl8DwWjfeQAAAAASUVORK5CYII=
+"}))
+				vis_flags = 0
+			.7
+				type = /obj/SkillCards/Ninjutsu/Starter/Kawarimi
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list("Increase Duration")
+				Description = list("about" = "Create a substitute of your body while you sneak away or flank the enemy.  As soon as the substitute takes a hit, it will reveal itself to be a fake.","title" = "Kawarimi no Jutsu","type" = "Ninjutsu","strong" = "N/A","weak" = "N/A","rank" = "D","pic" = filedata("name=Kawarimi.png;length=3863;crc32=0x2fb7309d;encoding=base64",{"
+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
+"}))
+				vis_flags = 0
+			.8
+				type = /obj/SkillCards/Genjutsu/Starter/Bunshin
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "This technique creates a clone of the user and will drain chakra for as long as the clones are active. It is important to note that the clones are nothing more than an illusion and will dispel as soon as they are hit by any attack.  Useful for confusing or deceiving your opponent.","title" = "Bunshin no Jutsu","type" = "Genjutsu","strong" = "N/A","weak" = "N/A","rank" = "D","pic" = filedata("name=Bunshin.png;length=4395;crc32=0xf26838a3;encoding=base64",{"
+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
+TkSuQmCC
+"}))
+				vis_flags = 0
+			.9
+				type = /obj/SkillCards/Taijutsu/Starter/Block
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Blocking will reduce damage but slow you down as you move. Useful if dodging the attack is not an option or if you need to buy a moment of time.","title" = "Block","type" = "Taijutsu","strong" = "N/A","weak" = "N/A","rank" = "E","pic" = filedata("name=Block.png;length=3919;crc32=0xd6c7298f;encoding=base64",{"
+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
+"}))
+				vis_flags = 0
+			.10
+				type = /obj/SkillCards/Taijutsu/Starter/Finish
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Will kill any unconcious player. Will do nothing on a concious player.","title" = "Finish","type" = "Taijutsu","strong" = "N/A","weak" = "N/A","rank" = "E","pic" = object("../../.12/Description",220))
+				vis_flags = 0
+			.11
+				type = /obj/SkillCards/Taijutsu/Starter/Kick
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Slower than the punch, but more powerful. Raising Hand-to-Hand skill will best help this attack.","title" = "Kick","type" = "Taijutsu","strong" = "N/A","weak" = "N/A","rank" = "E","pic" = filedata("name=Kick.png;length=3898;crc32=0x1871c409;encoding=base64",{"
+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
+GgBc4UcnBanKDwAAAABJRU5ErkJggg==
+"}))
+				vis_flags = 0
+			.12
+				type = /obj/SkillCards/Taijutsu/Starter/Punch
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Your primary form of attack as punches. Can also be combined with weapons such as Kunai. Toggle Practice Mode to spar.","title" = "Attack","type" = "Taijutsu","strong" = "N/A","weak" = "N/A","rank" = "E","pic" = filedata("name=Finish.png;length=3949;crc32=0xe5960315;encoding=base64",{"
+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
+hqGyZAAAAABJRU5ErkJggg==
+"}))
+				vis_flags = 0
+			.13
+				type = /obj/SkillCards/Starter/Craft
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Craft weapons and items using feathers and rocks.","title" = "Craft","type" = "Other","strong" = "N/A","weak" = "N/A","rank" = "E")
+				vis_flags = 0
+			.14
+				type = /obj/SkillCards/Starter/Smelt
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Heat Ore and mix in to Ingots for crafting, This is done using Coal and a Mineral Ore. You need enough fire or be near a furnace to complete","title" = "Smelt","type" = "Other","strong" = "N/A","weak" = "N/A","rank" = "E")
+				vis_flags = 0
+			.15
+				type = /obj/SkillCards/Starter/Bunshin_Attack
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Order all clones to attack a specific target.","title" = "Bunshin Controls: Attack","type" = "Other","strong" = "N/A","weak" = "N/A","rank" = "E")
+				vis_flags = 0
+			.16
+				type = /obj/SkillCards/Starter/Bunshin_Follow
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Order all clones to follow you.","title" = "Bunshin Controls: Follow","type" = "Other","strong" = "N/A","weak" = "N/A","rank" = "E")
+				vis_flags = 0
+			.17
+				type = /obj/SkillCards/Starter/Bunshin_Stay
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Order all clones to cease moving.","title" = "Bunshin Controls: Stay","type" = "Other","strong" = "N/A","weak" = "N/A","rank" = "E")
+				vis_flags = 0
+			.18
+				type = /obj/SkillCards/Starter/Bunshin_DestroyAll
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Remove all your clones from the map.","title" = "Bunshin Controls: Destroy All","type" = "Other","strong" = "N/A","weak" = "N/A","rank" = "E")
+				vis_flags = 0
+			.19
+				type = /obj/SkillCards/Starter/Bunshin_DestroyOne
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Remove one of your clones; automatically picks the oldest clone.","title" = "Bunshin Controls: Destroy One","type" = "Other","strong" = "N/A","weak" = "N/A","rank" = "E")
+				vis_flags = 0
+			.20
+				type = /obj/SkillCards/Starter/Meditate
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Use this to slowly raise your chakra over time. This technique requires no prescence from the player, but it is very slow.","title" = "Meditate","type" = "Taijutsu","strong" = "N/A","weak" = "N/A","rank" = "E","pic" = object("../../.21/Description",192))
+				vis_flags = 0
+			.21
+				type = /obj/SkillCards/Starter/Rest
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Use this to regain your Stamina and Chakra.  You will be very vulnurable while you use this.","title" = "Rest","type" = "Taijutsu","strong" = "N/A","weak" = "N/A","rank" = "E","pic" = filedata("name=Meditate.png;length=3863;crc32=0xdb8d02dc;encoding=base64",{"
+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
+"}))
+				vis_flags = 0
+			.22
+				type = /obj/SkillCards/Starter/Spar
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Spar with an opponent to increase your Taijutsu and Reflexes.  Must be in a Spar Arena to use.","title" = "Spar","type" = "Taijutsu","strong" = "N/A","weak" = "N/A","rank" = "E")
+				vis_flags = 0
+			.23
+				type = /obj/SkillCards/Starter/Yield
+				Level = 100
+				TailList = list()
+				AcquiredReal = 6891664896
+				Upgrades = list()
+				UpgradeChoices = list()
+				Description = list("about" = "Submit to the authorities if you are being attacked for breaking the law.","title" = "Yield","type" = "Other","strong" = "N/A","weak" = "N/A","rank" = "E")
+				vis_flags = 0
+			.24
+				type = /obj/Clothing/Head/Headband
+				TailList = list()
+				vis_flags = 0
+				name = "Headband (Rain)"
+		sight = 288
+		vis_flags = 0

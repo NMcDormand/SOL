@@ -1,0 +1,126 @@
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_block"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Block (/obj/SkillCards/Taijutsu/Starter/Block)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Block (/obj/SkillCards/Taijutsu/Starter/Block): MouseDrag(null, "1", "1", "AllJutsu.6", "AllJutsu.7", "icon-x=0;icon-y=0;left=1;butto...")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_block"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Block (/obj/SkillCards/Taijutsu/Starter/Block)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Block (/obj/SkillCards/Taijutsu/Starter/Block): MouseDrag(Finish (/obj/SkillCards/Taijutsu/Starter/Finish), "1", "1", "AllJutsu.6", "AllJutsu.7", "icon-x=12;icon-y=9;vis-x=0;vis...")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_block"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Block (/obj/SkillCards/Taijutsu/Starter/Block)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Block (/obj/SkillCards/Taijutsu/Starter/Block): MouseDrag(Kick (/obj/SkillCards/Taijutsu/Starter/Kick), "1", "1", "AllJutsu.6", "AllJutsu.8", "icon-x=19;icon-y=5;vis-x=0;vis...")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_block"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Block (/obj/SkillCards/Taijutsu/Starter/Block)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Block (/obj/SkillCards/Taijutsu/Starter/Block): MouseDrag(null, "1", "1", "AllJutsu.6", "AllJutsu", "left=1;button=left;drag-cell=1")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_block"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Block (/obj/SkillCards/Taijutsu/Starter/Block)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Block (/obj/SkillCards/Taijutsu/Starter/Block): MouseDrag(null, "1", "1", "AllJutsu.6", "JutsuWindow", "left=1;button=left;drag-cell=1")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_block"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Block (/obj/SkillCards/Taijutsu/Starter/Block)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Block (/obj/SkillCards/Taijutsu/Starter/Block): MouseDrag(null, "1", "1", "AllJutsu.6", "AllJutsu", "left=1;button=left;drag-cell=1")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_block"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Block (/obj/SkillCards/Taijutsu/Starter/Block)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Block (/obj/SkillCards/Taijutsu/Starter/Block): MouseDrag(null, "1", "1", "AllJutsu.6", "JutsuWindow", "left=1;button=left;drag-cell=1")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_kick"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Kick (/obj/SkillCards/Taijutsu/Starter/Kick)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Kick (/obj/SkillCards/Taijutsu/Starter/Kick): MouseDrag(null, "1", "1", "AllJutsu.8", "AllJutsu", "left=1;button=left;drag-cell=1")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_kick"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Kick (/obj/SkillCards/Taijutsu/Starter/Kick)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Kick (/obj/SkillCards/Taijutsu/Starter/Kick): MouseDrag(Finish (/obj/SkillCards/Taijutsu/Starter/Finish), "1", "1", "AllJutsu.8", "AllJutsu.7", "icon-x=30;icon-y=12;vis-x=0;vi...")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_kick"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Kick (/obj/SkillCards/Taijutsu/Starter/Kick)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Kick (/obj/SkillCards/Taijutsu/Starter/Kick): MouseDrag(Bunshin (/obj/SkillCards/Genjutsu/Starter/Bunshin), "1", "1", "AllJutsu.8", "AllJutsu.5", "icon-x=30;icon-y=23;vis-x=0;vi...")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_kick"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Kick (/obj/SkillCards/Taijutsu/Starter/Kick)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Kick (/obj/SkillCards/Taijutsu/Starter/Kick): MouseDrag(null, "1", "1", "AllJutsu.8", "AllJutsu", "left=1;button=left;drag-cell=1")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_kick"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Kick (/obj/SkillCards/Taijutsu/Starter/Kick)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Kick (/obj/SkillCards/Taijutsu/Starter/Kick): MouseDrag(null, "1", "1", "AllJutsu.8", "JutsuWindow", "left=1;button=left;drag-cell=1")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_henge"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Henge (/obj/SkillCards/Ninjutsu/Starter/Henge)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Henge (/obj/SkillCards/Ninjutsu/Starter/Henge): MouseDrag(null, "1", "1", "AllJutsu.3", "AllJutsu", "left=1;button=left;drag-cell=1")
+runtime error: Undefined operation: 'Card_Icons.dmi' / "card_henge"
+proc name: MouseDrag (/obj/SkillCards/MouseDrag)
+  source file: MacroSystem.dm,13
+  usr: Gyhuk (/mob/player)
+  src: Henge (/obj/SkillCards/Ninjutsu/Starter/Henge)
+  usr.loc: Floor02 (22,46,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Henge (/obj/SkillCards/Ninjutsu/Starter/Henge): MouseDrag(null, "1", "1", "AllJutsu.3", "JutsuWindow", "left=1;button=left;drag-cell=1")

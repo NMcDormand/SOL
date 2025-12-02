@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- Page Title -->
+<title>GuideBook</title>
+<!-- Visuals -->
+<link rel="stylesheet" href="Guide.css" type="text/css" />
+<!-- Scripts -->
+<script type="text/javascript" src="Guide.js"></script>
+</head>
+<!-- Content -->
+<body>
+	<button id="pPage" onclick="prevPage(this)"><</button>
+	<button id="nPage" onclick="nextPage(this)">></button>
+	<div class="container" id="Book"> 
+		<div class="page" id="lPage"><div id="title">"Path of the Ninja"</div>
+			<dl>
+				<dt onclick="nextPage(this)">Chapter 1 - "Vitality, Endurance and Spirit"</dt><dd>Your stats, and everything about them</dd>
+				<dt onclick="nextPage(this), nextPage(this)">Chapter 2 - "Ninja Arts"</dt><dd>Abilites, and their types within our world</dd>
+				<dt onclick="nextPage(this), nextPage(this), nextPage(this)">Chapter 3 - "Shinobi Ranks"</dt><dd>Varying ranks in each village</dd>
+				<dt onclick="nextPage(this), nextPage(this), nextPage(this), nextPage(this)">Chapter 4 - "Experience and Duty"</dt><dd>Gaining experience and leveling up your stats</dd>
+				<dt onclick="nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this)">Chapter 5 - "Skill"</dt><dd>Secondary Skills obtained throughout the world</dd>
+				<dt onclick="nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this)">Chapter 6 - "Specialization"</dt><dd>Professions and what they are good for</dd>
+				<dt onclick="nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this)">Chapter 7 - "Word of Wisdom"</dt><dd>Tips and tricks</dd>
+			</dl>
+		</div>
+		<div id="divider"></div>
+		<div class="page" id="rPage"><div id="title" onclick="prevPage(this)">"Vitality, Endurance and Spirit"</div><p>
+		A young ninja once said, <i>"As long as shinobi have powerful jutsu, they do not need to concern themselves with improving their fitness"</i> He was killed whilst on duty the very same year.
+		Fitness is important, it helps in everything we do and guides us through our path. Without it we wouldn't last very long and because of this, shinobi live or die on a daily basis.
+		</p>
+		<dl>
+			<dt>Health</dt>
+			<dd>Represents your vitality and in essence determines how long you may live in battle. If you sustain too many injuries and your health drops too low, you will lose consciousness and possibly die.
+			 Some methods can assist in increasing it such as tree climbing, running, or even receiving damage.</dd>
+			<dt>Stamina</dt>
+			<dd>Representing endurance, Stamina exhaustion can leave one unable to perform physical actions. 
+			Methods of training stamina include sparring, punching tree stumps, mountain climbing, tree climbing, and running. These can all be improved via the use of weighted training equipment.</dd>
+			<dt>Chakra</dt>
+			<dd>Ones energy, employed in order to perform any jutsu, climb trees or maintain their ability to walk on water. 
+			We are able to improve our Chakra by walking on water, climbing trees, performing jutsu, and meditating.</dd>
+		</dl></div>
+	</div>
+	
+	<div class="chapter" id="Ch0" style="display: none;"><div id="title">"Path of the Ninja"</div>
+		<dl>
+			<dt onclick="nextPage(this)">Chapter 1 - "Vitality, Endurance and Spirit"</dt><dd>Your stats, and everything about them</dd>
+			<dt onclick="nextPage(this), nextPage(this)">Chapter 2 - "Ninja Arts"</dt><dd>Abilites, and their types within our world</dd>
+			<dt onclick="nextPage(this), nextPage(this), nextPage(this)">Chapter 3 - "Shinobi Ranks"</dt><dd>Varying ranks in each village</dd>
+			<dt onclick="nextPage(this), nextPage(this), nextPage(this), nextPage(this)">Chapter 4 - "Experience and Duty"</dt><dd>Gaining experience and leveling up your stats</dd>
+			<dt onclick="nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this)">Chapter 5 - "Skill"</dt><dd>Secondary Skills obtained throughout the world</dd>
+			<dt onclick="nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this)">Chapter 6 - "Specialization"</dt><dd>Professions and what they are good for</dd>
+			<dt onclick="nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this), nextPage(this)">Chapter 7 - "Word of Wisdom"</dt><dd>Tips and tricks</dd>
+		</dl>
+	</div>
+	
+	<div class="chapter" id="Ch1" style="display: none;"><div id="title" onclick="prevPage(this)">"Vitality, Endurance and Spirit"</div><p>
+		A young ninja once said, <i>"As long as shinobi have powerful jutsu, they do not need to concern themselves with improving their fitness"</i> He was killed whilst on duty the very same year.
+		<br><br>Fitness is important, it helps in everything we do and guides us through our path. Without it we wouldn't last very long and because of this, shinobi live or die on a daily basis.
+		</p>
+		<dl>
+			<dt>Health</dt>
+			<dd>Represents your vitality and in essence determines how long you may live in battle. If you sustain too many injuries and your health drops too low, you will lose consciousness and possibly die. 
+			Some methods can assist in increasing it such as tree climbing, running, or even receiving damage.</dd>
+			<dt>Stamina</dt>
+			<dd>Representing endurance, Stamina exhaustion can leave one unable to perform physical actions. Methods of training stamina include sparring, punching tree stumps, mountain climbing, tree climbing, and running.
+			These can all be improved via the use of weighted training equipment.</dd>
+			<dt>Chakra</dt><dd>Ones energy, employed in order to perform any jutsu, climb trees or maintain their ability to walk on water. We are able to improve our Chakra by walking on water, climbing trees, performing jutsu, and meditating.</dd>
+		</dl>
+	</div>
+
+	<div class="chapter" id="Ch2" style="display: none;"><div id="title" onclick="prevPage(this), prevPage(this)">"Ninja Arts"</div><p>
+		A shinobi once said, <i>"Great ninja are not those who learn as many jutsu as they can, they are those who master the few jutsu at their disposal"</i> they say his teachings gave rise to a lineage of Kage title holders.
+		</p>
+		<dl>
+			<dt>Ninjutsu</dt>
+			<dd>Normally ranged attacks, majority of which deal heavy damage to an opponent. 
+			Most shinobi are born with their chakra aligned to a given chakra nature; Skilled Ninjutsu users are capable of moulding this chakra to manipulate the elements. 
+			It can be effectively trained by casting and performing ninjutsu techniques.</dd>
+			<dt>Genjutsu</dt>
+			<dd>Illusionary techniques used to confuse and incapacitate opponents. They are employed by moulding chakra to disorientate the senses of their targets.
+			Experienced users can go as far as causing physical harm to their opponents using illusions. It can be effectively trained by performing genjutsu techniques.<dd>
+			<dt>Taijutsu</dt>
+			<dd>Bodily or martial arts techniques. These users are experts at fighting in close-quarters situations and can deal tremendous harm when close to their opponents. 
+			Taijutsu can be effectively trained by continually using your physical techniques and training your fitness.</dd>
+		</dl><p>
+		There are other subtypes of jutsu, live your life and see what kinds you can find
+		<br><br>Kinjutsu being forbidden due the harm the can cause to the user, as well as cause mass destruction. 
+	</p></div>
+	
+	<div class="chapter" id="Ch3" style="display: none;"><div id="title" onclick="prevPage(this), prevPage(this), prevPage(this)">"Shinobi Ranks"</div><p>
+		A truly exemplary shinobi once said, <i>"It is those who are admired for their strength and feats that are granted the title of a Kage"</i>.
+		<br><br>Each ninja begins his journey as an academy student studying the Ninja arts, hoping to survive long enough to advance through the ranks.
+		</p><dl>
+			<dt>Genin</dt><dd>Low tier ninja who complete missions which are usually risk free and involve manual labour.</dd>
+			<dt>Chuunin</dt><dd>Middle tier ninja who've passed an examination of their skill. They have enough experience to take missions that normally involve combat.</dd>
+			<dt>Special Jounin</dt><dd>They are ninja who have attained Jounin level skill in one attribute, they are hence specialists of a given type of jutsu.</dd>
+			<dt>Jounin</dt><dd>Elite ninja who are highly skilled in all attributes, they are sent on A rank missions. Only level of shinobi who are eligible for the position of a Kage.</dd>
+			<dt>Anbu</dt><dd>A covert unit selected by the Kage. Due to the nature of their work, they wear masks in order to conceal their identities.</dd>
+			<dt>Kage</dt><dd>The highest ranking member of a village, they are responsible for maintaining the village's safety and handling all of its affairs.</dd>
+		<dl>
+	</div>
+	
+	<div class="chapter" id="Ch4" style="display: none;"><div id="title" onclick="prevPage(this), prevPage(this), prevPage(this), prevPage(this)">"Experience and Duty"</div><p>
+		Someone once said, <i>"Experience is the teacher of all things"</i>.
+		<br><br>Experience can be obtained through various means. The most accessible at the start of your journey will be by simply completing missions, In addition you will also be awarded experience and gold for these. 
+		It may also be obtained by engaging in combat with villagers or enemy players and successfully killing them. Leveling up will award you points which you may spend, at your discretion, into the stats of your liking.
+		<br><br>There are different types of missions a shinobi can undertake, which offer different rewards. 
+		Therefore completing a mission is important in order to help increase the reputation of the village,as well as your own, and help it financially.
+		</p><dl>
+			<dt>D & C rank</dt><dd> can be taken at the rank of Genin.</dd>
+			<dt>B & A rank</dt><dd> can be taken at the rank of Chuunin, though A ranks will prove difficult.</dd>
+			<dt>S rank</dt><dd> are deemed impossible and are reserved for the Anbu black ops.</dd>
+		</dl><p>
+		Remember, in the world of shinobi, a ninja's mission is considered absolute and must be completed regardless of the costs. 
+		Those who cannot commit to this are deemed trash no matter how skilled they may be, Though they may be considered heroic from the public's perspective.
+	</p></div>
+	
+	<div class="chapter" id="Ch5" style="display: none;"><div id="title" onclick="prevPage(this), prevPage(this), prevPage(this), prevPage(this), prevPage(this)">"Skill"</div><p>
+		A famous warrior once said, <i>"I am not skilled because of my lineage, I am skilled because I worked to get where I am"</i>. 
+		To this day historians debate whether or not this man was the greatest living shinobi of his day.
+		<br><br>Skills are traits to be honed that are advantageous during combat however they may also allow you to perform certain tasks making your life easier. 
+		Honing and improving them will grant you the chance of learning powerful jutsu and increase your proficiency in using your weaponry and items.
+		</p><dl>
+			<dt>Knife Skill</dt><dd>Increased when a knife weapon is equipped and used to slash at opponents.</dd>
+			<dt>Throwing Skill</dt><dd> Trained via throwing projectile weapons at targets.</dd>
+			<dt>Sword Skill</dt><dd> Improved by equipping a sword and attacking.</dd>
+			<dt>Fishing Skill</dt><dd> Helps you catch fish with a Fishing Rod. The quality of rod you can use, and the fish you're able to catch is determined by the player's skill.</dd>
+			<dt>Crafting Skill</dt><dd> Allows you to create items out of resources. Quality is decided by your level of skill, as your it improves, more types of items become available.</dd>
+			<dt>First Aid Skill</dt><dd> Helps you apply Bandages more efficiently. After some usage your First Aid skill will increase and will restore more health per bandage.</dd>
+		</dl>
+	</div>
+	
+	<div class="chapter" id="Ch6" style="display: none;"><div id="title" onclick="prevPage(this), prevPage(this), prevPage(this), prevPage(this), prevPage(this), prevPage(this)">"Specialization"</div><p>
+		A renowned strategist once claimed, <i>"Strength isn't just raw physical ability, strength is also utilizing all the knowledge that one has learnt and all means necessary to achieve victory"</i>.
+		<br><br>Professions bestow players with special skills (passive/active) and unique jutsu.
+		In order to attain a profession, you must locate and talk with the Profession-Nin located throughout the world. They are marked by purple flags, so keep your eyes peeled.
+		</p><dl>
+			<dt>Assassin-nin</dt><dd>Masters of stealth. Their teacher can be found somewhere between the Sound and Cloud villages.</dd>
+			<dt>Medical-nin</dt><dd>Experts of anatomy and highly skilled healers. The Medical-nin teacher is located in the Sound Village.</dd>
+			<dt>Sand-nin</dt><dd>Masters of sand, are able to manipulate it with chakra. The Sand-nin teacher is said to be within the Sand Village.</dd>
+			<dt>Sword-nin</dt><dd>They possess a mastery of the sword. The Sword-nin master is located somewhere south of Leaf Village.</dd>
+			<dt>Unarmed nin</dt><dd>Deal tremendous damage with their bare hands. The Unarmed-nin teacher is located somewhere near the Rock Village.</dd>
+			<dt>Fan-nin</dt><dd>Their wind jutsu is able to shred opponents and their attacks. The Fan-Nin teacher is located South-East of the Mist Village.</dd>
+		</dl>
+	</div>
+	
+	<div class="chapter" id="Ch7" style="display: none;"><div id="title" onclick="prevPage(this), prevPage(this), prevPage(this), prevPage(this), prevPage(this), prevPage(this), prevPage(this)">"Words of Wisdom"</div>
+		<p>
+			Now enlightened you will be faced with the many options of how to begin your journey,
+			Having been in your position I can tell you that a shinobi should begin by mastering
+			control of their chakra. Allowing one to efficiently train in the arts of Ninjutsu and Genjutsu.
+			<br><br>
+			Becoming a Genin in order to complete D rank missions is an effective way to obtain experience and income, there are those who practice the collection of feathers whilst wearing weights, adding to their training. 
+			Completing 8 D ranks qualifies one to take the Chuunin examinations.
+			<br><br>
+			When short on yen remember that by using crafting materials, such as Rocks and Feathers, items can be created and sold for a fair price at shops within villages. 
+			Missions of higher difficulty are always more rewarding, always aim for a promotion.
+			<br><br>
+			At the end of the day we are shinobi, killing opponents gives us more experience and allows our level to increase. 
+			At such a time we are also able to increase our abilities. Do not neglect finding a balance between training and missions.
+			<br><br>
+			Finally, I would like to say,"The path of the ninja is one filled with strife, but we are ninja because we endure. Godspeed young shinobi and look forward to my next work".
+		</p>
+	</div>
+	
+	<div class="chapter" id="Ch8" style="display: none;"><div id="title">"Path of the Ninja"</div>
+		<dl>
+			<dt onclick="prevPage(this), prevPage(this), prevPage(this), prevPage(this), prevPage(this), prevPage(this)">Chapter 1 - "Vitality, Endurance and Spirit"</dt><dd>Your stats, and everything about them</dd>
+			<dt onclick="prevPage(this), prevPage(this), prevPage(this), prevPage(this), prevPage(this)">Chapter 2 - "Ninja Arts"</dt><dd>Abilites, and their types within our world</dd>
+			<dt onclick="prevPage(this), prevPage(this), prevPage(this), prevPage(this)">Chapter 3 - "Shinobi Ranks"</dt><dd>Varying ranks in each village</dd>
+			<dt onclick="prevPage(this), prevPage(this), prevPage(this)">Chapter 4 - "Experience and Duty"</dt><dd>Gaining experience and leveling up your stats</dd>
+			<dt onclick="prevPage(this), prevPage(this), prevPage(this)">Chapter 5 - "Skill"</dt><dd>Secondary Skills obtained throughout the world</dd>
+			<dt onclick="prevPage(this), prevPage(this)">Chapter 6 - "Specialization"</dt><dd>Professions and what they are good for</dd>
+			<dt onclick="prevPage(this)">Chapter 7 - "Word of Wisdom"</dt><dd>Tips and tricks</dd>
+		</dl>
+	</div>
+	
+</body>
+</html>

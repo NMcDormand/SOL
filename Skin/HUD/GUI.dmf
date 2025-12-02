@@ -1,0 +1,854 @@
+macro "Creation"
+	elem 
+		name = "RETURN"
+		command = "Create-Final"
+	elem 
+		name = "ESCAPE"
+		command = "BackToStart"
+
+macro "Login"
+	elem 
+		name = "Escape"
+		command = "QuitGame"
+	elem 
+		name = "Space"
+		command = "StartGame"
+	elem 
+		name = "CTRL+N"
+		command = "CreateCharacter"
+	elem 
+		name = "Numpad5"
+		command = "testVerb"
+	elem 
+		name = "F1"
+		command = ".options"
+
+macro "macro"
+	elem 
+		name = "Tab"
+		command = "Action-Verb"
+	elem 
+		name = "Center+REP"
+		command = "testVerb"
+	elem 
+		name = "Return"
+		command = "worldSay"
+	elem 
+		name = "Space+REP"
+		command = "attack"
+	elem 
+		name = "Northeast+REP"
+		command = ".northeast"
+	elem 
+		name = "Southeast+REP"
+		command = ".southeast"
+	elem 
+		name = "Southwest+REP"
+		command = ".southwest"
+	elem 
+		name = "Northwest+REP"
+		command = ".northwest"
+	elem 
+		name = "West+REP"
+		command = ".west"
+	elem 
+		name = "North+REP"
+		command = ".north"
+	elem 
+		name = "East+REP"
+		command = ".east"
+	elem 
+		name = "South+REP"
+		command = ".south"
+	elem 
+		name = "1"
+		command = "SkillSlot 1"
+	elem 
+		name = "2"
+		command = "SkillSlot 2"
+	elem 
+		name = "A"
+		command = "travel 8"
+	elem 
+		name = "A+UP"
+		command = "halt 8"
+	elem 
+		name = "D"
+		command = "travel 4"
+	elem 
+		name = "D+UP"
+		command = "halt 4"
+	elem 
+		name = "I"
+		command = ".winset \"_output.is-visible=true ? _output.is-visible=false : _output.is-visible=true\""
+	elem 
+		name = "R"
+		command = "rest"
+	elem 
+		name = "S"
+		command = "travel 2"
+	elem 
+		name = "S+UP"
+		command = "halt 2"
+	elem 
+		name = "W"
+		command = "travel 1"
+	elem 
+		name = "W+UP"
+		command = "halt 1"
+	elem 
+		name = "X+REP"
+		command = "Throw"
+	elem 
+		name = "Numpad5+REP"
+		command = "testVerb"
+	elem 
+		name = "F1"
+		command = ".options"
+
+
+menu "menu"
+	elem 
+		name = "File"
+		command = ""
+		saved-params = "is-checked"
+	elem 
+		name = "&Save"
+		command = "Save"
+		category = "File"
+		saved-params = "is-checked"
+	elem 
+		name = "Save and &Logout"
+		command = "LeaveGame"
+		category = "File"
+		saved-params = "is-checked"
+	elem 
+		name = "Save and &Quit"
+		command = ".quit"
+		category = "File"
+		saved-params = "is-checked"
+	elem 
+		name = "&Options and Messages..."
+		command = ".options"
+		category = "File"
+		saved-params = "is-checked"
+	elem 
+		name = "&Save screenshot..."
+		command = ".screenshot"
+		category = "File"
+		saved-params = "is-checked"
+	elem "Options"
+		name = "Options"
+		command = ""
+		saved-params = "is-checked"
+	elem "icon32"
+		name = "&32x32"
+		command = ".winset \"mainwindow.map.icon-size=32\""
+		category = "Options"
+		can-check = true
+		group = "size"
+		saved-params = "is-checked"
+	elem "icon16"
+		name = "&16x16"
+		command = ".winset \"mappane.map.icon-size=16\""
+		category = "Options"
+		can-check = true
+		group = "size"
+		saved-params = "is-checked"
+	elem "stretch"
+		name = "&Stretch to fit"
+		command = ".winset \"mainwindow.map.icon-size=0\""
+		category = "Options"
+		can-check = true
+		group = "size"
+		saved-params = "is-checked"
+	elem 
+		name = ""
+		command = ""
+		category = "Options"
+		saved-params = "is-checked"
+	elem "textmode"
+		name = "&Text"
+		command = ".winset \"menu.textmode.is-checked=true?mappane.map.text-mode=true:mappane.map.text-mode=false\""
+		category = "Options"
+		can-check = true
+		saved-params = "is-checked"
+
+
+window "VerbsWindow"
+	elem "VerbsWindow"
+		type = MAIN
+		pos = 281,0
+		size = 220x220
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Verbs"
+		statusbar = false
+		can-minimize = false
+		can-resize = false
+	elem "Verbs"
+		type = GRID
+		pos = 0,0
+		size = 220x220
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		font-family = "Arial,Verdana"
+		font-size = 6
+		text-color = #a0b4a0
+		background-color = #282828
+		saved-params = ""
+		cells = 1x0
+		current-cell = 1,1
+		highlight-color = #000000
+		is-list = true
+
+window "_default"
+	elem "_default"
+		type = MAIN
+		pos = 281,0
+		size = 1500x843
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		is-visible = false
+		is-default = true
+		border = sunken
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Shinobi of Legend"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		macro = "macro"
+	elem "child_default"
+		type = CHILD
+		pos = 0,0
+		size = 1500x843
+		anchor1 = 0,0
+		anchor2 = 100,100
+		saved-params = "splitter"
+		left = "panes_Login"
+		is-vert = false
+
+window "mainwindow"
+	elem "mainwindow"
+		type = MAIN
+		pos = 434,0
+		size = 1500x843
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = #030303
+		is-default = true
+		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+		outer-size = 1520x863
+		outer-pos = 434,0
+		inner-size = 1500x843
+		inner-pos = 10,10
+		screen-size = 3840x2100
+	elem "child_MainScreen"
+		type = CHILD
+		pos = 0,0
+		size = 1500x843
+		anchor1 = 0,0
+		anchor2 = 100,100
+		background-color = #ffe1e1
+		saved-params = "splitter"
+		left = "panes_Map"
+		is-vert = false
+		show-splitter = false
+	elem "label12"
+		type = LABEL
+		pos = 884,773
+		size = 169x7
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = ""
+		text = ""
+	elem "child_Skills"
+		type = CHILD
+		pos = 528,780
+		size = 379x57
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "splitter"
+		left = "skills1"
+		is-vert = false
+		show-splitter = false
+	elem "_output"
+		type = OUTPUT
+		pos = 198,568
+		size = 402x200
+		anchor1 = 50,50
+		anchor2 = 100,50
+		font-family = "Arial"
+		font-size = 8
+		text-color = #c0c0c0
+		background-color = #0c0c0c
+		is-visible = false
+		is-default = true
+		saved-params = "max-lines"
+	elem "label1"
+		type = LABEL
+		pos = 907,780
+		size = 146x57
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = ""
+		text = ""
+	elem "button1"
+		type = BUTTON
+		pos = 472,608
+		size = 128x116
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		font-size = 10
+		background-color = #a3a3a3
+		border = line
+		saved-params = "is-checked"
+		text = "MACRO"
+		command = ""
+	elem "button8"
+		type = BUTTON
+		pos = 942,784
+		size = 16x38
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "is-checked"
+		text = ""
+		command = ".winset \"_output.is-visible=true ? _output.is-visible=false : _output.is-visible=true\""
+		is-flat = true
+	elem "button13"
+		type = BUTTON
+		pos = 1026,784
+		size = 16x38
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "is-checked"
+		text = ""
+		command = ""
+		is-flat = true
+	elem "button12"
+		type = BUTTON
+		pos = 1005,784
+		size = 16x38
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "is-checked"
+		text = ""
+		command = ""
+		is-flat = true
+	elem "info"
+		type = INFO
+		pos = 1112,512
+		size = 190x260
+		anchor1 = 0,50
+		anchor2 = 50,100
+		font-family = "Arial"
+		font-size = 8
+		text-color = #a4c4f2
+		background-color = #000000
+		is-default = true
+		saved-params = ""
+		tab-background-color = none
+	elem "button11"
+		type = BUTTON
+		pos = 984,784
+		size = 16x38
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "is-checked"
+		text = ""
+		command = ""
+		is-flat = true
+	elem "button9"
+		type = BUTTON
+		pos = 963,784
+		size = 16x38
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "is-checked"
+		text = ""
+		command = ""
+		is-flat = true
+	elem "button7"
+		type = BUTTON
+		pos = 921,784
+		size = 16x38
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "is-checked"
+		text = ""
+		command = ""
+		is-flat = true
+
+window "panes_CharacterCreation"
+	elem "panes_CharacterCreation"
+		type = MAIN
+		pos = 281,0
+		size = 1280x724
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = #000000
+		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+		image-mode = center
+	elem "selection_haircolour"
+		type = LABEL
+		pos = 1020,343
+		size = 185x14
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		font-family = "Arial"
+		font-size = 8
+		text-color = #b1b1b1
+		is-transparent = true
+		saved-params = ""
+		text = ""
+	elem "selection_eyecolour"
+		type = LABEL
+		pos = 1020,413
+		size = 185x14
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		font-family = "Arial"
+		font-size = 8
+		text-color = #b1b1b1
+		is-transparent = true
+		saved-params = ""
+		text = ""
+	elem "selection_hairstyle"
+		type = LABEL
+		pos = 1020,273
+		size = 185x14
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		font-family = "Arial"
+		font-size = 8
+		text-color = #b1b1b1
+		is-transparent = true
+		saved-params = ""
+		text = ""
+	elem "selection_skin"
+		type = LABEL
+		pos = 1020,203
+		size = 185x14
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		font-family = "Arial"
+		font-size = 8
+		text-color = #b1b1b1
+		is-transparent = true
+		saved-params = ""
+		text = ""
+	elem "button22"
+		type = BUTTON
+		pos = 1205,403
+		size = 24x24
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "eyecolourRight"
+		is-flat = true
+	elem "button21"
+		type = BUTTON
+		pos = 1205,333
+		size = 24x24
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "haircolourRight"
+		is-flat = true
+	elem "button20"
+		type = BUTTON
+		pos = 1205,263
+		size = 24x24
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "hairstyleRight"
+		is-flat = true
+	elem "button18"
+		type = BUTTON
+		pos = 995,403
+		size = 24x24
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "eyecolourLeft"
+		is-flat = true
+	elem "button17"
+		type = BUTTON
+		pos = 995,333
+		size = 24x24
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "haircolourLeft"
+		is-flat = true
+	elem "button16"
+		type = BUTTON
+		pos = 995,263
+		size = 24x24
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "hairstyleLeft"
+		is-flat = true
+	elem "skinRight"
+		type = BUTTON
+		pos = 1205,193
+		size = 24x24
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "skinRight"
+		is-flat = true
+	elem "skinLeft"
+		type = BUTTON
+		pos = 996,193
+		size = 24x24
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "skinLeft"
+		is-flat = true
+	elem "creationGrid"
+		type = GRID
+		pos = 619,162
+		size = 42x74
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		background-color = #2a3641
+		saved-params = ""
+		cells = 1x1
+		current-cell = 1,1
+		show-lines = none
+		show-names = false
+		highlight-color = #000000
+	elem "female"
+		type = BUTTON
+		pos = 1119,503
+		size = 48x60
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setGenderVerb female"
+		is-flat = true
+		button-type = pushbox
+	elem "male"
+		type = BUTTON
+		pos = 1059,503
+		size = 48x60
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setGenderVerb Male"
+		is-flat = true
+		button-type = pushbox
+	elem "child_CharacterBio"
+		type = CHILD
+		pos = 466,288
+		size = 350x200
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "splitter"
+		left = "zBios"
+		is-vert = false
+	elem "YukiButton"
+		type = BUTTON
+		pos = 177,547
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Yuki\""
+		is-flat = true
+		button-type = pushbox
+	elem "YamanakaButton"
+		type = BUTTON
+		pos = 110,547
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Yamanaka\""
+		is-flat = true
+		button-type = pushbox
+	elem "UzumakiButton"
+		type = BUTTON
+		pos = 43,547
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Uzumaki\""
+		is-flat = true
+		button-type = pushbox
+	elem "UchihaButton"
+		type = BUTTON
+		pos = 177,480
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Uchiha\""
+		is-flat = true
+		button-type = pushbox
+	elem "SenjuButton"
+		type = BUTTON
+		pos = 110,480
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Senju\""
+		is-flat = true
+		button-type = pushbox
+	elem "NaraButton"
+		type = BUTTON
+		pos = 43,480
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Nara\""
+		is-flat = true
+		button-type = pushbox
+	elem "KaguyaButton"
+		type = BUTTON
+		pos = 177,413
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Kaguya\""
+		is-flat = true
+		button-type = pushbox
+	elem "InuzukaButton"
+		type = BUTTON
+		pos = 110,413
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Inuzuka\""
+		is-flat = true
+		button-type = pushbox
+	elem "HyuugaButton"
+		type = BUTTON
+		pos = 43,413
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Hyuuga\""
+		is-flat = true
+		button-type = pushbox
+	elem "HouzukiButton"
+		type = BUTTON
+		pos = 177,346
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Houzuki\""
+		is-flat = true
+		button-type = pushbox
+	elem "AkimichiButton"
+		type = BUTTON
+		pos = 110,346
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Akimichi\""
+		is-flat = true
+		button-type = pushbox
+	elem "AburameButton"
+		type = BUTTON
+		pos = 43,346
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		command = "setClan \"Aburame\""
+		is-flat = true
+		button-type = pushbox
+	elem "nameInput"
+		type = INPUT
+		pos = 565,569
+		size = 150x22
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		font-family = "Arial"
+		font-size = 12
+		text-color = #4b4b4b
+		background-color = #000000
+		saved-params = ""
+		command = "Create-Final"
+	elem "button10"
+		type = BUTTON
+		pos = 522,611
+		size = 236x48
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		font-family = "Trajan Pro,Verdana"
+		font-size = 10
+		font-style = "bold"
+		text-color = #e9d772
+		saved-params = "is-checked"
+		text = "Create Character"
+		command = "Create-Final"
+		is-flat = true
+	elem "label6"
+		type = LABEL
+		pos = 0,701
+		size = 1280x23
+		anchor1 = 0,100
+		anchor2 = 100,100
+		saved-params = ""
+		text = ""
+		image-mode = stretch
+	elem "label5"
+		type = LABEL
+		pos = 0,0
+		size = 1280x23
+		anchor1 = 0,0
+		anchor2 = 100,0
+		saved-params = ""
+		text = ""
+		image-mode = stretch
+
+window "panes_Map"
+	elem "panes_Map"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "map"
+		type = MAP
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		text-color = none
+		is-default = true
+		saved-params = "icon-size"
+		zoom = 1
+
+window "zBios"
+	elem "zBios"
+		type = MAIN
+		pos = 281,0
+		size = 350x200
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+		image = 'Assets\\Skin\\Creation\\Clan Biographies\\bios_bg.png'
+	elem "description"
+		type = LABEL
+		pos = 56,88
+		size = 232x88
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		font-family = "Trajan Pro,Verdana"
+		font-size = 10
+		font-style = "bold"
+		text-color = #ffed88
+		is-transparent = true
+		saved-params = ""
+		text = ""
+	elem "button19"
+		type = BUTTON
+		pos = 110,547
+		size = 64x64
+		anchor1 = 50,50
+		anchor2 = -1,-1
+		saved-params = "is-checked"
+		text = ""
+		image = 'Assets\\Skin\\Creation\\Clan Buttons\\clanButton_Aburame.png'
+		command = ""
+		is-flat = true
+
+window "zDebugWindow"
+	elem "zDebugWindow"
+		type = MAIN
+		pos = 281,0
+		size = 400x200
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Debugger"
+		statusbar = false
+		can-resize = false
+	elem "debugger"
+		type = OUTPUT
+		pos = 0,0
+		size = 400x200
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		font-family = "Courier"
+		font-size = 8
+		text-color = #e1e1e1
+		background-color = #000000
+		saved-params = "max-lines"
+

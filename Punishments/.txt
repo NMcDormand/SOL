@@ -1,0 +1,34 @@
+Sun Apr 05 11:09:52 2020: Sand-nin had Teleported happen; Action by Fry; Reason: None
+Fri May 22 10:34:40 2020: Sand-nin had Teleported happen; Action by Fry; Reason: None
+Fri May 22 17:49:52 2020: Chicken had Teleported happen; Action by Fry; Reason: None
+Sat May 23 10:28:16 2020: Sand-nin had Teleported happen; Action by Fry; Reason: None
+Mon May 25 17:02:56 2020: Sand-nin had Teleported happen; Action by Fry; Reason: None
+Mon May 25 18:42:08 2020: Itachi Uchiha had Teleported happen; Action by Shinsei; Reason: None
+Tue May 26 17:49:52 2020: Cactus had Teleported happen; Action by Shinsei; Reason: None
+Tue May 26 18:47:28 2020: Cactus had Summon happen; Action by Sefegsrgb; Reason: Loc: 156, 21, 1
+Fri May 29 17:56:16 2020: Myst had Teleported happen; Action by Fry; Reason: None
+Sat May 30 13:12:32 2020: Barber had Teleported happen; Action by Fry; Reason: None
+Sun May 31 14:10:08 2020: Banker had Teleported happen; Action by Fry; Reason: None
+Sun May 31 14:10:08 2020: Barber had Teleported happen; Action by Fry; Reason: None
+Sun May 31 14:16:32 2020: Sand-nin had Teleported happen; Action by Shinsei; Reason: None
+Sun May 31 14:24:00 2020: Minato Namikaze had Teleported happen; Action by Fry; Reason: None
+Sun May 31 14:24:00 2020: Barber had Teleported happen; Action by Fry; Reason: None
+Sun May 31 14:24:00 2020: Minato Namikaze had Teleported happen; Action by Fry; Reason: None
+Tue Jun 02 22:38:56 2020: Sound-nin had Teleported happen; Action by Shinsei; Reason: None
+Sat Jun 06 11:06:40 2020: Hiashi Hyuuga had Teleported happen; Action by Fry; Reason: None
+Sat Jun 06 12:33:04 2020: Minato had Teleported happen; Action by Fry; Reason: None
+Sat Jun 06 13:40:16 2020: Weapons Dealer had Teleported happen; Action by Fry; Reason: None
+Sat Jun 06 13:40:16 2020: Minato had Teleported happen; Action by Fry; Reason: None
+Sat Jun 06 13:40:16 2020: Minato had Teleported happen; Action by Shinsei; Reason: None
+Sat Jun 06 13:44:32 2020: Minato had Death Verb happen; Action by Fry; Reason: None
+Sat Jun 06 13:57:20 2020: Minato had Death Verb happen; Action by Fry; Reason: None
+Sat Jun 06 16:10:40 2020: Minato had Spying happen; Action by Fry; Reason: none
+Sun Jun 07 11:46:08 2020: Minato had Teleported happen; Action by Fry; Reason: None
+Sun Jun 07 11:48:16 2020: Scroll Dealer had Teleported happen; Action by Fry; Reason: None
+Sun Jun 07 11:49:20 2020: Minato had Teleported happen; Action by Fry; Reason: None
+Sun Jun 07 11:50:24 2020: Minato had Death Verb happen; Action by Fry; Reason: None
+Sun Jun 07 13:08:16 2020: Minato had Teleported happen; Action by Fry; Reason: None
+Sun Jun 07 13:31:44 2020: Sand Ninja had Summon happen; Action by Shinsei; Reason: Loc: 219, 178, 1
+Sun Jun 07 13:31:44 2020: Sand Ninja had Un-Summon happen; Action by Shinsei; Reason: Loc: 17, 2, 2
+Mon Aug 03 23:54:40 2020: Monk had Teleported happen; Action by Fry; Reason: None
+Fri Aug 07 21:16:22 2020: Monk had Teleported happen; Action by Fry; Reason: None

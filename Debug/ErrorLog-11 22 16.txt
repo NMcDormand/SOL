@@ -1,0 +1,35 @@
+runtime error: bad client
+proc name: MouseUp (/obj/SkillCards/MouseUp)
+  source file: MacroSystem.dm,27
+  usr: Gyhuk (/mob/player)
+  src: Punch (/obj/SkillCards/Taijutsu/Starter/Punch)
+  usr.loc: Floor02 (22,47,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Punch (/obj/SkillCards/Taijutsu/Starter/Punch): MouseUp("1", "AllJutsu.9", "icon-x=21;icon-y=15;vis-x=0;vi...")
+runtime error: Cannot read null.loc
+proc name: New (/mob/Hittable/Responsive/Animal/Wild/New)
+  source file: Code/Mobs/AI/Enemy/Animals.dm,43
+  usr: (src)
+  src: Chicken (/mob/Hittable/Responsive/Animal/Wild/Bird/Chicken)
+  src.loc: null
+  call stack:
+Chicken (/mob/Hittable/Responsive/Animal/Wild/Bird/Chicken): New(null)
+SpawnMe(100, /mob/Hittable/Responsive/Anima... (/mob/Hittable/Responsive/Animal/Wild/Bird/Chicken), null)
+runtime error: cannot open savefile buffer GlobalRebirthTotal for write
+proc name: SaveGameSettings (/proc/SaveGameSettings)
+  source file: Code/Core/Game_Settings.dm,221
+  usr: (src)
+  src: null
+  call stack:
+SaveGameSettings()
+world: Del()
+runtime error: bad client
+proc name: MouseUp (/obj/SkillCards/MouseUp)
+  source file: MacroSystem.dm,27
+  usr: Gyhuk (/mob/player)
+  src: Punch (/obj/SkillCards/Taijutsu/Starter/Punch)
+  usr.loc: Floor02 (8,21,2) (/turf/Buildings/Floors/Floor02)
+  src.loc: Gyhuk (/mob/player)
+  call stack:
+Punch (/obj/SkillCards/Taijutsu/Starter/Punch): MouseUp("1", "AllJutsu.9", "icon-x=11;icon-y=17;vis-x=0;vi...")

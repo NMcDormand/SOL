@@ -1,0 +1,63 @@
+"a" = (/turf/NEW/Outside/Terrain/Grass,/area)
+"b" = (/mob/NPC/Fisherman,/turf/NEW/Outside/Terrain/Grass,/area)
+"c" = (/mob/shopkeepers/Banker,/turf/NEW/Outside/Terrain/Grass,/area)
+"d" = (/mob/shopkeepers/Barber,/turf/NEW/Outside/Terrain/Grass,/area)
+"e" = (/mob/shopkeepers/ClothesDealer,/turf/NEW/Outside/Terrain/Grass,/area)
+"f" = (/mob/shopkeepers/RamenChef,/turf/NEW/Outside/Terrain/Grass,/area)
+"g" = (/mob/shopkeepers/ScrollDealer,/turf/NEW/Outside/Terrain/Grass,/area)
+"h" = (/mob/shopkeepers/WeaponsDealer,/turf/NEW/Outside/Terrain/Grass,/area)
+"i" = (/turf/NEW/Outside/Terrain/Sand,/turf/NEW/Outside/Paths/PathBlank/P01,/area/SandArea)
+"j" = (/turf/NEW/Outside/Terrain/Sand,/turf/NEW/Outside/Paths/PathBlank/P02,/area/SandArea)
+"k" = (/turf/NEW/Outside/Terrain/Sand,/turf/NEW/Outside/Paths/PathBlank/P03,/area/SandArea)
+"l" = (/turf/NEW/Outside/Terrain/Sand,/turf/NEW/Outside/Paths/PathBlank/P07,/area/SandArea)
+"m" = (/turf/NEW/Outside/Terrain/Sand,/turf/NEW/Outside/Paths/PathBlank/P08,/area/SandArea)
+"n" = (/turf/NEW/Outside/Terrain/Sand,/turf/NEW/Outside/Paths/PathBlank/P10,/area/SandArea)
+"o" = (/turf/NEW/Outside/Terrain/Sand,/turf/NEW/Outside/Paths/PathBlank/P11,/area/SandArea)
+"p" = (/turf/NEW/Outside/Terrain/Sand,/turf/NEW/Outside/Paths/PathBlank/P06,/turf/NEW/Outside/Paths/PathBlank/P09,/area/SandArea)
+"q" = (/turf/NEW/Outside/Terrain/Sand,/obj/Hospital/Bed/SecondHeads/Waterfall,/turf/NEW/Outside/Paths/PathBlank/P09,/area/SandArea)
+"r" = (/obj/Hospital/Bed/SecondHeads/Rain,/turf/NEW/Outside/Terrain/Grass,/area)
+"s" = (/obj/Hospital/Bed/SecondHeads/Cloud,/turf/NEW/Outside/Terrain/Grass,/area)
+"t" = (/obj/Hospital/Bed/SecondHeads/Generic,/turf/NEW/Outside/Terrain/Grass,/area)
+"u" = (/obj/Hospital/Bed/SecondHeads/Grass,/turf/NEW/Outside/Terrain/Grass,/area)
+"v" = (/obj/Hospital/Bed/SecondHeads/Leaf,/turf/NEW/Outside/Terrain/Grass,/area)
+"w" = (/obj/Hospital/Bed/SecondHeads/Mist,/turf/NEW/Outside/Terrain/Grass,/area)
+"x" = (/obj/Hospital/Bed/SecondHeads/Rock,/turf/NEW/Outside/Terrain/Grass,/area)
+"y" = (/obj/Hospital/Bed/SecondHeads/Sound,/turf/NEW/Outside/Terrain/Grass,/area)
+"z" = (/obj/Hospital/Bed/SecondHeads/Sand,/turf/NEW/Outside/Terrain/Grass,/area)
+"A" = (/turf/NEW/Outside/Terrain/Grass/Edging/E11,/area/Water)
+"B" = (/turf/NEW/Outside/Terrain/Grass/Edging/E02,/area/Water)
+"C" = (/turf/NEW/Outside/Terrain/Grass/Edging/E12,/area/Water)
+"D" = (/turf/NEW/Outside/Terrain/Grass/Edging/E03,/area/Water)
+"E" = (/turf/NEW/Outside/Terrain/Water,/area/Water)
+"F" = (/turf/NEW/Outside/Terrain/Grass/Edging/E04,/area/Water)
+"G" = (/turf/NEW/Outside/Terrain/Grass/Edging/E06,/area/Water)
+"H" = (/turf/NEW/Outside/Terrain/Grass/Edging/E01,/area)
+"I" = (/turf/NEW/Outside/Terrain/Grass/Edging/E05,/area/Water)
+"J" = (/mob/Stump/TreeStump,/turf/NEW/Outside/Terrain/Grass,/area)
+"K" = (/turf/NEW/Outside/Terrain/Grass/Edging/E10,/area)
+"L" = (/turf/NEW/Outside/Terrain/Grass/Edging/E08,/area/Water)
+"M" = (/turf/NEW/Outside/Terrain/Grass/Edging/E07,/area/Water)
+"N" = (/turf/NEW/Outside/Terrain/Grass/Edging/E09,/area)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaa
+aaaabcdefghaaaaaaaaa
+aaaijjjjjjjjjkaaaaaa
+aaalmmmmmnommpaaaaaa
+aaaaaaaaalqrstuvwxyz
+aaaaaaaaaaaaaaaaaaaa
+aaaaABBBBBBBBBBCaaaa
+aaaaDEEEEEEEEEEFaaaa
+aaaaDEEGHHIEEEEFaaaa
+aaaaDEEFaJKHIEEFaaaa
+aaaaDEEFaaJaDEEFaaaa
+aaaaDEELBCaaDEEFaaaa
+aaaaDEEEELBBMEEFaaaa
+aaaaDEEEEEEEEEEFaaaa
+aaaaKHHHHHHHHHHNaaaa
+aaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaa
+"}

@@ -1,0 +1,16 @@
+runtime error: cannot open savefile buffer VillageData for write
+proc name: Village Fix (/proc/Village_Fix)
+  source file: Skin/Interface Things/VillageData.dm,232
+  usr: (src)
+  src: null
+  call stack:
+Village Fix()
+world: New()
+runtime error: cannot open savefile buffer GlobalRebirthTotal for write
+proc name: SaveGameSettings (/proc/SaveGameSettings)
+  source file: Code/Core/Game_Settings.dm,221
+  usr: (src)
+  src: null
+  call stack:
+SaveGameSettings()
+world: Del()
