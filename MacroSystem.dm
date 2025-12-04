@@ -1,27 +1,41 @@
 mob
 	verb
 		MacroWindowOpen()
-			winshow(src, "MacroWindow", 1)
+			winshow(src, "MacroWindowMain", 1)
 			ButtonUpdate()
 		MacroWindowClose()
-			winshow(src, "MacroWindow", 0)
+			winshow(src, "MacroWindowMain", 0)
 mob
 	verb
 		ButtonUpdate()
+
+			var/Sum = 0
+			winset(usr, "MacroWindowMain.WindowID", "text=MacroWindow[Sum]")
 			if(winget(usr, "MacroWindow.Shift", "is-checked") == "true")
 				winset(usr, "MacroWindow.Shift", "background-color=#cfcf40")
+				Sum += 1
 			else
 				winset(usr, "MacroWindow.Shift", "background-color=#969696")
 
 			if(winget(usr, "MacroWindow.Ctrl", "is-checked") == "true")
 				winset(usr, "MacroWindow.Ctrl", "background-color=#cfcf40")
+				Sum += 2
+
 			else
 				winset(usr, "MacroWindow.Ctrl", "background-color=#969696")
 
 			if(winget(usr, "MacroWindow.Alt", "is-checked") == "true")
 				winset(usr, "MacroWindow.Alt", "background-color=#cfcf40")
+				Sum += 4
+
 			else
 				winset(usr, "MacroWindow.Alt", "background-color=#969696")
+
+			winset(usr, "MacroWindowMain.Pane", "left=MacroWindow[Sum]")
+				world << "MacroWindow[Sum]"
+			winset(usr, "MacroWindowMain.WindowID", "text=MacroWindow[Sum]")
+			Sum = 0
+
 
 //-------------------------------------------------
 //FRY the following scripts were needed to be modified for this system to work
@@ -36,7 +50,7 @@ obj/SkillCards
 
 	var/drag_skill = ""
 	var/grid_id = ""
-	var/window_id = "MacroWindow"
+	var/window_id = "MacroWindow0"
 	var/state = ""
 
 
@@ -64,6 +78,7 @@ obj/SkillCards
 		grid_id = ""
 		mouse_drag_pointer = null
 		state = ""
+		winset(usr, "MacroWindowMain.WindowID", "text")
 
 
 	proc/Button_state()
@@ -76,6 +91,7 @@ obj/SkillCards
 
 
 	MouseDown(object,location,control,params)
+		winset(usr, "MacroWindowMain.WindowID", "text")
 		Button_state()
 		mouse_drag_pointer = icon_state
 		drag_skill = cmdstring
