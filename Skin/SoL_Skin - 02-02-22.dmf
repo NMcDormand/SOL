@@ -9733,17 +9733,18 @@ window "MacroWindowMain"
 		screen-size = 3840x2100
 	elem "WindowID"
 		type = LABEL
-		pos = 40,380
+		pos = 40,376
 		size = 60x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		background-color = none
+		is-visible = false
 		saved-params = ""
 		text = "MacroWindow0"
 	elem "Pane"
 		type = CHILD
 		pos = 152,40
-		size = 1240x406
+		size = 1240x409
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		background-color = none
@@ -9792,7 +9793,7 @@ window "MacroWindowMain"
 window "MacroWindow0"
 	elem "MacroWindow0"
 		type = MAIN
-		pos = 369,471
+		pos = 434,0
 		size = 1240x409
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9801,11 +9802,21 @@ window "MacroWindow0"
 		border = line
 		saved-params = "pos;size;is-minimized;is-maximized"
 		can-resize = false
+		is-pane = true
 		outer-size = 1262x490
-		outer-pos = 369,471
+		outer-pos = 434,0
 		inner-size = 1240x434
 		inner-pos = 11,45
 		screen-size = 3840x2100
+	elem "MacroWindow0"
+		type = LABEL
+		pos = 80,88
+		size = 104x48
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = ""
+		text = "MacroWindow0"
 	elem "grid18"
 		type = GRID
 		pos = 1052,40
@@ -10987,6 +10998,21 @@ window "MacroWindow1"
 		border = line
 		saved-params = "pos;size;is-minimized;is-maximized"
 		can-resize = false
+		is-pane = true
+		outer-size = 1262x490
+		outer-pos = 434,0
+		inner-size = 1240x434
+		inner-pos = 11,45
+		screen-size = 3840x2100
+	elem "MacroWindow0"
+		type = LABEL
+		pos = 80,88
+		size = 104x48
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = ""
+		text = "MacroWindow1"
 	elem "grid18"
 		type = GRID
 		pos = 1052,40
@@ -12168,6 +12194,21 @@ window "MacroWindow2"
 		border = line
 		saved-params = "pos;size;is-minimized;is-maximized"
 		can-resize = false
+		is-pane = true
+		outer-size = 1262x490
+		outer-pos = 434,0
+		inner-size = 1240x434
+		inner-pos = 11,45
+		screen-size = 3840x2100
+	elem "MacroWindow0"
+		type = LABEL
+		pos = 80,88
+		size = 104x48
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = ""
+		text = "MacroWindow2"
 	elem "grid18"
 		type = GRID
 		pos = 1052,40
@@ -13349,6 +13390,21 @@ window "MacroWindow3"
 		border = line
 		saved-params = "pos;size;is-minimized;is-maximized"
 		can-resize = false
+		is-pane = true
+		outer-size = 1262x490
+		outer-pos = 434,0
+		inner-size = 1240x434
+		inner-pos = 11,45
+		screen-size = 3840x2100
+	elem "MacroWindow0"
+		type = LABEL
+		pos = 80,88
+		size = 104x48
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = ""
+		text = "MacroWindow3"
 	elem "grid18"
 		type = GRID
 		pos = 1052,40
@@ -14530,6 +14586,21 @@ window "MacroWindow4"
 		border = line
 		saved-params = "pos;size;is-minimized;is-maximized"
 		can-resize = false
+		is-pane = true
+		outer-size = 1262x490
+		outer-pos = 434,0
+		inner-size = 1240x434
+		inner-pos = 11,45
+		screen-size = 3840x2100
+	elem "MacroWindow0"
+		type = LABEL
+		pos = 80,88
+		size = 104x48
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = ""
+		text = "MacroWindow4"
 	elem "grid18"
 		type = GRID
 		pos = 1052,40
@@ -15711,6 +15782,21 @@ window "MacroWindow5"
 		border = line
 		saved-params = "pos;size;is-minimized;is-maximized"
 		can-resize = false
+		is-pane = true
+		outer-size = 1262x490
+		outer-pos = 434,0
+		inner-size = 1240x434
+		inner-pos = 11,45
+		screen-size = 3840x2100
+	elem "MacroWindow0"
+		type = LABEL
+		pos = 80,88
+		size = 104x48
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = ""
+		text = "MacroWindow5"
 	elem "grid18"
 		type = GRID
 		pos = 1052,40
@@ -16892,6 +16978,21 @@ window "MacroWindow6"
 		border = line
 		saved-params = "pos;size;is-minimized;is-maximized"
 		can-resize = false
+		is-pane = true
+		outer-size = 1262x490
+		outer-pos = 434,0
+		inner-size = 1240x434
+		inner-pos = 11,45
+		screen-size = 3840x2100
+	elem "MacroWindow0"
+		type = LABEL
+		pos = 80,88
+		size = 104x48
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = ""
+		text = "MacroWindow6"
 	elem "grid18"
 		type = GRID
 		pos = 1052,40
@@ -18073,6 +18174,21 @@ window "MacroWindow7"
 		border = line
 		saved-params = "pos;size;is-minimized;is-maximized"
 		can-resize = false
+		is-pane = true
+		outer-size = 1262x490
+		outer-pos = 434,0
+		inner-size = 1240x434
+		inner-pos = 11,45
+		screen-size = 3840x2100
+	elem "MacroWindow0"
+		type = LABEL
+		pos = 80,88
+		size = 104x48
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = ""
+		text = "MacroWindow7"
 	elem "grid18"
 		type = GRID
 		pos = 1052,40
