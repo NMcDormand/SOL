@@ -67,7 +67,7 @@ obj/SkillCards
 
 
 	proc/Create_Macro(key, command, Move)
-		winset(usr, "macro_[state][key]","parent=Game;name=[state][key];command=\"[command]\"")
+		winset(usr, "macro_[state][key]","parent=Game;name=\"[state][key]\";command=\"[command]\"")
 		if(Move == TRUE)
 			world << "Macro succesfully moved:[state][key],[command]"
 		else
@@ -96,13 +96,13 @@ obj/SkillCards
 		drag_skill = ""
 		grid_id = ""
 		mouse_drag_pointer = null
-		state = ""
 		winset(usr, "MacroWindowMain.WindowID", "text=MacroWindow0")
 
 
 
 
 	proc/Button_state()
+		state = ""
 		if(winget(usr, "MacroWindowMain.Shift", "is-checked") == "true")
 			state += "Shift+"
 		if(winget(usr, "MacroWindowMain.Ctrl", "is-checked") == "true")
