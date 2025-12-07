@@ -21,8 +21,6 @@ mob
 			if(winget(usr, "MacroWindowMain.Ctrl", "is-checked") == "true")
 				winset(usr, "MacroWindowMain.Ctrl", "background-color=#cfcf40")
 				Sum += 2
-
-
 			else
 				winset(usr, "MacroWindowMain.Ctrl", "background-color=#969696")
 
@@ -30,8 +28,6 @@ mob
 			if(winget(usr, "MacroWindowMain.Alt", "is-checked") == "true")
 				winset(usr, "MacroWindowMain.Alt", "background-color=#cfcf40")
 				Sum += 4
-
-
 			else
 				winset(usr, "MacroWindowMain.Alt", "background-color=#969696")
 
@@ -67,11 +63,12 @@ obj/SkillCards
 
 
 	proc/Create_Macro(key, command, Move)
-		winset(usr, "macro_[state][key]","parent=Game;name=\"[state][key]\";command=\"[command]\"")
-		if(Move == TRUE)
-			world << "Macro succesfully moved:[state][key],[command]"
+		winset(usr, "macro_[Modifier_State()][key]","parent=Game;name=\"[state][key]\";command=\"[command]\"")
+		if(Move == FALSE)
+			world << "Macro Succesfully Removed:[state][key],[command]"
 		else
-			world << "Macro succesfully created:[state][key],[command]"
+			world << "Macro Succesfully Created:[state][key],[command]"
+		state = ""
 
 
 
@@ -96,12 +93,11 @@ obj/SkillCards
 		drag_skill = ""
 		grid_id = ""
 		mouse_drag_pointer = null
-		winset(usr, "MacroWindowMain.WindowID", "text=MacroWindow0")
 
 
 
 
-	proc/Button_state()
+	proc/Modifier_State()
 		state = ""
 		if(winget(usr, "MacroWindowMain.Shift", "is-checked") == "true")
 			state += "Shift+"
@@ -109,31 +105,27 @@ obj/SkillCards
 			state += "Ctrl+"
 		if(winget(usr, "MacroWindowMain.Alt", "is-checked") == "true")
 			state += "Alt+"
+		return state
 
 
 
 
 	MouseDown(object,location,control,params)
 		window_id = winget(usr, "MacroWindowMain.WindowID", "text")
-		Button_state()
 		mouse_drag_pointer = icon_state
 		drag_skill = cmdstring
-
-
 
 
 	MouseDrop(over_object, src_location, over_location, src_control, over_control, params)
 		if(check_Window_Id(over_control) == FALSE)
 			resetvariables()
 			return
-
-
 		else
 			get_grid_id(over_control)
 			usr << output(src, "[over_control]:0,0")
 			Create_Macro(grid_id, drag_skill)
+
 		if(check_Window_Id(src_control) == TRUE)
-			world << src_control
 			get_grid_id(src_control)
 			Create_Macro(grid_id, "", TRUE)
 			usr << output("", "[src_control]:0,0")
