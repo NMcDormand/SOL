@@ -9799,9 +9799,9 @@ window "MacroWindow0"
 		is-pane = true
 		outer-size = 1462x509
 		outer-pos = 434,0
-		inner-size = 1440x453
+		inner-size = 1440x428
 		inner-pos = 11,45
-		screen-size = 3840x2100
+		screen-size = 2560x1528
 	elem "output1"
 		type = OUTPUT
 		pos = 4,7

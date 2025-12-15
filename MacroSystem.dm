@@ -38,7 +38,6 @@ mob
 
 
 
-
 //-------------------------------------------------
 //FRY the following scripts were needed to be modified for this system to work
 //Techniques.dm at the end of the MouseDrop function add ..() on line 134
@@ -58,17 +57,27 @@ obj/SkillCards
 	var/grid_id = ""
 	var/window_id = "MacroWindow0"
 	var/state = ""
+	var/Repeater = ""
 
 
 
 
 	proc/Create_Macro(key, command, Move)
-		winset(usr, "macro_[Modifier_State()][key]","parent=Game;name=\"[state][key]\";command=\"[command]\"")
 		if(Move == FALSE)
-			world << "Macro Succesfully Removed:[state][key],[command]"
+			if(winget(usr, "[window_id].Rep_[key]", "is-checked") == "true")
+				Repeater += "+REP"
+				world << "Macro Succesfully Removed:[state][key],[command]"
+			else
+				world << "Macro Succesfully Removed:[state][key],[command]"
 		else
-			world << "Macro Succesfully Created:[state][key],[command]"
+			if(winget(usr, "[window_id].Rep_[key]", "is-checked") == "true")
+				Repeater += "+REP"
+				world << "Macro Succesfully Created:[state][key],[command]"
+			else
+				world << "Macro Succesfully Created:[state][key],[command]"
+		winset(usr, "macro_[Modifier_State()][key]","parent=Game;name=\"[state][key][Repeater]\";command=\"[command]\"")
 		state = ""
+		Repeater = ""
 
 
 
