@@ -2,3 +2,7 @@
 .0
 	type = /database
 //End of exported data.
+//Orphan savefile buffer '.0' found on Sun May 24 17:41:18 2026
+.0
+	type = /database/query
+//End of exported data.

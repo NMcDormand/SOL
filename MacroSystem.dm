@@ -57,7 +57,7 @@ obj/SkillCards
 	var/window_id = "MacroWindow0"
 	var/state = ""
 	var/Repeater = ""
-	var/obj/SkillCards/drag_skill = null
+	var/drag_skill = ""
 
 
 
@@ -65,14 +65,15 @@ obj/SkillCards
 		Modifier_State(window_id, keybind)
 		if(Move == 1)
 			world << "Macro for Key:[state][keybind] Sucessfully Unbound"
+			ModifyTable("", keybind, "")
 		else
 			world << "Macro Succesfully Created:[state][keybind],[command]"
-
+			CreateTable()
+			ModifyTable(skill, keybind, command)
+//Debug		PrintTable()
 		winset(usr, "macro_[state][keybind]",
 			"parent=Game;name=\"[state][keybind][Repeater]\";command=\"[command]\"")
-		CreateTable()
-		ModifyTable(skill, keybind, command, Move)
-		PrintTable(skill, keybind, command, Move)
+
 
 
 
@@ -97,8 +98,7 @@ obj/SkillCards
 		drag_skill_command = ""
 		grid_id = ""
 		mouse_drag_pointer = null
-		drag_skill = null
-		tableName = ""
+		drag_skill = ""
 
 
 
@@ -132,7 +132,7 @@ obj/SkillCards
 		else
 			get_grid_id(over_control)
 			usr << output(src, "[over_control]:0,0")
-			drag_skill = src
+			drag_skill = src.name
 			Create_Macro(drag_skill, grid_id, drag_skill_command, 0)
 
 		if(check_Window_Id(src_control) == TRUE)
@@ -148,43 +148,56 @@ obj/SkillCards
 //sqlite stuff
 	proc/CreateTable()
 		q = new()
+
 		q.Add(
 		{"
 		CREATE TABLE IF NOT EXISTS [tableName]
 		(
-    		id INTEGER PRIMARY KEY AUTOINCREMENT,
-    		skill TEXT NOT NULL,
-    		keybind TEXT NOT NULL UNIQUE,
-    		command TEXT NOT NULL,
-    		move INTEGER NOT NULL
+		skill TEXT NOT NULL,
+		keybind TEXT NOT NULL PRIMARY KEY UNIQUE,
+		command TEXT NOT NULL
 		);
 		"})
-		q.Execute(Player_Keybinds)
-
-//		q.Add("DELETE FROM [usr.client.ckey]_keybinds")
-//		q.Execute()
 
 
-	proc/ModifyTable(skill, keybind, command, Move)
+		if(!q.Execute(Player_Keybinds))
+			world << "MacroSystem.CreateTable proc fail: [q.ErrorMsg()]"
+
+
+//debug	q.Add("DELETE FROM [tableName]")
+//debug	q.Execute()
+
+
+	proc/ModifyTable(skill, keybind, command)
 		q = new()
+		world << "INSERT TABLE=[tableName]"
 		q.Add({"
 		INSERT OR REPLACE INTO [tableName]
-		(skill, keybind, command, move)
-		VALUES (?,?,?,?);
-		"}, skill, keybind, command, Move)
+		(skill, keybind, command)
+		VALUES (?,?,?);
+		"}, skill, keybind, command)
 
-		q.Execute(Player_Keybinds)
 
-	proc/PrintTable(skill, keybind, command, Move)
+
+		if(!q.Execute(Player_Keybinds))
+			world << "MacroSystem.ModifyTable proc fail: [q.ErrorMsg()]"
+
+
+	proc/PrintTable()
 		q = new()
-		q.Add("SELECT keybind, command, move FROM [tableName] ORDER BY keybind DESC;")
-		q.Execute(Player_Keybinds)
+		world << "SELECT TABLE=[tableName]"
+		q.Add("SELECT keybind, command FROM [tableName];")
+
+
+
+		if(!q.Execute(Player_Keybinds))
+			world << "MacroSystem.PrintTable proc fail: [q.ErrorMsg()]"
+
+
 		while(q.NextRow())
 			var/list/row = q.GetRowData()
-
 			world << "Keybind: [row["keybind"]]"
 			world << "Command: [row["command"]]"
-			world << "Move: [row["move"]]"
 
 
 

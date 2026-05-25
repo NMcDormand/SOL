@@ -1,0 +1,29 @@
+proc name: LoadSome (/client/proc/LoadSome)
+  source file: Code/Core/Load and Save.dm,17
+  usr: Guest-2014546544 (/mob/logging)
+  src: Guest-2014546544 (/client)
+  usr.loc: null
+  call stack:
+Guest-2014546544 (/client): LoadSome("SlotOne", "Splash.SlotOne", "Splash.SlotOneName")
+Guest-2014546544 (/mob/logging): FindSaves()
+Guest-2014546544 (/mob/logging): Login()
+Guest-2014546544 (/client): New()
+Guest-2014546544 (/client): New()
+runtime error: cannot append to list
+proc name: Read (/atom/Read)
+  source file: Code/Core/Load and Save.dm,77
+  usr: (src)
+  src: Rthehtret (/mob/player)
+  src.loc: null
+  call stack:
+Rthehtret (/mob/player): Read(Saves/g/guest2014546544/SlotOn... (/savefile))
+Rthehtret (/mob/logging): Load("SlotOne")
+Rthehtret (/mob/logging): LoadSlotOne()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\GlobalReset.sav' outside of current directory.
+proc name: SaveGameSettings (/proc/SaveGameSettings)
+  source file: Code/Core/Game_Settings.dm,220
+  usr: (src)
+  src: null
+  call stack:
+SaveGameSettings()
+world: Del()
