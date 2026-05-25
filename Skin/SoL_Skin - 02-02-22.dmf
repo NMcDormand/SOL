@@ -22968,3 +22968,17 @@ window "BBPageLeft"
 		line-color = #d0cbb9
 		highlight-color = #000000
 
+window "window1"
+	elem "window1"
+		type = MAIN
+		pos = 434,0
+		size = 640x480
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		outer-size = 662x561
+		outer-pos = 434,0
+		inner-pos = 11,45
+		screen-size = 2560x1528
+

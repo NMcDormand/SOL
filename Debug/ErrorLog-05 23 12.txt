@@ -1,0 +1,75 @@
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Villages.sav' outside of current directory.
+proc name: Village Fix (/proc/Village_Fix)
+  source file: Skin/Interface Things/VillageData.dm,231
+  usr: (src)
+  src: null
+  call stack:
+Village Fix()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\NoWipe\GameSettings.sav' outside of current directory.
+proc name: LoadGameSettings (/proc/LoadGameSettings)
+  source file: Code/Core/Game_Settings.dm,86
+  usr: (src)
+  src: null
+  call stack:
+LoadGameSettings()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Kages.sav' outside of current directory.
+proc name: LoadKages (/proc/LoadKages)
+  source file: Code/Proc/New-Kage.dm,58
+  usr: (src)
+  src: null
+  call stack:
+LoadKages()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Guilds.sav' outside of current directory.
+proc name: LoadGuilds (/proc/LoadGuilds)
+  source file: Code/Guild System/variables.dm,25
+  usr: (src)
+  src: null
+  call stack:
+LoadGuilds()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\SevenSwords.sav' outside of current directory.
+proc name: LoadSwords (/proc/LoadSwords)
+  source file: Code/Objects/Weapons/LegendarySwords.dm,19
+  usr: (src)
+  src: null
+  call stack:
+LoadSwords()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\GlobalReset.sav' outside of current directory.
+proc name: SaveGameSettings (/proc/SaveGameSettings)
+  source file: Code/Core/Game_Settings.dm,220
+  usr: (src)
+  src: null
+  call stack:
+SaveGameSettings()
+world: Del()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Villages.sav' outside of current directory.
+proc name: Village Fix (/proc/Village_Fix)
+  source file: Skin/Interface Things/VillageData.dm,231
+  usr: (src)
+  src: null
+  call stack:
+Village Fix()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Saves\g\guest2014546544\SlotOne\save.sav' outside of current directory.
+proc name: FindSaves (/mob/proc/FindSaves)
+  source file: Code/Core/Load and Save.dm,142
+  usr: (src)
+  src: Guest-2014546544 (/mob/logging)
+  src.loc: null
+  call stack:
+Guest-2014546544 (/mob/logging): FindSaves()
+Guest-2014546544 (/mob/logging): Login()
+Guest-2014546544 (/client): New()
+Guest-2014546544 (/client): New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\GlobalReset.sav' outside of current directory.
+proc name: SaveGameSettings (/proc/SaveGameSettings)
+  source file: Code/Core/Game_Settings.dm,220
+  usr: (src)
+  src: null
+  call stack:
+SaveGameSettings()
+world: Del()

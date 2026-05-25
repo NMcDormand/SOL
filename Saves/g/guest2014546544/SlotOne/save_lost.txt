@@ -1,0 +1,4 @@
+//Orphan savefile buffer '.0' found on Sat May 23 15:23:00 2026
+.0
+	type = /database
+//End of exported data.

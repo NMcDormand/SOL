@@ -1,0 +1,387 @@
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Villages.sav' outside of current directory.
+proc name: Village Fix (/proc/Village_Fix)
+  source file: Skin/Interface Things/VillageData.dm,231
+  usr: (src)
+  src: null
+  call stack:
+Village Fix()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\NoWipe\GameSettings.sav' outside of current directory.
+proc name: LoadGameSettings (/proc/LoadGameSettings)
+  source file: Code/Core/Game_Settings.dm,86
+  usr: (src)
+  src: null
+  call stack:
+LoadGameSettings()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Kages.sav' outside of current directory.
+proc name: LoadKages (/proc/LoadKages)
+  source file: Code/Proc/New-Kage.dm,58
+  usr: (src)
+  src: null
+  call stack:
+LoadKages()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Guilds.sav' outside of current directory.
+proc name: LoadGuilds (/proc/LoadGuilds)
+  source file: Code/Guild System/variables.dm,25
+  usr: (src)
+  src: null
+  call stack:
+LoadGuilds()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\SevenSwords.sav' outside of current directory.
+proc name: LoadSwords (/proc/LoadSwords)
+  source file: Code/Objects/Weapons/LegendarySwords.dm,19
+  usr: (src)
+  src: null
+  call stack:
+LoadSwords()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\PlayerNames.sav' outside of current directory.
+proc name: LoadNames (/proc/LoadNames)
+  source file: Code/Proc/GeneralProcs.dm,224
+  usr: (src)
+  src: null
+  call stack:
+LoadNames()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\NoWipe\GMLog.sav' outside of current directory.
+proc name: LoadGMLog (/proc/LoadGMLog)
+  source file: Code/Admin/GM1.dm,710
+  usr: (src)
+  src: null
+  call stack:
+LoadGMLog()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\NoWipe\Mods.sav' outside of current directory.
+proc name: LoadGMs (/proc/LoadGMs)
+  source file: Code/Admin/!GMLogin.dm,27
+  usr: (src)
+  src: null
+  call stack:
+LoadGMs()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Saves\g\guest2014546544\SlotOne\save.sav' outside of current directory.
+proc name: FindSaves (/mob/proc/FindSaves)
+  source file: Code/Core/Load and Save.dm,142
+  usr: (src)
+  src: Guest-2014546544 (/mob/logging)
+  src.loc: null
+  call stack:
+Guest-2014546544 (/mob/logging): FindSaves()
+Guest-2014546544 (/mob/logging): Login()
+Guest-2014546544 (/client): New()
+Guest-2014546544 (/client): New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\GlobalReset.sav' outside of current directory.
+proc name: SaveGameSettings (/proc/SaveGameSettings)
+  source file: Code/Core/Game_Settings.dm,220
+  usr: (src)
+  src: null
+  call stack:
+SaveGameSettings()
+world: Del()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Kages.sav' outside of current directory.
+proc name: SaveKages (/proc/SaveKages)
+  source file: Code/Proc/New-Kage.dm,87
+  usr: (src)
+  src: null
+  call stack:
+SaveKages()
+world: Del()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Guilds.sav' outside of current directory.
+proc name: SaveGuilds (/proc/SaveGuilds)
+  source file: Code/Guild System/variables.dm,33
+  usr: (src)
+  src: null
+  call stack:
+SaveGuilds()
+world: Del()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\SevenSwords.sav' outside of current directory.
+proc name: SaveSwords (/proc/SaveSwords)
+  source file: Code/Objects/Weapons/LegendarySwords.dm,25
+  usr: (src)
+  src: null
+  call stack:
+SaveSwords()
+world: Del()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Villages.sav' outside of current directory.
+proc name: Village Fix (/proc/Village_Fix)
+  source file: Skin/Interface Things/VillageData.dm,231
+  usr: (src)
+  src: null
+  call stack:
+Village Fix()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\NoWipe\GameSettings.sav' outside of current directory.
+proc name: LoadGameSettings (/proc/LoadGameSettings)
+  source file: Code/Core/Game_Settings.dm,86
+  usr: (src)
+  src: null
+  call stack:
+LoadGameSettings()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Kages.sav' outside of current directory.
+proc name: LoadKages (/proc/LoadKages)
+  source file: Code/Proc/New-Kage.dm,58
+  usr: (src)
+  src: null
+  call stack:
+LoadKages()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Guilds.sav' outside of current directory.
+proc name: LoadGuilds (/proc/LoadGuilds)
+  source file: Code/Guild System/variables.dm,25
+  usr: (src)
+  src: null
+  call stack:
+LoadGuilds()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\SevenSwords.sav' outside of current directory.
+proc name: LoadSwords (/proc/LoadSwords)
+  source file: Code/Objects/Weapons/LegendarySwords.dm,19
+  usr: (src)
+  src: null
+  call stack:
+LoadSwords()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\PlayerNames.sav' outside of current directory.
+proc name: LoadNames (/proc/LoadNames)
+  source file: Code/Proc/GeneralProcs.dm,224
+  usr: (src)
+  src: null
+  call stack:
+LoadNames()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\NoWipe\GMLog.sav' outside of current directory.
+proc name: LoadGMLog (/proc/LoadGMLog)
+  source file: Code/Admin/GM1.dm,710
+  usr: (src)
+  src: null
+  call stack:
+LoadGMLog()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\NoWipe\Mods.sav' outside of current directory.
+proc name: LoadGMs (/proc/LoadGMs)
+  source file: Code/Admin/!GMLogin.dm,27
+  usr: (src)
+  src: null
+  call stack:
+LoadGMs()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Saves\g\guest2014546544\SlotOne\save.sav' outside of current directory.
+proc name: FindSaves (/mob/proc/FindSaves)
+  source file: Code/Core/Load and Save.dm,142
+  usr: (src)
+  src: Guest-2014546544 (/mob/logging)
+  src.loc: null
+  call stack:
+Guest-2014546544 (/mob/logging): FindSaves()
+Guest-2014546544 (/mob/logging): Login()
+Guest-2014546544 (/client): New()
+Guest-2014546544 (/client): New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\GlobalReset.sav' outside of current directory.
+proc name: SaveGameSettings (/proc/SaveGameSettings)
+  source file: Code/Core/Game_Settings.dm,220
+  usr: (src)
+  src: null
+  call stack:
+SaveGameSettings()
+world: Del()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Villages.sav' outside of current directory.
+proc name: Village Fix (/proc/Village_Fix)
+  source file: Skin/Interface Things/VillageData.dm,231
+  usr: (src)
+  src: null
+  call stack:
+Village Fix()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\GlobalReset.sav' outside of current directory.
+proc name: SaveGameSettings (/proc/SaveGameSettings)
+  source file: Code/Core/Game_Settings.dm,220
+  usr: (src)
+  src: null
+  call stack:
+SaveGameSettings()
+world: Del()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\NoWipe\GameSettings.sav' outside of current directory.
+proc name: LoadGameSettings (/proc/LoadGameSettings)
+  source file: Code/Core/Game_Settings.dm,86
+  usr: (src)
+  src: null
+  call stack:
+LoadGameSettings()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Kages.sav' outside of current directory.
+proc name: LoadKages (/proc/LoadKages)
+  source file: Code/Proc/New-Kage.dm,58
+  usr: (src)
+  src: null
+  call stack:
+LoadKages()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Guilds.sav' outside of current directory.
+proc name: LoadGuilds (/proc/LoadGuilds)
+  source file: Code/Guild System/variables.dm,25
+  usr: (src)
+  src: null
+  call stack:
+LoadGuilds()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\SevenSwords.sav' outside of current directory.
+proc name: LoadSwords (/proc/LoadSwords)
+  source file: Code/Objects/Weapons/LegendarySwords.dm,19
+  usr: (src)
+  src: null
+  call stack:
+LoadSwords()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\PlayerNames.sav' outside of current directory.
+proc name: LoadNames (/proc/LoadNames)
+  source file: Code/Proc/GeneralProcs.dm,224
+  usr: (src)
+  src: null
+  call stack:
+LoadNames()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\NoWipe\GMLog.sav' outside of current directory.
+proc name: LoadGMLog (/proc/LoadGMLog)
+  source file: Code/Admin/GM1.dm,710
+  usr: (src)
+  src: null
+  call stack:
+LoadGMLog()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\NoWipe\Mods.sav' outside of current directory.
+proc name: LoadGMs (/proc/LoadGMs)
+  source file: Code/Admin/!GMLogin.dm,27
+  usr: (src)
+  src: null
+  call stack:
+LoadGMs()
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Saves\g\guest2014546544\SlotOne\save.sav' outside of current directory.
+proc name: FindSaves (/mob/proc/FindSaves)
+  source file: Code/Core/Load and Save.dm,142
+  usr: (src)
+  src: Guest-2014546544 (/mob/logging)
+  src.loc: null
+  call stack:
+Guest-2014546544 (/mob/logging): FindSaves()
+Guest-2014546544 (/mob/logging): Login()
+Guest-2014546544 (/client): New()
+Guest-2014546544 (/client): New()
+runtime error: Failed to write variable C:\\Users\\Nathan McDormand\\D... (/database)._binobj to savefile Saves/g/guest2014546544/SlotOne/save.sav The value being written was C:\\Users\\Nathan McDormand\\D....
+proc name: Write (/atom/Write)
+  source file: Code/Core/Load and Save.dm,68
+  usr: (src)
+  src: Guest (/mob/player)
+  src.loc: Floor02 (10,21,2) (/turf/Buildings/Floors/Floor02)
+  call stack:
+Guest (/mob/player): Write(Saves/g/guest2014546544/SlotOn... (/savefile), /list (/list))
+Guest (/mob/player): Write(Saves/g/guest2014546544/SlotOn... (/savefile), null)
+Guest (/mob/player): SavedMe()
+Guest (/mob/player): Save()
+Guest (/mob/player): Logout()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\GlobalReset.sav' outside of current directory.
+proc name: SaveGameSettings (/proc/SaveGameSettings)
+  source file: Code/Core/Game_Settings.dm,220
+  usr: (src)
+  src: null
+  call stack:
+SaveGameSettings()
+world: Del()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Kages.sav' outside of current directory.
+proc name: SaveKages (/proc/SaveKages)
+  source file: Code/Proc/New-Kage.dm,87
+  usr: (src)
+  src: null
+  call stack:
+SaveKages()
+world: Del()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\Guilds.sav' outside of current directory.
+proc name: SaveGuilds (/proc/SaveGuilds)
+  source file: Code/Guild System/variables.dm,33
+  usr: (src)
+  src: null
+  call stack:
+SaveGuilds()
+world: Del()
+runtime error: Safety violation: tried to access 'C:\Users\Nathan McDormand\Documents\GitHub\SOL\Data\Wipe\SevenSwords.sav' outside of current directory.
+proc name: SaveSwords (/proc/SaveSwords)
+  source file: Code/Objects/Weapons/LegendarySwords.dm,25
+  usr: (src)
+  src: null
+  call stack:
+SaveSwords()
+world: Del()
+runtime error: Cannot read null.loc
+proc name: New (/mob/Hittable/Responsive/Animal/Wild/New)
+  source file: Code/Mobs/AI/Enemy/Animals.dm,43
+  usr: (src)
+  src: Chicken (/mob/Hittable/Responsive/Animal/Wild/Bird/Chicken)
+  src.loc: null
+  call stack:
+Chicken (/mob/Hittable/Responsive/Animal/Wild/Bird/Chicken): New(null)
+SpawnMe(100, /mob/Hittable/Responsive/Anima... (/mob/Hittable/Responsive/Animal/Wild/Bird/Chicken), null)
+runtime error: Cannot read null.loc
+proc name: New (/mob/Hittable/Responsive/Animal/Wild/New)
+  source file: Code/Mobs/AI/Enemy/Animals.dm,43
+  usr: (src)
+  src: Chicken (/mob/Hittable/Responsive/Animal/Wild/Bird/Chicken)
+  src.loc: null
+  call stack:
+Chicken (/mob/Hittable/Responsive/Animal/Wild/Bird/Chicken): New(null)
+SpawnMe(100, /mob/Hittable/Responsive/Anima... (/mob/Hittable/Responsive/Animal/Wild/Bird/Chicken), null)
+runtime error: BYOND Error: bad datum
+runtime error: BYOND Error: bad datum
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
+runtime error: Cannot read null.
+runtime error: Cannot execute null.().
