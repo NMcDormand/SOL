@@ -9726,12 +9726,18 @@ window "MacroWindowMain"
 		border = line
 		saved-params = "pos;size;is-minimized;is-maximized"
 		can-resize = false
+		outer-size = 1582x526
+		outer-pos = 434,0
+		inner-size = 1560x445
+		inner-pos = 11,45
+		screen-size = 2560x1528
 	elem "WindowID"
 		type = LABEL
 		pos = 28,180
 		size = 60x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		is-visible = false
 		saved-params = ""
 		text = "MacroWindow0"
@@ -9741,6 +9747,7 @@ window "MacroWindowMain"
 		size = 1440x428
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		border = sunken
 		saved-params = "splitter"
 		left = "MacroWindow1"
@@ -10636,7 +10643,7 @@ window "MacroWindow0"
 		button-type = checkbox
 	elem "REP_2"
 		type = BUTTON
-		pos = 184,145
+		pos = 184,144
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10648,14 +10655,14 @@ window "MacroWindow0"
 		button-type = checkbox
 	elem "REP_1"
 		type = BUTTON
-		pos = 121,145
+		pos = 120,144
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "Repeater_Switch"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F12"
@@ -22975,10 +22982,5 @@ window "window1"
 		size = 640x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
-		outer-size = 662x561
-		outer-pos = 434,0
-		inner-pos = 11,45
-		screen-size = 2560x1528
 

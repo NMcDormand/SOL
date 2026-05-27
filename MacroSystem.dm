@@ -1,11 +1,11 @@
-mob
+client
 	verb
 		MacroWindowOpen()
 			winshow(src, "MacroWindowMain", 1)
 			ButtonUpdate()
 		MacroWindowClose()
 			winshow(src, "MacroWindowMain", 0)
-mob
+client
 	verb
 		ButtonUpdate()
 
@@ -36,7 +36,10 @@ mob
 			winset(usr, "MacroWindowMain.WindowID", "text=MacroWindow[Sum]")
 			Sum = 0
 
-
+client
+	verb
+		RepeaterSwitch(id as text)
+			world << "[id]"
 
 //-------------------------------------------------
 //FRY the following scripts were needed to be modified for this system to work
