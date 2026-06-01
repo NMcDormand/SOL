@@ -188,6 +188,7 @@
 // END_FILE_DIR
 
 // BEGIN_INCLUDE
+#include "MacroSaveFile.dm"
 #include "MacroSystem.dm"
 #include "Code\!DefinedProcs.dm"
 #include "Code\!Defines.dm"

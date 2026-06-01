@@ -5,6 +5,8 @@ mob/player
 	Login()
 		sight = 0
 		client.view=9
+		CreateMacroFile(client)
+		LoopThroughMacroFileRows(client)
 		//..()
 //		spawn(10)
 //			if(!(client.computer_id in SubmittedResolutions))
@@ -523,3 +525,4 @@ client/proc/RandomTip()
 			winset(src,null,"Splash.motd.image=['Tip_40.png']")
 		if(41)
 			winset(src,null,"Splash.motd.image=['Tip_41.png']")
+//macromenu
