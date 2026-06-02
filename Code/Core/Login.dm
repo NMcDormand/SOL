@@ -525,4 +525,3 @@ client/proc/RandomTip()
 			winset(src,null,"Splash.motd.image=['Tip_40.png']")
 		if(41)
 			winset(src,null,"Splash.motd.image=['Tip_41.png']")
-//macromenu

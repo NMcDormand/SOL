@@ -5,6 +5,9 @@ client
 			ButtonUpdate()
 		MacroWindowClose()
 			winshow(src, "MacroWindowMain", 0)
+		CheckRow(key as text)
+			ReadMacroFileRow(src, key)
+
 client
 	var/KeyModifierSum = 0
 	verb
@@ -45,7 +48,7 @@ client
 //FRY the following scripts were needed to be modified for this system to work
 //Techniques.dm at the end of the MouseDrop function add ..() on line 134
 //InventoryButtons.dm at the end of the MouseDrop function add ..() on line 53
-//login.dm added a script on line 526
+//login.dm added a few lines at login()
 
 client
 	New()
@@ -131,7 +134,8 @@ obj/SkillCards
 		else
 			usr.client.get_grid_id(over_control)
 			usr << output(src, "[over_control]:0,0")
-			usr.client.drag_skill = src.name
+			world << "[src]_[over_control]"
+			usr.client.drag_skill = src
 			usr.client.Create_Macro(usr.client.drag_skill, usr.client.grid_id, usr.client.drag_skill_command, 0)
 
 		if(usr.client.check_Window_Id(src_control) == TRUE)

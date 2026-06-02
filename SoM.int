@@ -2,13 +2,13 @@
 /*
 MAP_PLANE_MASTERS: 
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1780282406
-DIR: Code Code\Core Code\Jutsu Code\Jutsu\Clan icons icons\Jutsu icons\Jutsu\Cards icons\Turfs Images Images\Creation Images\Skin Images\Skin\NewSkin Images\Skin\NewSkin\Inventory Images\Skin\NewSkin\MainInterface Images\Skin\NewSkin\MainInterface\Buttons Skin 
+LAST_COMPILE_TIME: 1780365098
+DIR: Code Code\Core Code\Jutsu\Clan Code\Jutsu\Taijutsu icons\Jutsu icons\Jutsu\Cards icons\Turfs Images\Creation Images\Skin Images\Skin\NewSkin Images\Skin\NewSkin\Inventory Images\Skin\NewSkin\MainInterface Skin 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 516.1673
-WINDOW: Skin\SoL_Skin - 02-02-22.dmf
-FILE: Skin\SoL_Skin - 02-02-22.dmf
+WINDOW: Skin\SoL_Skin - 02-02-22.dmf;MacroSystem.dm;Code\Core\Login.dm;MacroSaveFile.dm;Code\Jutsu\Taijutsu\Punch.dm;SoM.dme
+FILE: MacroSystem.dm
 MAP_INSTANCE_MODE: copy
 */
 // END_INTERNALS

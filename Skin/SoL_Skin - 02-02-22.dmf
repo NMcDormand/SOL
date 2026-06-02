@@ -9847,7 +9847,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Snapshot"
@@ -9859,7 +9859,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Enter"
@@ -9871,7 +9871,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "Snapshot"
@@ -9911,7 +9911,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Tab"
@@ -9923,7 +9923,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_North"
@@ -9935,7 +9935,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_East"
@@ -9947,7 +9947,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_South"
@@ -9959,7 +9959,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_West"
@@ -9971,7 +9971,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Pause"
@@ -9983,7 +9983,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Decimal"
@@ -9995,7 +9995,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Numpad0"
@@ -10007,7 +10007,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Numpad3"
@@ -10019,7 +10019,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Numpad2"
@@ -10031,7 +10031,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Numpad1"
@@ -10043,7 +10043,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Numpad4"
@@ -10055,7 +10055,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Numpad5"
@@ -10067,7 +10067,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Numpad6"
@@ -10079,7 +10079,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Add"
@@ -10091,7 +10091,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Numpad9"
@@ -10103,7 +10103,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Numpad8"
@@ -10115,7 +10115,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Numpad7"
@@ -10127,7 +10127,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Subtract"
@@ -10139,7 +10139,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Multiply"
@@ -10151,7 +10151,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Divide"
@@ -10163,7 +10163,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Insert"
@@ -10175,7 +10175,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Delete"
@@ -10187,7 +10187,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_RWin"
@@ -10199,7 +10199,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_LWin"
@@ -10211,7 +10211,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_7"
@@ -10223,7 +10223,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_6"
@@ -10235,7 +10235,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_5"
@@ -10247,7 +10247,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_4"
@@ -10259,7 +10259,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_3"
@@ -10271,7 +10271,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_e"
@@ -10283,7 +10283,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_d"
@@ -10295,7 +10295,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_l"
@@ -10307,7 +10307,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_k"
@@ -10319,7 +10319,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_j"
@@ -10331,7 +10331,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_h"
@@ -10343,7 +10343,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_g"
@@ -10355,7 +10355,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_f"
@@ -10367,7 +10367,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_s"
@@ -10379,7 +10379,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_a"
@@ -10391,7 +10391,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_p"
@@ -10403,7 +10403,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_o"
@@ -10415,7 +10415,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_i"
@@ -10427,7 +10427,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_c"
@@ -10439,7 +10439,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_m"
@@ -10451,7 +10451,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_n"
@@ -10463,7 +10463,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_b"
@@ -10475,7 +10475,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_v"
@@ -10487,7 +10487,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_x"
@@ -10499,7 +10499,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_z"
@@ -10511,7 +10511,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_u"
@@ -10523,7 +10523,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_y"
@@ -10535,7 +10535,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_t"
@@ -10547,7 +10547,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_r"
@@ -10559,7 +10559,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_w"
@@ -10571,7 +10571,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_-"
@@ -10583,7 +10583,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_0"
@@ -10595,7 +10595,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_q"
@@ -10607,7 +10607,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_9"
@@ -10619,7 +10619,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_8"
@@ -10631,7 +10631,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_2"
@@ -10643,7 +10643,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_1"
@@ -10655,7 +10655,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F12"
@@ -10667,7 +10667,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F11"
@@ -10679,7 +10679,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F10"
@@ -10691,7 +10691,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F9"
@@ -10703,7 +10703,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F8"
@@ -10715,7 +10715,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F7"
@@ -10727,7 +10727,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F6"
@@ -10739,7 +10739,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F5"
@@ -10751,7 +10751,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F4"
@@ -10763,7 +10763,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F3"
@@ -10775,7 +10775,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F2"
@@ -10787,7 +10787,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_Escape"
@@ -10799,7 +10799,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "REP_F1"
@@ -10811,7 +10811,7 @@ window "MacroWindow0"
 		background-color = #81664d
 		saved-params = "is-checked"
 		text = ""
-		command = "RepeaterSwitch[[id]]"
+		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
 	elem "MacroWindow0"
