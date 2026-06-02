@@ -1,10 +1,14 @@
 client
 	verb
 		MacroWindowOpen()
+			set hidden = 1
 			winshow(src, "MacroWindowMain", 1)
 			ButtonUpdate()
 		MacroWindowClose()
+			set hidden = 1
 			winshow(src, "MacroWindowMain", 0)
+
+		//lets you manually look at the contents of any row in the SaveFile
 		CheckRow(key as text)
 			ReadMacroFileRow(src, key)
 
@@ -14,7 +18,8 @@ client
 		ButtonUpdate()
 
 
-
+			//a "simple" bitmask to determine what combination of modifier keys are activated
+				//#cfcf40 is yellow, #969696 is grey
 			if(winget(usr, "MacroWindowMain.Shift", "is-checked") == "true")
 				winset(usr, "MacroWindowMain.Shift", "background-color=#cfcf40")
 				KeyModifierSum += 1
@@ -41,7 +46,10 @@ client
 
 client
 	verb
+		//updates the macro when you turn on/off repeating mode.
+			//spits an error if there is no macro for that key, not sure if theres an easy way to prevent that
 		RepeaterSwitch(id as text)
+			set hidden = 1
 			var/RepeaterID = copytext(id, 5, 6)
 			var/row = ReadMacroFileRow(src, RepeaterID)
 			var/rowcommand = row["command"]
@@ -68,7 +76,7 @@ client
 	var/drag_skill = ""
 
 
-
+	//creates the macro and updates the savefile
 	proc/Create_Macro(skill, keybind, command, Move)
 		Modifier_State(window_id, keybind)
 		if(Move == 1)
@@ -84,7 +92,7 @@ client
 
 
 
-
+	//checks if the window is valid for dropping skillcards into
 	proc/check_Window_Id(VariableToCheck)
 		window_id = winget(usr, "MacroWindowMain.WindowID", "text")
 		if(copytext(VariableToCheck, 1, length(window_id) + 1) == window_id)
@@ -94,13 +102,13 @@ client
 
 
 
-
+	//pulls out the key from the grid name.
 	proc/get_grid_id(VariableToCheck)
 		grid_id = copytext(VariableToCheck, length(window_id) + 2)
 
 
 
-
+	//makes sure everything is returned to its starting state when done
 	proc/resetvariables()
 		drag_skill_command = ""
 		grid_id = ""
@@ -109,7 +117,7 @@ client
 
 
 
-
+	//checks the state of the modifier buttons and adds the correct ones to the macro
 	proc/Modifier_State(window_id, keybind)
 		state = ""
 		if(winget(usr, "MacroWindowMain.Shift", "is-checked") == "true")
@@ -127,12 +135,13 @@ client
 
 
 obj/SkillCards
+	//when the mouse is pressed on a SkillCard it collects a bunch of variables and sets the mouse icon
 	MouseDown(object,location,control,params)
 		usr.client.window_id = winget(usr, "MacroWindowMain.WindowID", "text")
 		usr.client.mob.mouse_drag_pointer = icon_state
 		usr.client.drag_skill_command = cmdstring
 
-
+	//combines all previous logic to tie the rest of the script into a functional piece
 	MouseDrop(over_object, src_location, over_location, src_control, over_control, params)
 		if(usr.client.check_Window_Id(over_control) == FALSE)
 			usr.client.resetvariables()
@@ -140,7 +149,6 @@ obj/SkillCards
 		else
 			usr.client.get_grid_id(over_control)
 			usr << output(src, "[over_control]:0,0")
-			world << "[src]_[over_control]"
 			usr.client.drag_skill = src
 			usr.client.Create_Macro(usr.client.drag_skill, usr.client.grid_id, usr.client.drag_skill_command, 0)
 
