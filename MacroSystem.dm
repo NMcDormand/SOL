@@ -42,7 +42,11 @@ client
 client
 	verb
 		RepeaterSwitch(id as text)
-			world << "[id]"
+			var/RepeaterID = copytext(id, 5, 6)
+			var/row = ReadMacroFileRow(src, RepeaterID)
+			var/rowcommand = row["command"]
+			Modifier_State("MacroWindow[KeyModifierSum]", RepeaterID)
+			Create_Macro(row["skill"], RepeaterID, rowcommand, 0)
 
 //-------------------------------------------------
 //FRY the following scripts were needed to be modified for this system to work
@@ -116,6 +120,8 @@ client
 			state += "Alt+"
 		if(winget(usr, "[window_id].Rep_[keybind]", "is-checked") == "true")
 			Repeater += "+REP"
+		if(winget(usr, "[window_id].Rep_[keybind]", "is-checked") == "false")
+			Repeater = ""
 		return state
 
 
