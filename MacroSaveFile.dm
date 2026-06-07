@@ -23,14 +23,11 @@ proc
 
 		if(initialized == 1)
 			return TRUE
-			world << "CheckMacroFile TRUE"
 		return FALSE
-		world << "CheckMacroFile FALSE"
 proc
 	WriteMacroFileRow(client/c, var/key, var/command, var/skill)
 
 		var/savefile/F = GetMacroSave(c)
-		world << "WriteMacroFile [c]_[key]_[command]_[skill]"
 		var/list/row = list()
 		row["command"] = command
 		row["skill"]   = skill
@@ -58,7 +55,7 @@ proc
 
 
 
-proc/LoopThroughMacroFileRows(client/c)
+proc/LoopThroughMacroFileRows(client/c, wipe)
 	var/savefile/F = GetMacroSave(c)
 
 	F.cd = "rows"
@@ -69,7 +66,11 @@ proc/LoopThroughMacroFileRows(client/c)
 
 		var/command = row["command"]
 		var/skill   = row["skill"]
-
-		world << "WriteMacroFile [c]_[key]_[command]_[skill]"
-		usr << output(skill, "macrowindow[c.KeyModifierSum].[key]:0,0")
-		F.cd = "rows"
+		if(wipe == 1)
+			usr << output(null, "MacroWindow.[copytext(key, 2)]:0,0")
+			F.cd = "rows"
+		else
+			world << "[copytext(key, 1, 2)]_[c.KeyModBitMask]"
+			if(copytext(key, 1, 2) == "[c.KeyModBitMask]")
+				usr << output(skill, "MacroWindow.[copytext(key, 2)]:0,0")
+				F.cd = "rows"

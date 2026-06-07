@@ -9714,78 +9714,8 @@ window "Keys_misc"
 		image = 'Images\\Skin\\NewSkin\\Settings\\KeyBindings.png'
 		align = left
 
-window "MacroWindowMain"
-	elem "MacroWindowMain"
-		type = MAIN
-		pos = 434,0
-		size = 1560x445
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = #000000
-		is-visible = false
-		border = line
-		saved-params = "pos;size;is-minimized;is-maximized"
-		can-resize = false
-	elem "WindowID"
-		type = LABEL
-		pos = 28,180
-		size = 60x20
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		is-visible = false
-		saved-params = ""
-		text = "MacroWindow0"
-	elem "Pane"
-		type = CHILD
-		pos = 111,8
-		size = 1440x428
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		border = sunken
-		saved-params = "splitter"
-		left = "MacroWindow1"
-		is-vert = false
-		splitter = 100
-		show-splitter = false
-	elem "Alt"
-		type = BUTTON
-		pos = 13,131
-		size = 92x35
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = #6f6f6f
-		border = line
-		saved-params = "is-checked"
-		text = "Alt"
-		command = "ButtonUpdate"
-		button-type = pushbox
-	elem "Ctrl"
-		type = BUTTON
-		pos = 11,72
-		size = 93x35
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = #636363
-		border = line
-		saved-params = "is-checked"
-		text = "Ctrl"
-		command = "ButtonUpdate"
-		button-type = pushbox
-	elem "Shift"
-		type = BUTTON
-		pos = 11,11
-		size = 93x35
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = #656565
-		border = line
-		saved-params = "is-checked"
-		text = "Shift"
-		command = "ButtonUpdate"
-		button-type = pushbox
-
-window "MacroWindow0"
-	elem "MacroWindow0"
+window "MacroWindow"
+	elem "MacroWindow"
 		type = MAIN
 		pos = 434,0
 		size = 1440x428
@@ -10814,15 +10744,6 @@ window "MacroWindow0"
 		command = "RepeaterSwitch [[id]]"
 		is-flat = true
 		button-type = checkbox
-	elem "MacroWindow0"
-		type = LABEL
-		pos = 1302,36
-		size = 104x48
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = none
-		saved-params = ""
-		text = "MacroWindow0"
 	elem "grid14"
 		type = GRID
 		pos = 1311,354
@@ -11873,6 +11794,83 @@ window "MacroWindow0"
 		show-names = false
 		line-color = #81664d
 		highlight-color = #000000
+
+window "MacroWindowMain"
+	elem "MacroWindowMain"
+		type = MAIN
+		pos = 434,0
+		size = 1560x445
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = #000000
+		is-visible = false
+		border = line
+		saved-params = "pos;size;is-minimized;is-maximized"
+		can-resize = false
+		outer-size = 1582x526
+		outer-pos = 434,0
+		inner-size = 1560x445
+		inner-pos = 11,45
+		screen-size = 2560x1528
+	elem "WindowID"
+		type = LABEL
+		pos = 28,180
+		size = 60x20
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		is-visible = false
+		saved-params = ""
+		text = "MacroWindow0"
+	elem "Pane"
+		type = CHILD
+		pos = 111,8
+		size = 1440x428
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		border = sunken
+		saved-params = "splitter"
+		left = "MacroWindow"
+		is-vert = false
+		splitter = 100
+		show-splitter = false
+	elem "Alt"
+		type = BUTTON
+		pos = 13,131
+		size = 92x35
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = #6f6f6f
+		border = line
+		saved-params = "is-checked"
+		text = "Alt"
+		command = "ButtonUpdate"
+		button-type = pushbox
+	elem "Ctrl"
+		type = BUTTON
+		pos = 11,72
+		size = 93x35
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = #636363
+		border = line
+		saved-params = "is-checked"
+		text = "Ctrl"
+		command = "ButtonUpdate"
+		button-type = pushbox
+	elem "Shift"
+		type = BUTTON
+		pos = 11,11
+		size = 93x35
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = #656565
+		border = line
+		saved-params = "is-checked"
+		text = "Shift"
+		command = "ButtonUpdate"
+		button-type = pushbox
 
 window "NewInventory"
 	elem "NewInventory"
