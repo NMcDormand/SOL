@@ -9718,7 +9718,7 @@ window "MacroWindow"
 	elem "MacroWindow"
 		type = MAIN
 		pos = 434,0
-		size = 1440x428
+		size = 1685x446
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		background-color = #000000
@@ -9726,15 +9726,53 @@ window "MacroWindow"
 		border = line
 		saved-params = "pos;size;is-minimized;is-maximized"
 		can-resize = false
-		is-pane = true
-		outer-size = 1462x509
+		outer-size = 1707x527
 		outer-pos = 434,0
-		inner-size = 1440x428
+		inner-size = 1685x446
 		inner-pos = 11,45
 		screen-size = 2560x1528
+	elem "Toggle_Alt"
+		type = BUTTON
+		pos = 72,168
+		size = 148x56
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		font-size = 12
+		background-color = none
+		border = line
+		saved-params = "is-checked"
+		text = "Alt"
+		command = "ButtonUpdate"
+		button-type = pushbox
+	elem "Toggle_Ctrl"
+		type = BUTTON
+		pos = 48,96
+		size = 148x56
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		font-size = 12
+		background-color = none
+		border = line
+		saved-params = "is-checked"
+		text = "Ctrl"
+		command = "ButtonUpdate"
+		button-type = pushbox
+	elem "Toggle_Shift"
+		type = BUTTON
+		pos = 24,24
+		size = 148x56
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		font-size = 12
+		background-color = none
+		border = line
+		saved-params = "is-checked"
+		text = "Shift"
+		command = "ButtonUpdate"
+		button-type = pushbox
 	elem "output1"
 		type = OUTPUT
-		pos = 4,7
+		pos = 236,8
 		size = 1432x416
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9742,7 +9780,7 @@ window "MacroWindow"
 		image = 'Images\\Skin\\MacroMenu.jpg'
 	elem "LWin"
 		type = GRID
-		pos = 135,353
+		pos = 367,354
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9756,7 +9794,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "RWin"
 		type = GRID
-		pos = 765,352
+		pos = 997,353
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9770,7 +9808,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "REP_Space"
 		type = BUTTON
-		pos = 473,393
+		pos = 705,394
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9782,7 +9820,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Snapshot"
 		type = BUTTON
-		pos = 1008,64
+		pos = 1240,65
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9794,7 +9832,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Enter"
 		type = BUTTON
-		pos = 936,270
+		pos = 1168,271
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9806,7 +9844,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "Snapshot"
 		type = GRID
-		pos = 984,26
+		pos = 1216,27
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9820,7 +9858,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "Pause"
 		type = GRID
-		pos = 1109,24
+		pos = 1341,25
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9834,7 +9872,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "REP_Back"
 		type = BUTTON
-		pos = 937,144
+		pos = 1169,145
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9846,7 +9884,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Tab"
 		type = BUTTON
-		pos = 96,209
+		pos = 328,210
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9858,7 +9896,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_North"
 		type = BUTTON
-		pos = 1071,331
+		pos = 1303,332
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9870,7 +9908,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_East"
 		type = BUTTON
-		pos = 1137,392
+		pos = 1369,393
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9882,7 +9920,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_South"
 		type = BUTTON
-		pos = 1072,393
+		pos = 1304,394
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9894,7 +9932,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_West"
 		type = BUTTON
-		pos = 1008,393
+		pos = 1240,394
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9906,7 +9944,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Pause"
 		type = BUTTON
-		pos = 1136,65
+		pos = 1368,66
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9918,7 +9956,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Decimal"
 		type = BUTTON
-		pos = 1342,396
+		pos = 1574,397
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9930,7 +9968,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Numpad0"
 		type = BUTTON
-		pos = 1272,392
+		pos = 1504,393
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9942,7 +9980,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Numpad3"
 		type = BUTTON
-		pos = 1335,333
+		pos = 1567,334
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9954,7 +9992,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Numpad2"
 		type = BUTTON
-		pos = 1272,331
+		pos = 1504,332
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9966,7 +10004,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Numpad1"
 		type = BUTTON
-		pos = 1209,332
+		pos = 1441,333
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9978,7 +10016,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Numpad4"
 		type = BUTTON
-		pos = 1209,269
+		pos = 1441,270
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -9990,7 +10028,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Numpad5"
 		type = BUTTON
-		pos = 1272,269
+		pos = 1504,270
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10002,7 +10040,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Numpad6"
 		type = BUTTON
-		pos = 1335,268
+		pos = 1567,269
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10014,7 +10052,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Add"
 		type = BUTTON
-		pos = 1401,268
+		pos = 1633,269
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10026,7 +10064,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Numpad9"
 		type = BUTTON
-		pos = 1334,204
+		pos = 1566,205
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10038,7 +10076,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Numpad8"
 		type = BUTTON
-		pos = 1270,205
+		pos = 1502,206
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10050,7 +10088,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Numpad7"
 		type = BUTTON
-		pos = 1208,208
+		pos = 1440,209
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10062,7 +10100,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Subtract"
 		type = BUTTON
-		pos = 1393,144
+		pos = 1625,145
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10074,7 +10112,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Multiply"
 		type = BUTTON
-		pos = 1335,145
+		pos = 1567,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10086,7 +10124,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Divide"
 		type = BUTTON
-		pos = 1272,145
+		pos = 1504,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10098,7 +10136,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Insert"
 		type = BUTTON
-		pos = 1008,145
+		pos = 1240,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10110,7 +10148,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Delete"
 		type = BUTTON
-		pos = 1008,207
+		pos = 1240,208
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10122,7 +10160,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_RWin"
 		type = BUTTON
-		pos = 790,393
+		pos = 1022,394
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10134,7 +10172,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_LWin"
 		type = BUTTON
-		pos = 160,393
+		pos = 392,394
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10146,7 +10184,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_7"
 		type = BUTTON
-		pos = 503,145
+		pos = 735,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10158,7 +10196,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_6"
 		type = BUTTON
-		pos = 440,145
+		pos = 672,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10170,7 +10208,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_5"
 		type = BUTTON
-		pos = 377,145
+		pos = 609,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10182,7 +10220,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_4"
 		type = BUTTON
-		pos = 314,145
+		pos = 546,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10194,7 +10232,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_3"
 		type = BUTTON
-		pos = 248,145
+		pos = 480,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10206,7 +10244,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_e"
 		type = BUTTON
-		pos = 286,207
+		pos = 518,208
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10218,7 +10256,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_d"
 		type = BUTTON
-		pos = 303,270
+		pos = 535,271
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10230,7 +10268,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_l"
 		type = BUTTON
-		pos = 681,270
+		pos = 913,271
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10242,7 +10280,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_k"
 		type = BUTTON
-		pos = 618,270
+		pos = 850,271
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10254,7 +10292,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_j"
 		type = BUTTON
-		pos = 555,270
+		pos = 787,271
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10266,7 +10304,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_h"
 		type = BUTTON
-		pos = 492,270
+		pos = 724,271
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10278,7 +10316,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_g"
 		type = BUTTON
-		pos = 429,270
+		pos = 661,271
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10290,7 +10328,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_f"
 		type = BUTTON
-		pos = 366,270
+		pos = 598,271
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10302,7 +10340,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_s"
 		type = BUTTON
-		pos = 240,270
+		pos = 472,271
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10314,7 +10352,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_a"
 		type = BUTTON
-		pos = 176,272
+		pos = 408,273
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10326,7 +10364,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_p"
 		type = BUTTON
-		pos = 727,207
+		pos = 959,208
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10338,7 +10376,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_o"
 		type = BUTTON
-		pos = 664,207
+		pos = 896,208
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10350,7 +10388,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_i"
 		type = BUTTON
-		pos = 601,207
+		pos = 833,208
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10362,7 +10400,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_c"
 		type = BUTTON
-		pos = 340,333
+		pos = 572,334
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10374,7 +10412,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_m"
 		type = BUTTON
-		pos = 592,333
+		pos = 824,334
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10386,7 +10424,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_n"
 		type = BUTTON
-		pos = 529,333
+		pos = 761,334
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10398,7 +10436,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_b"
 		type = BUTTON
-		pos = 466,333
+		pos = 698,334
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10410,7 +10448,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_v"
 		type = BUTTON
-		pos = 403,333
+		pos = 635,334
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10422,7 +10460,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_x"
 		type = BUTTON
-		pos = 277,333
+		pos = 509,334
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10434,7 +10472,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_z"
 		type = BUTTON
-		pos = 214,333
+		pos = 446,334
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10446,7 +10484,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_u"
 		type = BUTTON
-		pos = 538,207
+		pos = 770,208
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10458,7 +10496,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_y"
 		type = BUTTON
-		pos = 475,207
+		pos = 707,208
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10470,7 +10508,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_t"
 		type = BUTTON
-		pos = 412,207
+		pos = 644,208
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10482,7 +10520,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_r"
 		type = BUTTON
-		pos = 349,207
+		pos = 581,208
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10494,7 +10532,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_w"
 		type = BUTTON
-		pos = 223,207
+		pos = 455,208
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10506,7 +10544,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_-"
 		type = BUTTON
-		pos = 755,145
+		pos = 987,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10518,7 +10556,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_0"
 		type = BUTTON
-		pos = 689,145
+		pos = 921,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10530,7 +10568,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_q"
 		type = BUTTON
-		pos = 160,207
+		pos = 392,208
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10542,7 +10580,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_9"
 		type = BUTTON
-		pos = 629,145
+		pos = 861,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10554,7 +10592,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_8"
 		type = BUTTON
-		pos = 566,145
+		pos = 798,146
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10566,7 +10604,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_2"
 		type = BUTTON
-		pos = 184,144
+		pos = 416,145
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10578,7 +10616,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_1"
 		type = BUTTON
-		pos = 120,144
+		pos = 352,145
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10590,7 +10628,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F12"
 		type = BUTTON
-		pos = 936,66
+		pos = 1168,67
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10602,7 +10640,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F11"
 		type = BUTTON
-		pos = 873,66
+		pos = 1105,67
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10614,7 +10652,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F10"
 		type = BUTTON
-		pos = 810,66
+		pos = 1042,67
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10626,7 +10664,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F9"
 		type = BUTTON
-		pos = 747,66
+		pos = 979,67
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10638,7 +10676,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F8"
 		type = BUTTON
-		pos = 656,65
+		pos = 888,66
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10650,7 +10688,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F7"
 		type = BUTTON
-		pos = 593,66
+		pos = 825,67
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10662,7 +10700,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F6"
 		type = BUTTON
-		pos = 530,66
+		pos = 762,67
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10674,7 +10712,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F5"
 		type = BUTTON
-		pos = 464,65
+		pos = 696,66
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10686,7 +10724,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F4"
 		type = BUTTON
-		pos = 377,66
+		pos = 609,67
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10698,7 +10736,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F3"
 		type = BUTTON
-		pos = 314,66
+		pos = 546,67
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10710,7 +10748,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F2"
 		type = BUTTON
-		pos = 251,66
+		pos = 483,67
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10722,7 +10760,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_Escape"
 		type = BUTTON
-		pos = 62,66
+		pos = 294,67
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10734,7 +10772,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "REP_F1"
 		type = BUTTON
-		pos = 188,66
+		pos = 420,67
 		size = 15x15
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10746,7 +10784,7 @@ window "MacroWindow"
 		button-type = checkbox
 	elem "grid14"
 		type = GRID
-		pos = 1311,354
+		pos = 1543,355
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10760,7 +10798,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "-"
 		type = GRID
-		pos = 730,106
+		pos = 962,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10774,7 +10812,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "delete"
 		type = GRID
-		pos = 983,168
+		pos = 1215,169
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10788,7 +10826,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "insert"
 		type = GRID
-		pos = 983,106
+		pos = 1215,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10802,7 +10840,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "Escape"
 		type = GRID
-		pos = 35,28
+		pos = 267,29
 		size = 37x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10815,7 +10853,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f12"
 		type = GRID
-		pos = 911,26
+		pos = 1143,27
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10829,7 +10867,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f11"
 		type = GRID
-		pos = 848,27
+		pos = 1080,28
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10843,7 +10881,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f10"
 		type = GRID
-		pos = 785,27
+		pos = 1017,28
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10857,7 +10895,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f9"
 		type = GRID
-		pos = 722,27
+		pos = 954,28
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10871,7 +10909,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f8"
 		type = GRID
-		pos = 631,25
+		pos = 863,26
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10885,7 +10923,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f7"
 		type = GRID
-		pos = 568,28
+		pos = 800,29
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10899,7 +10937,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f6"
 		type = GRID
-		pos = 504,26
+		pos = 736,27
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10913,7 +10951,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f5"
 		type = GRID
-		pos = 442,27
+		pos = 674,28
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10927,7 +10965,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f4"
 		type = GRID
-		pos = 352,27
+		pos = 584,28
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10941,7 +10979,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f3"
 		type = GRID
-		pos = 289,27
+		pos = 521,28
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10955,7 +10993,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f2"
 		type = GRID
-		pos = 226,27
+		pos = 458,28
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10969,7 +11007,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f1"
 		type = GRID
-		pos = 163,27
+		pos = 395,28
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10983,7 +11021,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "return"
 		type = GRID
-		pos = 848,231
+		pos = 1080,232
 		size = 96x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -10997,7 +11035,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "backspace"
 		type = GRID
-		pos = 857,106
+		pos = 1089,107
 		size = 88x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11011,7 +11049,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "grid77"
 		type = GRID
-		pos = 308,354
+		pos = 540,355
 		size = 328x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11025,7 +11063,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "tab"
 		type = GRID
-		pos = 36,168
+		pos = 268,169
 		size = 72x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11039,7 +11077,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "numpad0"
 		type = GRID
-		pos = 1185,354
+		pos = 1417,355
 		size = 99x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11053,7 +11091,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "numpad1"
 		type = GRID
-		pos = 1185,294
+		pos = 1417,295
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11067,7 +11105,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "North"
 		type = GRID
-		pos = 1046,292
+		pos = 1278,293
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11081,7 +11119,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "West"
 		type = GRID
-		pos = 982,354
+		pos = 1214,355
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11095,7 +11133,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "South"
 		type = GRID
-		pos = 1047,354
+		pos = 1279,355
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11109,7 +11147,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "East"
 		type = GRID
-		pos = 1109,354
+		pos = 1341,355
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11123,7 +11161,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "numpad3"
 		type = GRID
-		pos = 1309,293
+		pos = 1541,294
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11137,7 +11175,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "numpad2"
 		type = GRID
-		pos = 1247,292
+		pos = 1479,293
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11151,7 +11189,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "numpad4"
 		type = GRID
-		pos = 1185,230
+		pos = 1417,231
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11165,7 +11203,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "add"
 		type = GRID
-		pos = 1372,170
+		pos = 1604,171
 		size = 35x95
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11179,7 +11217,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "numpad6"
 		type = GRID
-		pos = 1311,231
+		pos = 1543,232
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11193,7 +11231,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "numpad5"
 		type = GRID
-		pos = 1249,230
+		pos = 1481,231
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11207,7 +11245,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "Numpad7"
 		type = GRID
-		pos = 1185,169
+		pos = 1417,170
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11221,7 +11259,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "numpad9"
 		type = GRID
-		pos = 1310,168
+		pos = 1542,169
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11235,7 +11273,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "numpad8"
 		type = GRID
-		pos = 1247,168
+		pos = 1479,169
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11249,7 +11287,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "subtract"
 		type = GRID
-		pos = 1373,106
+		pos = 1605,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11263,7 +11301,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "multiply"
 		type = GRID
-		pos = 1310,106
+		pos = 1542,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11277,7 +11315,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "divide"
 		type = GRID
-		pos = 1248,106
+		pos = 1480,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11291,7 +11329,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "m"
 		type = GRID
-		pos = 569,294
+		pos = 801,295
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11305,7 +11343,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "n"
 		type = GRID
-		pos = 505,294
+		pos = 737,295
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11319,7 +11357,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "b"
 		type = GRID
-		pos = 441,294
+		pos = 673,295
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11333,7 +11371,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "v"
 		type = GRID
-		pos = 378,293
+		pos = 610,294
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11347,7 +11385,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "c"
 		type = GRID
-		pos = 315,293
+		pos = 547,294
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11361,7 +11399,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "x"
 		type = GRID
-		pos = 252,294
+		pos = 484,295
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11375,7 +11413,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "z"
 		type = GRID
-		pos = 189,293
+		pos = 421,294
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11389,7 +11427,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "l"
 		type = GRID
-		pos = 656,231
+		pos = 888,232
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11403,7 +11441,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "k"
 		type = GRID
-		pos = 593,231
+		pos = 825,232
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11417,7 +11455,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "j"
 		type = GRID
-		pos = 529,231
+		pos = 761,232
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11431,7 +11469,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "h"
 		type = GRID
-		pos = 467,231
+		pos = 699,232
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11445,7 +11483,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "g"
 		type = GRID
-		pos = 404,231
+		pos = 636,232
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11459,7 +11497,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "f"
 		type = GRID
-		pos = 341,231
+		pos = 573,232
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11473,7 +11511,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "d"
 		type = GRID
-		pos = 278,231
+		pos = 510,232
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11487,7 +11525,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "s"
 		type = GRID
-		pos = 215,231
+		pos = 447,232
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11501,7 +11539,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "a"
 		type = GRID
-		pos = 153,231
+		pos = 385,232
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11515,7 +11553,21 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "o"
 		type = GRID
-		pos = 702,168
+		pos = 934,169
+		size = 35x35
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = #81664d
+		border = line
+		saved-params = ""
+		cells = 1x1
+		current-cell = 1,1
+		show-names = false
+		line-color = #81664d
+		highlight-color = #000000
+	elem "o"
+		type = GRID
+		pos = 871,169
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11529,21 +11581,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "i"
 		type = GRID
-		pos = 639,168
-		size = 35x35
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = #81664d
-		border = line
-		saved-params = ""
-		cells = 1x1
-		current-cell = 1,1
-		show-names = false
-		line-color = #81664d
-		highlight-color = #000000
-	elem "i"
-		type = GRID
-		pos = 576,168
+		pos = 808,169
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11557,7 +11595,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "u"
 		type = GRID
-		pos = 513,169
+		pos = 745,170
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11571,7 +11609,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "y"
 		type = GRID
-		pos = 450,168
+		pos = 682,169
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11585,7 +11623,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "t"
 		type = GRID
-		pos = 387,168
+		pos = 619,169
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11599,7 +11637,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "r"
 		type = GRID
-		pos = 324,168
+		pos = 556,169
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11613,7 +11651,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "e"
 		type = GRID
-		pos = 261,168
+		pos = 493,169
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11627,7 +11665,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "w"
 		type = GRID
-		pos = 197,168
+		pos = 429,169
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11641,7 +11679,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "q"
 		type = GRID
-		pos = 135,168
+		pos = 367,169
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11656,7 +11694,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "0"
 		type = GRID
-		pos = 667,106
+		pos = 899,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11670,7 +11708,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "9"
 		type = GRID
-		pos = 604,106
+		pos = 836,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11684,7 +11722,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "8"
 		type = GRID
-		pos = 541,106
+		pos = 773,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11698,7 +11736,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "7"
 		type = GRID
-		pos = 478,106
+		pos = 710,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11712,7 +11750,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "6"
 		type = GRID
-		pos = 415,106
+		pos = 647,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11726,7 +11764,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "5"
 		type = GRID
-		pos = 352,107
+		pos = 584,108
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11740,7 +11778,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "4"
 		type = GRID
-		pos = 289,106
+		pos = 521,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11754,7 +11792,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "3"
 		type = GRID
-		pos = 226,106
+		pos = 458,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11768,7 +11806,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "2"
 		type = GRID
-		pos = 163,106
+		pos = 395,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11782,7 +11820,7 @@ window "MacroWindow"
 		highlight-color = #000000
 	elem "1"
 		type = GRID
-		pos = 100,106
+		pos = 332,107
 		size = 35x35
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -11794,83 +11832,6 @@ window "MacroWindow"
 		show-names = false
 		line-color = #81664d
 		highlight-color = #000000
-
-window "MacroWindowMain"
-	elem "MacroWindowMain"
-		type = MAIN
-		pos = 434,0
-		size = 1560x445
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = #000000
-		is-visible = false
-		border = line
-		saved-params = "pos;size;is-minimized;is-maximized"
-		can-resize = false
-		outer-size = 1582x526
-		outer-pos = 434,0
-		inner-size = 1560x445
-		inner-pos = 11,45
-		screen-size = 2560x1528
-	elem "WindowID"
-		type = LABEL
-		pos = 28,180
-		size = 60x20
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = none
-		is-visible = false
-		saved-params = ""
-		text = "MacroWindow0"
-	elem "Pane"
-		type = CHILD
-		pos = 111,8
-		size = 1440x428
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = none
-		border = sunken
-		saved-params = "splitter"
-		left = "MacroWindow"
-		is-vert = false
-		splitter = 100
-		show-splitter = false
-	elem "Alt"
-		type = BUTTON
-		pos = 13,131
-		size = 92x35
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = #6f6f6f
-		border = line
-		saved-params = "is-checked"
-		text = "Alt"
-		command = "ButtonUpdate"
-		button-type = pushbox
-	elem "Ctrl"
-		type = BUTTON
-		pos = 11,72
-		size = 93x35
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = #636363
-		border = line
-		saved-params = "is-checked"
-		text = "Ctrl"
-		command = "ButtonUpdate"
-		button-type = pushbox
-	elem "Shift"
-		type = BUTTON
-		pos = 11,11
-		size = 93x35
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = #656565
-		border = line
-		saved-params = "is-checked"
-		text = "Shift"
-		command = "ButtonUpdate"
-		button-type = pushbox
 
 window "NewInventory"
 	elem "NewInventory"

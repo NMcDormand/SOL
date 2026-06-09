@@ -1,6 +1,5 @@
 proc
 	GetMacroSave(client/c)
-		world << "GetMacroSave executed"
 
 		return new /savefile("players/macros/keybinds_[c.ckey].sav")
 
@@ -8,7 +7,6 @@ proc
 proc
 	CreateMacroFile(client/c)
 		var/savefile/F = GetMacroSave(c)
-		world << "CreateMacroFile executed"
 		if(CheckMacroFile(c))
 			return
 
@@ -25,12 +23,12 @@ proc
 			return TRUE
 		return FALSE
 proc
-	WriteMacroFileRow(client/c, var/key, var/command, var/skill)
+	WriteMacroFileRow(client/c, var/key, var/command, var/obj/SkillCards/skill)
 
 		var/savefile/F = GetMacroSave(c)
 		var/list/row = list()
 		row["command"] = command
-		row["skill"]   = skill
+		row["skill"]   = "[skill.type]"
 
 		F["rows/[key]"] << row
 
@@ -47,7 +45,6 @@ proc
 proc
 	ClearMacroFileRow(client/c, var/key)
 		if(!key)
-			world << "ClearMacroFile [c]_[key]"
 			return
 
 		var/savefile/F = GetMacroSave(c)
@@ -57,20 +54,21 @@ proc
 
 proc/LoopThroughMacroFileRows(client/c, wipe)
 	var/savefile/F = GetMacroSave(c)
-
 	F.cd = "rows"
-	for(var/key in F.dir)
-		F.cd = "/"
-		var/list/row = list()
-		F["rows/[key]"] >> row
 
+	for(var/key in F.dir) //loops a number of times == to the number of keys
+		F.cd = "/"
+		var/list/row = list() // creates a empty list
+		F["rows/[key]"] >> row //fills that list with the variables from the current key in the loop
 		var/command = row["command"]
 		var/skill   = row["skill"]
-		if(wipe == 1)
+
+		if(wipe == 1) //removes all SkillCards from the macromenu.
 			usr << output(null, "MacroWindow.[copytext(key, 2)]:0,0")
 			F.cd = "rows"
-		else
-			world << "[copytext(key, 1, 2)]_[c.KeyModBitMask]"
+
+		else//after the system checks what modifiers are activated it will loop through and place the correct ones.
 			if(copytext(key, 1, 2) == "[c.KeyModBitMask]")
-				usr << output(skill, "MacroWindow.[copytext(key, 2)]:0,0")
+				var/skillobject = text2path(skill) // if i dont save the path as a string the savefile fucks it up :(
+				usr << output(locate(skillobject), "MacroWindow.[copytext(key, 2)]:0,0")
 				F.cd = "rows"
