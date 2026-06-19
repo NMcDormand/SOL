@@ -52,7 +52,7 @@ client
 			return Decode
 client
 	verb
-		Macro_RepeatSwitch(id as text)
+		RepeaterSwitch(id as text)
 			var/Macro_RepeatID = copytext(id, 5)
 			var/row = ReadMacroFileRow(src, "[KeyModBitMask][Macro_RepeatID]")
 			Create_Macro(row["skill"], "[KeyModBitMask][Macro_RepeatID]", row["command"], 0)
@@ -75,7 +75,6 @@ client
 
 
 	proc/Create_Macro(skill, keybind, command, Move)
-
 		//checks to see if the skill should repeat
 		if(winget(usr, "MacroWindow.Rep_[keybind]", "is-checked") == "true")
 			Macro_Repeat = "+REP"
@@ -83,7 +82,7 @@ client
 			Macro_Repeat = ""
 
 		//turns the bitmask back into the keymodifier string
-		var/key = BitMaskDecode(copytext(keybind ,0 ,1)) + copytext(keybind, 0,)
+		var/key = "[BitMaskDecode(text2num(copytext(keybind ,0 ,1)))]" + "[copytext(keybind, 1)]"
 
 		//removes the previous macro if the skill is moved from one key to another
 		if(Move == 1)
@@ -93,6 +92,7 @@ client
 		else //creates the macro
 			world << "Macro Succesfully Created:[key][Macro_Repeat],[command]"
 			WriteMacroFileRow(src, "[KeyModBitMask][keybind]", command, skill)
+			world << "Create_Macro (macro_[key]) (parent=Game;name=\"[key][Macro_Repeat]) (command=\"[command])"
 		winset(usr, "macro_[key]",
 			"parent=Game;name=\"[key][Macro_Repeat]\";command=\"[command]\"")
 

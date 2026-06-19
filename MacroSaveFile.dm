@@ -1,6 +1,5 @@
 proc
 	GetMacroSave(client/c)
-
 		return new /savefile("players/macros/keybinds_[c.ckey].sav")
 
 
@@ -24,7 +23,6 @@ proc
 		return FALSE
 proc
 	WriteMacroFileRow(client/c, var/key, var/command, var/obj/SkillCards/skill)
-
 		var/savefile/F = GetMacroSave(c)
 		var/list/row = list()
 		row["command"] = command
