@@ -77,10 +77,11 @@ client
 
 	proc/Create_Macro(skill, keybind, command, Move)
 		//checks to see if the skill should repeat
-		if(winget(usr, "MacroWindow.Rep_[copytext(keybind, 1)]", "is-checked") == "true")
+		if(winget(usr, "MacroWindow.Rep_[copytext(keybind, 2)]", "is-checked") == "true")
 			Macro_Repeat = "+REP"
 		else
 			Macro_Repeat = ""
+		world << "[Macro_Repeat]"
 
 		//turns the bitmask back into the keymodifier string
 		var/key = "[BitMaskDecode(text2num(copytext(keybind ,1 ,2)))]" + "[copytext(keybind, 2)]"
