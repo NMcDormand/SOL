@@ -55,6 +55,7 @@ client
 		RepeaterSwitch(id as text)
 			var/Macro_RepeatID = copytext(id, 5)
 			var/row = ReadMacroFileRow(src, "[KeyModBitMask][Macro_RepeatID]")
+			world << "REPEATER SWITCH  [KeyModBitMask][Macro_RepeatID]"
 			Create_Macro(row["skill"], "[KeyModBitMask][Macro_RepeatID]", row["command"], 0)
 
 //-------------------------------------------------
@@ -76,23 +77,22 @@ client
 
 	proc/Create_Macro(skill, keybind, command, Move)
 		//checks to see if the skill should repeat
-		if(winget(usr, "MacroWindow.Rep_[keybind]", "is-checked") == "true")
+		if(winget(usr, "MacroWindow.Rep_[copytext(keybind, 1)]", "is-checked") == "true")
 			Macro_Repeat = "+REP"
 		else
 			Macro_Repeat = ""
 
 		//turns the bitmask back into the keymodifier string
-		var/key = "[BitMaskDecode(text2num(copytext(keybind ,0 ,1)))]" + "[copytext(keybind, 1)]"
+		var/key = "[BitMaskDecode(text2num(copytext(keybind ,1 ,2)))]" + "[copytext(keybind, 2)]"
 
 		//removes the previous macro if the skill is moved from one key to another
 		if(Move == 1)
 			world << "Macro for Key:[key][Macro_Repeat] Sucessfully Unbound"
-			ClearMacroFileRow(src, "[KeyModBitMask][keybind]")
+			ClearMacroFileRow(src, "[keybind]")
 
 		else //creates the macro
 			world << "Macro Succesfully Created:[key][Macro_Repeat],[command]"
-			WriteMacroFileRow(src, "[KeyModBitMask][keybind]", command, skill)
-			world << "Create_Macro (macro_[key]) (parent=Game;name=\"[key][Macro_Repeat]) (command=\"[command])"
+			WriteMacroFileRow(src, "[keybind]", command, skill)
 		winset(usr, "macro_[key]",
 			"parent=Game;name=\"[key][Macro_Repeat]\";command=\"[command]\"")
 
@@ -100,7 +100,7 @@ client
 
 	//gets the id of the grid you drop the skill onto. this is how the system knows what key you want to bind to
 	proc/get_Macro_Grid_ID(VariableToCheck)
-		Macro_Grid_ID = copytext(VariableToCheck, length("MacroWindow") + 2)
+		Macro_Grid_ID = "[KeyModBitMask]" + copytext(VariableToCheck, length("MacroWindow") + 2)
 
 
 
@@ -132,11 +132,13 @@ obj/SkillCards
 			c.get_Macro_Grid_ID(over_control)
 			usr << output(src, "[over_control]:0,0")
 			c.Macro_Drag_Skill = src
+			world << "MOUSEDROP   [c.Macro_Grid_ID]"
 			c.Create_Macro(src, c.Macro_Grid_ID, c.Macro_Drag_Skill_Command, 0)
 
 		//checks if the skillcard was moved from one key to another, if so removes the old
 		if(copytext(src_control, 1, length("MacroWindow") + 1) == "MacroWindow")
 			c.get_Macro_Grid_ID(src_control)
+			world << "[c.Macro_Grid_ID]"
 			c.Create_Macro(c.Macro_Drag_Skill, c.Macro_Grid_ID, "", 1)
 			usr << output("", "[src_control]:0,0")
 		c.resetvariables()

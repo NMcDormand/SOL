@@ -22,18 +22,17 @@ proc
 			return TRUE
 		return FALSE
 proc
-	WriteMacroFileRow(client/c, var/key, var/command, var/obj/SkillCards/skill)
+	WriteMacroFileRow(client/c, key, var/command, var/obj/SkillCards/skill)
 		var/savefile/F = GetMacroSave(c)
 		var/list/row = list()
 		row["command"] = command
-		row["skill"]   = "[skill.type]"
+		row["skill"]   = "[skill]"
 
 		F["rows/[key]"] << row
 
 proc
 	ReadMacroFileRow(client/c, var/key)
 		var/savefile/F = GetMacroSave(c)
-
 		var/list/row = list()
 		F["rows/[key]"] >> row
 		world << "ReadMacroFile [row["command"]]_[row["skill"]]"
