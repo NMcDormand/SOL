@@ -26,7 +26,7 @@ proc
 		var/savefile/F = GetMacroSave(c)
 		var/list/row = list()
 		row["command"] = command
-		row["skill"]   = "[skill]"
+		row["skill"]   = "[skill.type]"
 
 		F["rows/[key]"] << row
 
@@ -65,7 +65,10 @@ proc/LoopThroughMacroFileRows(client/c, wipe)
 			F.cd = "rows"
 
 		else//after the system checks what modifiers are activated it will loop through and place the correct ones.
-			if(copytext(key, 1, 2) == "[c.KeyModBitMask]")
+			if(text2num(copytext(key, 1, 2)) == c.KeyModBitMask)
+				world << "[text2num(copytext(key, 1, 2))] == [c.KeyModBitMask]"
+				world << "skill = [skill].....key = [copytext(key, 2)]"
 				var/skillobject = text2path(skill) // if i dont save the path as a string the savefile fucks it up :(
 				usr << output(locate(skillobject), "MacroWindow.[copytext(key, 2)]:0,0")
 				F.cd = "rows"
+		c.Create_Macro(locate(text2path(skill)), "[key]", row["command"], 0)

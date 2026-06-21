@@ -56,7 +56,8 @@ client
 			var/Macro_RepeatID = copytext(id, 5)
 			var/row = ReadMacroFileRow(src, "[KeyModBitMask][Macro_RepeatID]")
 			world << "REPEATER SWITCH  [KeyModBitMask][Macro_RepeatID]"
-			Create_Macro(row["skill"], "[KeyModBitMask][Macro_RepeatID]", row["command"], 0)
+			var/skillobject = text2path(row["skill"])
+			Create_Macro(locate(skillobject), "[KeyModBitMask][Macro_RepeatID]", row["command"], 0)
 
 //-------------------------------------------------
 //FRY the following scripts were needed to be modified for this system to work
